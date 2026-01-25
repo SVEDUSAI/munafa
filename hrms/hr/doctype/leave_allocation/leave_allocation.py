@@ -38,6 +38,39 @@ class ValueMultiplierError(frappe.ValidationError):
 
 
 class LeaveAllocation(Document):
+	# begin: auto-generated types
+	# This code is auto-generated. Do not modify anything in this block.
+
+	from typing import TYPE_CHECKING
+
+	if TYPE_CHECKING:
+		from frappe.types import DF
+		from hrms.hr.doctype.earned_leave_schedule.earned_leave_schedule import EarnedLeaveSchedule
+
+		amended_from: DF.Link | None
+		carry_forward: DF.Check
+		carry_forwarded_leaves_count: DF.Float
+		company: DF.Link
+		compensatory_request: DF.Link | None
+		department: DF.Link | None
+		description: DF.SmallText | None
+		earned_leave_schedule: DF.Table[EarnedLeaveSchedule]
+		employee: DF.Link
+		employee_name: DF.Data | None
+		expired: DF.Check
+		from_date: DF.Date
+		leave_period: DF.Link | None
+		leave_policy: DF.Link | None
+		leave_policy_assignment: DF.Link | None
+		leave_type: DF.Link
+		naming_series: DF.Literal["HR-LAL-.YYYY.-"]
+		new_leaves_allocated: DF.Float
+		to_date: DF.Date
+		total_leaves_allocated: DF.Float
+		total_leaves_encashed: DF.Float
+		unused_leaves: DF.Float
+	# end: auto-generated types
+
 	def validate(self):
 		self.validate_period()
 		self.validate_allocation_overlap()

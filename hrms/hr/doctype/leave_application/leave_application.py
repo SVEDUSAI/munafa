@@ -67,6 +67,38 @@ from frappe.model.document import Document
 
 
 class LeaveApplication(Document, PWANotificationsMixin):
+	# begin: auto-generated types
+	# This code is auto-generated. Do not modify anything in this block.
+
+	from typing import TYPE_CHECKING
+
+	if TYPE_CHECKING:
+		from frappe.types import DF
+
+		amended_from: DF.Link | None
+		color: DF.Color | None
+		company: DF.Link
+		department: DF.Link | None
+		description: DF.SmallText | None
+		employee: DF.Link
+		employee_name: DF.Data | None
+		follow_via_email: DF.Check
+		from_date: DF.Date
+		half_day: DF.Check
+		half_day_date: DF.Date | None
+		leave_approver: DF.Link | None
+		leave_approver_name: DF.Data | None
+		leave_balance: DF.Float
+		leave_type: DF.Link
+		letter_head: DF.Link | None
+		naming_series: DF.Literal["HR-LAP-.YYYY.-"]
+		posting_date: DF.Date
+		salary_slip: DF.Link | None
+		status: DF.Literal["Open", "Approved", "Rejected", "Cancelled"]
+		to_date: DF.Date
+		total_leave_days: DF.Float
+	# end: auto-generated types
+
 	def get_feed(self):
 		return _("{0}: From {0} of type {1}").format(self.employee_name, self.leave_type)
 

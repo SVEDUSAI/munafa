@@ -18,6 +18,24 @@ class ParentCompanyError(frappe.ValidationError):
 
 
 class StaffingPlan(Document):
+	# begin: auto-generated types
+	# This code is auto-generated. Do not modify anything in this block.
+
+	from typing import TYPE_CHECKING
+
+	if TYPE_CHECKING:
+		from frappe.types import DF
+		from hrms.hr.doctype.staffing_plan_detail.staffing_plan_detail import StaffingPlanDetail
+
+		amended_from: DF.Link | None
+		company: DF.Link
+		department: DF.Link | None
+		from_date: DF.Date
+		staffing_details: DF.Table[StaffingPlanDetail]
+		to_date: DF.Date
+		total_estimated_budget: DF.Currency
+	# end: auto-generated types
+
 	def validate(self):
 		self.validate_period()
 		self.validate_details()

@@ -28,6 +28,27 @@ from frappe.utils import (
 
 
 class LeavePolicyAssignment(Document):
+	# begin: auto-generated types
+	# This code is auto-generated. Do not modify anything in this block.
+
+	from typing import TYPE_CHECKING
+
+	if TYPE_CHECKING:
+		from frappe.types import DF
+
+		amended_from: DF.Link | None
+		assignment_based_on: DF.Literal["", "Leave Period", "Joining Date"]
+		carry_forward: DF.Check
+		company: DF.Link | None
+		effective_from: DF.Date
+		effective_to: DF.Date
+		employee: DF.Link
+		employee_name: DF.Data | None
+		leave_period: DF.Link | None
+		leave_policy: DF.Link
+		leaves_allocated: DF.Check
+	# end: auto-generated types
+
 	def validate(self):
 		self.set_dates()
 		self.validate_policy_assignment_overlap()

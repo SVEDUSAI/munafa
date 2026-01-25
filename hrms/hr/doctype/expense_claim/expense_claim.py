@@ -40,6 +40,58 @@ class MismatchError(frappe.ValidationError):
 
 
 class ExpenseClaim(AccountsController, PWANotificationsMixin):
+	# begin: auto-generated types
+	# This code is auto-generated. Do not modify anything in this block.
+
+	from typing import TYPE_CHECKING
+
+	if TYPE_CHECKING:
+		from frappe.types import DF
+		from hrms.hr.doctype.expense_claim_advance.expense_claim_advance import ExpenseClaimAdvance
+		from hrms.hr.doctype.expense_claim_detail.expense_claim_detail import ExpenseClaimDetail
+		from hrms.hr.doctype.expense_taxes_and_charges.expense_taxes_and_charges import ExpenseTaxesandCharges
+
+		advances: DF.Table[ExpenseClaimAdvance]
+		amended_from: DF.Link | None
+		approval_status: DF.Literal["Draft", "Approved", "Rejected", "Cancelled"]
+		bank_or_cash_account: DF.Link | None
+		base_grand_total: DF.Currency
+		base_total_advance_amount: DF.Currency
+		base_total_claimed_amount: DF.Currency
+		base_total_sanctioned_amount: DF.Currency
+		base_total_taxes_and_charges: DF.Currency
+		clearance_date: DF.Date | None
+		company: DF.Link
+		cost_center: DF.Link | None
+		currency: DF.Link
+		delivery_trip: DF.Link | None
+		department: DF.Link | None
+		employee: DF.Link
+		employee_name: DF.Data | None
+		exchange_rate: DF.Float
+		expense_approver: DF.Link | None
+		expenses: DF.Table[ExpenseClaimDetail]
+		gain_loss_account: DF.Link | None
+		grand_total: DF.Currency
+		is_paid: DF.Check
+		mode_of_payment: DF.Link | None
+		naming_series: DF.Literal["HR-EXP-.YYYY.-"]
+		payable_account: DF.Link | None
+		posting_date: DF.Date
+		project: DF.Link | None
+		remark: DF.SmallText | None
+		status: DF.Literal["Draft", "Paid", "Unpaid", "Rejected", "Submitted", "Cancelled"]
+		task: DF.Link | None
+		taxes: DF.Table[ExpenseTaxesandCharges]
+		total_advance_amount: DF.Currency
+		total_amount_reimbursed: DF.Currency
+		total_claimed_amount: DF.Currency
+		total_exchange_gain_loss: DF.Currency
+		total_sanctioned_amount: DF.Currency
+		total_taxes_and_charges: DF.Currency
+		vehicle_log: DF.Link | None
+	# end: auto-generated types
+
 	def onload(self):
 		self.get("__onload").make_payment_via_journal_entry = frappe.db.get_single_value(
 			"Accounts Settings", "make_payment_via_journal_entry"
