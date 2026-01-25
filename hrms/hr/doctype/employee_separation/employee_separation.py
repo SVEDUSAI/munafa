@@ -13,7 +13,10 @@ class EmployeeSeparation(EmployeeBoardingController):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
-		from hrms.hr.doctype.employee_boarding_activity.employee_boarding_activity import EmployeeBoardingActivity
+
+		from hrms.hr.doctype.employee_boarding_activity.employee_boarding_activity import (
+			EmployeeBoardingActivity,
+		)
 
 		activities: DF.Table[EmployeeBoardingActivity]
 		amended_from: DF.Link | None

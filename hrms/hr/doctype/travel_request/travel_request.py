@@ -15,6 +15,7 @@ class TravelRequest(Document):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
+
 		from hrms.hr.doctype.travel_itinerary.travel_itinerary import TravelItinerary
 		from hrms.hr.doctype.travel_request_costing.travel_request_costing import TravelRequestCosting
 
@@ -37,7 +38,9 @@ class TravelRequest(Document):
 		personal_id_type: DF.Link | None
 		prefered_email: DF.Data | None
 		purpose_of_travel: DF.Link
-		travel_funding: DF.Literal["", "Require Full Funding", "Fully Sponsored", "Partially Sponsored, Require Partial Funding"]
+		travel_funding: DF.Literal[
+			"", "Require Full Funding", "Fully Sponsored", "Partially Sponsored, Require Partial Funding"
+		]
 		travel_proof: DF.Attach | None
 		travel_type: DF.Literal["", "Domestic", "International"]
 	# end: auto-generated types

@@ -16,6 +16,7 @@ class InterviewRound(Document):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
+
 		from hrms.hr.doctype.expected_skill_set.expected_skill_set import ExpectedSkillSet
 		from hrms.hr.doctype.interviewer.interviewer import Interviewer
 

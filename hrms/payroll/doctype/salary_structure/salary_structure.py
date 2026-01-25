@@ -22,7 +22,9 @@ class SalaryStructure(Document):
 
 	if TYPE_CHECKING:
 		from avunu.avunu.custom.salary_detail import SalaryDetail
+
 		from frappe.types import DF
+
 		from hrms.payroll.doctype.employee_benefit_detail.employee_benefit_detail import EmployeeBenefitDetail
 
 		amended_from: DF.Link | None

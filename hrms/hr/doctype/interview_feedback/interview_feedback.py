@@ -17,6 +17,7 @@ class InterviewFeedback(Document):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
+
 		from hrms.hr.doctype.skill_assessment.skill_assessment import SkillAssessment
 
 		amended_from: DF.Link | None

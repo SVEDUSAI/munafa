@@ -14,7 +14,10 @@ class OvertimeType(Document):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
-		from hrms.hr.doctype.overtime_salary_component.overtime_salary_component import OvertimeSalaryComponent
+
+		from hrms.hr.doctype.overtime_salary_component.overtime_salary_component import (
+			OvertimeSalaryComponent,
+		)
 
 		applicable_for_public_holiday: DF.Check
 		applicable_for_weekend: DF.Check

@@ -21,7 +21,10 @@ class EmployeeBenefitApplication(Document):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
-		from hrms.payroll.doctype.employee_benefit_application_detail.employee_benefit_application_detail import EmployeeBenefitApplicationDetail
+
+		from hrms.payroll.doctype.employee_benefit_application_detail.employee_benefit_application_detail import (
+			EmployeeBenefitApplicationDetail,
+		)
 
 		amended_from: DF.Link | None
 		company: DF.Link

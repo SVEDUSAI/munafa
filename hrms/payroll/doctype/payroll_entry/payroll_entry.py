@@ -40,6 +40,7 @@ class PayrollEntry(Document):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
+
 		from hrms.payroll.doctype.payroll_employee_detail.payroll_employee_detail import PayrollEmployeeDetail
 
 		amended_from: DF.Link | None

@@ -23,6 +23,7 @@ class Interview(Document):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
+
 		from hrms.hr.doctype.interview_detail.interview_detail import InterviewDetail
 
 		amended_from: DF.Link | None

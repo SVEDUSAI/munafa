@@ -23,6 +23,7 @@ class SalaryStructureAssignment(Document):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
+
 		from hrms.payroll.doctype.employee_benefit_detail.employee_benefit_detail import EmployeeBenefitDetail
 		from hrms.payroll.doctype.employee_cost_center.employee_cost_center import EmployeeCostCenter
 

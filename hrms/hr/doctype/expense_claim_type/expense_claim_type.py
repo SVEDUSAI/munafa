@@ -15,6 +15,7 @@ class ExpenseClaimType(Document):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
+
 		from hrms.hr.doctype.expense_claim_account.expense_claim_account import ExpenseClaimAccount
 
 		accounts: DF.Table[ExpenseClaimAccount]

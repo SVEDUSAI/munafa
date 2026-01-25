@@ -46,7 +46,9 @@ class EmployeeAdvance(Document):
 		purpose: DF.SmallText
 		repay_unclaimed_amount_from_salary: DF.Check
 		return_amount: DF.Currency
-		status: DF.Literal["Draft", "Paid", "Unpaid", "Claimed", "Returned", "Partly Claimed and Returned", "Cancelled"]
+		status: DF.Literal[
+			"Draft", "Paid", "Unpaid", "Claimed", "Returned", "Partly Claimed and Returned", "Cancelled"
+		]
 	# end: auto-generated types
 
 	def onload(self):

@@ -18,6 +18,7 @@ class TrainingEvent(Document):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
+
 		from hrms.hr.doctype.training_event_employee.training_event_employee import TrainingEventEmployee
 
 		amended_from: DF.Link | None

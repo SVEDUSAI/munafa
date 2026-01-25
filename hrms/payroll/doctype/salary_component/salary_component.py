@@ -19,7 +19,10 @@ class SalaryComponent(Document):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
-		from hrms.payroll.doctype.salary_component_account.salary_component_account import SalaryComponentAccount
+
+		from hrms.payroll.doctype.salary_component_account.salary_component_account import (
+			SalaryComponentAccount,
+		)
 
 		accounts: DF.Table[SalaryComponentAccount]
 		accrual_component: DF.Check
@@ -40,7 +43,12 @@ class SalaryComponent(Document):
 		is_income_tax_component: DF.Check
 		is_tax_applicable: DF.Check
 		max_benefit_amount: DF.Currency
-		payout_method: DF.Literal["", "Accrue and payout at end of payroll period", "Accrue per cycle, pay only on claim", "Allow claim for full benefit amount"]
+		payout_method: DF.Literal[
+			"",
+			"Accrue and payout at end of payroll period",
+			"Accrue per cycle, pay only on claim",
+			"Allow claim for full benefit amount",
+		]
 		remove_if_zero_valued: DF.Check
 		round_to_the_nearest_integer: DF.Check
 		salary_component: DF.Data

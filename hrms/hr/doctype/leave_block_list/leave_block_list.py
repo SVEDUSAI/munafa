@@ -18,6 +18,7 @@ class LeaveBlockList(Document):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
+
 		from hrms.hr.doctype.leave_block_list_allow.leave_block_list_allow import LeaveBlockListAllow
 		from hrms.hr.doctype.leave_block_list_date.leave_block_list_date import LeaveBlockListDate
 

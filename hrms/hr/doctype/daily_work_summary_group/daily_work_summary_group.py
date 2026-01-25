@@ -20,12 +20,40 @@ class DailyWorkSummaryGroup(Document):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
-		from hrms.hr.doctype.daily_work_summary_group_user.daily_work_summary_group_user import DailyWorkSummaryGroupUser
+
+		from hrms.hr.doctype.daily_work_summary_group_user.daily_work_summary_group_user import (
+			DailyWorkSummaryGroupUser,
+		)
 
 		enabled: DF.Check
 		holiday_list: DF.Link | None
 		message: DF.TextEditor | None
-		send_emails_at: DF.Literal["00:00", "01:00", "02:00", "03:00", "04:00", "05:00", "06:00", "07:00", "08:00", "09:00", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00", "18:00", "19:00", "20:00", "21:00", "22:00", "23:00"]
+		send_emails_at: DF.Literal[
+			"00:00",
+			"01:00",
+			"02:00",
+			"03:00",
+			"04:00",
+			"05:00",
+			"06:00",
+			"07:00",
+			"08:00",
+			"09:00",
+			"10:00",
+			"11:00",
+			"12:00",
+			"13:00",
+			"14:00",
+			"15:00",
+			"16:00",
+			"17:00",
+			"18:00",
+			"19:00",
+			"20:00",
+			"21:00",
+			"22:00",
+			"23:00",
+		]
 		subject: DF.Data | None
 		users: DF.Table[DailyWorkSummaryGroupUser]
 	# end: auto-generated types

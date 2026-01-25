@@ -24,7 +24,10 @@ class EmployeeTaxExemptionDeclaration(Document):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
-		from hrms.payroll.doctype.employee_tax_exemption_declaration_category.employee_tax_exemption_declaration_category import EmployeeTaxExemptionDeclarationCategory
+
+		from hrms.payroll.doctype.employee_tax_exemption_declaration_category.employee_tax_exemption_declaration_category import (
+			EmployeeTaxExemptionDeclarationCategory,
+		)
 
 		amended_from: DF.Link | None
 		company: DF.Link | None

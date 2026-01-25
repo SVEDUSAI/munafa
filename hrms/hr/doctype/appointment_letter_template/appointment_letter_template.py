@@ -14,7 +14,10 @@ class AppointmentLetterTemplate(Document):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
-		from hrms.hr.doctype.appointment_letter_content.appointment_letter_content import AppointmentLettercontent
+
+		from hrms.hr.doctype.appointment_letter_content.appointment_letter_content import (
+			AppointmentLettercontent,
+		)
 
 		closing_notes: DF.Text | None
 		introduction: DF.LongText

@@ -17,6 +17,7 @@ class TrainingResult(Document):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
+
 		from hrms.hr.doctype.training_result_employee.training_result_employee import TrainingResultEmployee
 
 		amended_from: DF.Link | None

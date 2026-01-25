@@ -47,6 +47,7 @@ class ExpenseClaim(AccountsController, PWANotificationsMixin):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
+
 		from hrms.hr.doctype.expense_claim_advance.expense_claim_advance import ExpenseClaimAdvance
 		from hrms.hr.doctype.expense_claim_detail.expense_claim_detail import ExpenseClaimDetail
 		from hrms.hr.doctype.expense_taxes_and_charges.expense_taxes_and_charges import ExpenseTaxesandCharges

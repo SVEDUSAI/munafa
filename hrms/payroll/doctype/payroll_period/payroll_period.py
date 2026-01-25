@@ -19,6 +19,7 @@ class PayrollPeriod(Document):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
+
 		from hrms.payroll.doctype.payroll_period_date.payroll_period_date import PayrollPeriodDate
 
 		company: DF.Link

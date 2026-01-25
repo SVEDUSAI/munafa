@@ -16,6 +16,7 @@ class AppraisalCycle(Document):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
+
 		from hrms.hr.doctype.appraisee.appraisee import Appraisee
 
 		appraisees: DF.Table[Appraisee]

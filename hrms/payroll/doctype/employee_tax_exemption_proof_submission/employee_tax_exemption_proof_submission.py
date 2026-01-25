@@ -22,7 +22,10 @@ class EmployeeTaxExemptionProofSubmission(Document):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
-		from hrms.payroll.doctype.employee_tax_exemption_proof_submission_detail.employee_tax_exemption_proof_submission_detail import EmployeeTaxExemptionProofSubmissionDetail
+
+		from hrms.payroll.doctype.employee_tax_exemption_proof_submission_detail.employee_tax_exemption_proof_submission_detail import (
+			EmployeeTaxExemptionProofSubmissionDetail,
+		)
 
 		amended_from: DF.Link | None
 		attachments: DF.Attach | None

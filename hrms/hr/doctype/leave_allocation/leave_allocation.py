@@ -45,6 +45,7 @@ class LeaveAllocation(Document):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
+
 		from hrms.hr.doctype.earned_leave_schedule.earned_leave_schedule import EarnedLeaveSchedule
 
 		amended_from: DF.Link | None

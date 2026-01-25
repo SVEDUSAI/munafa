@@ -20,8 +20,11 @@ class FullandFinalStatement(Document):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
+
 		from hrms.hr.doctype.full_and_final_asset.full_and_final_asset import FullandFinalAsset
-		from hrms.hr.doctype.full_and_final_outstanding_statement.full_and_final_outstanding_statement import FullandFinalOutstandingStatement
+		from hrms.hr.doctype.full_and_final_outstanding_statement.full_and_final_outstanding_statement import (
+			FullandFinalOutstandingStatement,
+		)
 
 		amended_from: DF.Link | None
 		assets_allocated: DF.Table[FullandFinalAsset]

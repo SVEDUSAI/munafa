@@ -21,7 +21,10 @@ class PayrollCorrection(Document):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
-		from hrms.payroll.doctype.payroll_correction_child.payroll_correction_child import PayrollCorrectionChild
+
+		from hrms.payroll.doctype.payroll_correction_child.payroll_correction_child import (
+			PayrollCorrectionChild,
+		)
 
 		accrual_arrears: DF.Table[PayrollCorrectionChild]
 		amended_from: DF.Link | None

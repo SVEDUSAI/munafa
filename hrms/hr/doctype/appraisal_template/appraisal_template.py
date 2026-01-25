@@ -18,6 +18,7 @@ class AppraisalTemplate(Document, AppraisalMixin):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
+
 		from hrms.hr.doctype.appraisal_template_goal.appraisal_template_goal import AppraisalTemplateGoal
 		from hrms.hr.doctype.employee_feedback_rating.employee_feedback_rating import EmployeeFeedbackRating
 

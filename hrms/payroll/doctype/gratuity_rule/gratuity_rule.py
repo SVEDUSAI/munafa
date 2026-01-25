@@ -15,7 +15,10 @@ class GratuityRule(Document):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
-		from hrms.payroll.doctype.gratuity_applicable_component.gratuity_applicable_component import GratuityApplicableComponent
+
+		from hrms.payroll.doctype.gratuity_applicable_component.gratuity_applicable_component import (
+			GratuityApplicableComponent,
+		)
 		from hrms.payroll.doctype.gratuity_rule_slab.gratuity_rule_slab import GratuityRuleSlab
 
 		applicable_earnings_component: DF.TableMultiSelect[GratuityApplicableComponent]
@@ -24,7 +27,9 @@ class GratuityRule(Document):
 		gratuity_rule_slabs: DF.Table[GratuityRuleSlab]
 		minimum_year_for_gratuity: DF.Int
 		total_working_days_per_year: DF.Float
-		work_experience_calculation_function: DF.Literal["Round off Work Experience", "Take Exact Completed Years", "Manual"]
+		work_experience_calculation_function: DF.Literal[
+			"Round off Work Experience", "Take Exact Completed Years", "Manual"
+		]
 	# end: auto-generated types
 
 	def validate(self):

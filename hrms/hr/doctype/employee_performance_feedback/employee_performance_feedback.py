@@ -19,6 +19,7 @@ class EmployeePerformanceFeedback(Document, AppraisalMixin):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
+
 		from hrms.hr.doctype.employee_feedback_rating.employee_feedback_rating import EmployeeFeedbackRating
 
 		added_on: DF.Datetime

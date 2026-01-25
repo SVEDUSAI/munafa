@@ -26,6 +26,7 @@ class OvertimeSlip(Document):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
+
 		from hrms.hr.doctype.overtime_details.overtime_details import OvertimeDetails
 
 		amended_from: DF.Link | None

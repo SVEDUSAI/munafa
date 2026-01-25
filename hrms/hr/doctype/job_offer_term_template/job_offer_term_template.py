@@ -13,6 +13,7 @@ class JobOfferTermTemplate(Document):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
+
 		from hrms.hr.doctype.job_offer_term.job_offer_term import JobOfferTerm
 
 		offer_terms: DF.Table[JobOfferTerm]

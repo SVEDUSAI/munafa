@@ -19,7 +19,10 @@ class SalaryWithholding(Document):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
-		from hrms.payroll.doctype.salary_withholding_cycle.salary_withholding_cycle import SalaryWithholdingCycle
+
+		from hrms.payroll.doctype.salary_withholding_cycle.salary_withholding_cycle import (
+			SalaryWithholdingCycle,
+		)
 
 		amended_from: DF.Link | None
 		company: DF.Link | None

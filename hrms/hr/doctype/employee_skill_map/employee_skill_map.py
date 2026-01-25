@@ -14,6 +14,7 @@ class EmployeeSkillMap(Document):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
+
 		from hrms.hr.doctype.employee_skill.employee_skill import EmployeeSkill
 		from hrms.hr.doctype.employee_training.employee_training import EmployeeTraining
 

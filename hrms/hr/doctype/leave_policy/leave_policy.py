@@ -15,6 +15,7 @@ class LeavePolicy(Document):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
+
 		from hrms.hr.doctype.leave_policy_detail.leave_policy_detail import LeavePolicyDetail
 
 		amended_from: DF.Link | None

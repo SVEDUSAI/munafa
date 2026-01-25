@@ -18,7 +18,10 @@ class EmployeePromotion(Document):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
-		from hrms.hr.doctype.employee_property_history.employee_property_history import EmployeePropertyHistory
+
+		from hrms.hr.doctype.employee_property_history.employee_property_history import (
+			EmployeePropertyHistory,
+		)
 
 		amended_from: DF.Link | None
 		company: DF.Link | None
