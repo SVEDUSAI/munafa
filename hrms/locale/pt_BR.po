@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2026-01-25 09:37+0000\n"
-"PO-Revision-Date: 2026-01-27 23:19\n"
+"PO-Revision-Date: 2026-01-30 23:47\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\n"
@@ -2212,7 +2212,7 @@ msgstr ""
 #. Advance'
 #: hrms/hr/doctype/employee_advance/employee_advance.json
 msgid "Currency "
-msgstr ""
+msgstr "Moeda "
 
 #: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:94
 msgid "Currency of selected Income Tax Slab should be {0} instead of {1}"
