@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2026-01-25 09:37+0000\n"
-"PO-Revision-Date: 2026-01-27 23:20\n"
+"PO-Revision-Date: 2026-02-02 00:28\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: Serbian (Latin)\n"
 "MIME-Version: 1.0\n"
@@ -599,11 +599,11 @@ msgstr "Akontacija"
 
 #: hrms/hr/doctype/employee_advance/employee_advance.py:52
 msgid "Advance Account Required"
-msgstr ""
+msgstr "Akontacioni račun je obavezan"
 
 #: hrms/hr/doctype/employee_advance/employee_advance.py:56
 msgid "Advance Account is mandatory. Please set the {0} in the Company {1} and submit this document."
-msgstr ""
+msgstr "Akontacioni račun je obavezan. Molimo Vas da podesite {0} u kompaniji {1} i podnesete ovaj dokument."
 
 #: hrms/hr/doctype/employee_advance/employee_advance.py:96
 msgid "Advance Account {} currency should be same as Salary Currency of Employee {}. Please select same currency Advance Account"
@@ -1258,7 +1258,7 @@ msgstr "Dodeljivanje strukture..."
 #. Label of the from_date (Date) field in DocType 'Holiday List Assignment'
 #: hrms/hr/doctype/holiday_list_assignment/holiday_list_assignment.json
 msgid "Assignment Starts From"
-msgstr ""
+msgstr "Dodeljivanje počinje od"
 
 #. Label of the assignment_based_on (Select) field in DocType 'Leave Policy
 #. Assignment'
@@ -1268,7 +1268,7 @@ msgstr "Dodeljivanje zasnovano na"
 
 #: hrms/hr/doctype/holiday_list_assignment/holiday_list_assignment.py:48
 msgid "Assignment start date cannot be outside holiday list dates"
-msgstr ""
+msgstr "Datum početka dodeljivanja ne može biti van perioda liste praznika"
 
 #: hrms/hr/doctype/job_requisition/job_requisition.js:50
 #: hrms/hr/doctype/job_requisition/job_requisition.js:74
@@ -1568,7 +1568,7 @@ msgstr "Osnovna"
 #. Structure Assignment'
 #: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.json
 msgid "Base, Variable & Leave Encashment"
-msgstr ""
+msgstr "Osnovna zarada, promenjiva i naknada za neiskorišćeno odsustvo"
 
 #. Label of the begin_check_in_before_shift_start_time (Int) field in DocType
 #. 'Shift Type'
@@ -2631,7 +2631,7 @@ msgstr "Domaće"
 
 #: hrms/hr/doctype/holiday_list_assignment/holiday_list_assignment.py:39
 msgid "Duplicate Assignment"
-msgstr ""
+msgstr "Duplikat dodeljivanja"
 
 #: hrms/hr/doctype/attendance/attendance.py:77
 msgid "Duplicate Attendance"
@@ -2909,7 +2909,7 @@ msgstr "Istorija zapisa o prisustvu"
 #. Assignment'
 #: hrms/hr/doctype/holiday_list_assignment/holiday_list_assignment.json
 msgid "Employee Company"
-msgstr ""
+msgstr "Kompanija zaposlenog lica"
 
 #. Name of a DocType
 #: hrms/payroll/doctype/employee_cost_center/employee_cost_center.json
@@ -3377,12 +3377,12 @@ msgstr "Zaposlena lica sa polovinom radnog dana HTML"
 #. Label of a number card in the Leaves Workspace
 #: hrms/hr/workspace/leaves/leaves.json
 msgid "Employees on leave this month"
-msgstr ""
+msgstr "Zaposlena lica na odsustvu tokom ovog meseca"
 
 #. Label of a number card in the Leaves Workspace
 #: hrms/hr/workspace/leaves/leaves.json
 msgid "Employees on leave today"
-msgstr ""
+msgstr "Zaposlena lica na odsustvo danas"
 
 #: hrms/hr/doctype/hr_settings/hr_settings.py:81
 msgid "Employees will miss holiday reminders from {} until {}. <br> Do you want to proceed with this change?"
@@ -3919,7 +3919,7 @@ msgstr "Troškovi i akontacije"
 #. Settings'
 #: hrms/hr/doctype/hr_settings/hr_settings.json
 msgid "Expenses Settings"
-msgstr ""
+msgstr "Podešavanje troškova"
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.js:42
 msgid "Expire Allocation"
@@ -4689,23 +4689,23 @@ msgstr "Podešavanje zapošljavanja"
 #. Name of a DocType
 #: hrms/hr/doctype/holiday_list_assignment/holiday_list_assignment.json
 msgid "Holiday List Assignment"
-msgstr ""
+msgstr "Dodela liste praznika"
 
 #: hrms/hr/doctype/holiday_list_assignment/holiday_list_assignment.py:33
 msgid "Holiday List Assignment for {0} already exists for date {1}: {2}"
-msgstr ""
+msgstr "Dodela liste praznika za {0} već postoji za datum {1}: {2}"
 
 #. Label of the holiday_list_end (Date) field in DocType 'Holiday List
 #. Assignment'
 #: hrms/hr/doctype/holiday_list_assignment/holiday_list_assignment.json
 msgid "Holiday List End"
-msgstr ""
+msgstr "Kraj liste praznika"
 
 #. Label of the holiday_list_start (Date) field in DocType 'Holiday List
 #. Assignment'
 #: hrms/hr/doctype/holiday_list_assignment/holiday_list_assignment.json
 msgid "Holiday List Start"
-msgstr ""
+msgstr "Početak liste praznika"
 
 #. Label of the optional_holiday_list (Link) field in DocType 'Leave Period'
 #: hrms/hr/doctype/leave_period/leave_period.json
@@ -4715,7 +4715,7 @@ msgstr "Lista praznika za opciono odsustvo"
 #. Label of a number card in the Leaves Workspace
 #: hrms/hr/workspace/leaves/leaves.json
 msgid "Holidays in this month"
-msgstr ""
+msgstr "Praznici tokom ovog meseca"
 
 #: hrms/controllers/employee_reminders.py:65
 msgid "Holidays this Month."
@@ -5945,7 +5945,7 @@ msgstr "Politika odsustva: {0} je već dodeljena zaposlenom licu {1} za period {
 #. Settings'
 #: hrms/hr/doctype/hr_settings/hr_settings.json
 msgid "Leave Settings"
-msgstr ""
+msgstr "Podešavanje odsustva"
 
 #: hrms/setup.py:441 hrms/setup.py:443 hrms/setup.py:495
 msgid "Leave Status Notification"
@@ -7294,7 +7294,7 @@ msgstr "Zameniti iznos u strukturi zarade"
 
 #: hrms/payroll/doctype/additional_salary/additional_salary.py:71
 msgid "Overwrite Salary Structure Amount is disabled as the Salary Component: {0} not part of the Salary Structure: {1}"
-msgstr ""
+msgstr "Izmena iznosa strukture zarade je onemogućena jer komponenta zarade {0} nije deo strukture zarade: {1}"
 
 #: hrms/payroll/report/income_tax_deductions/income_tax_deductions.py:41
 msgid "PAN Number"
@@ -7615,7 +7615,7 @@ msgstr "Upitnici na čekanju"
 #. Name of a Workspace
 #: hrms/hr/workspace/people/people.json
 msgid "People"
-msgstr ""
+msgstr "Ljudi"
 
 #. Label of the percent_deduction (Percent) field in DocType 'Taxable Salary
 #. Slab'
@@ -7655,7 +7655,7 @@ msgstr "Molimo Vas da prvo izaberete kompaniju"
 
 #: hrms/utils/holiday_list.py:93
 msgid "Please assign Holiday List for Employee {0} or their company {1} through {2}"
-msgstr ""
+msgstr "Molimo Vas da dodelite listu praznika za zaposleno lice {0} ili njegovu kompaniju {1} putem {2}"
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:836
 msgid "Please assign a Salary Structure for Employee {0} applicable from or before {1} first"
@@ -7839,7 +7839,7 @@ msgstr "Molimo Vas da postavite podrazumevani šablon za obaveštenje o statusu 
 
 #: hrms/hr/doctype/employee_advance/employee_advance.py:48
 msgid "Please set the Advance Account {0} or in {1}"
-msgstr ""
+msgstr "Molimo Vas da podesite akontacioni račun {0} ili u {1}"
 
 #: hrms/hr/doctype/appraisal_cycle/appraisal_cycle.py:137
 msgid "Please set the Appraisal Template for all the {0} or select the template in the Employees table below."
@@ -9491,7 +9491,7 @@ msgstr "Vrsta smene"
 #. Settings'
 #: hrms/hr/doctype/hr_settings/hr_settings.json
 msgid "Shift and Attendance"
-msgstr ""
+msgstr "Smena i prisustvo"
 
 #: hrms/hr/doctype/shift_schedule_assignment/shift_schedule_assignment.py:21
 msgid "Shift assignments for {0} after {1} are already created. Please change {2} date to a date later than {3} {4}"
