@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2026-02-08 09:42+0000\n"
-"PO-Revision-Date: 2026-02-10 02:11\n"
+"PO-Revision-Date: 2026-02-11 02:18\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: Serbian (Latin)\n"
 "MIME-Version: 1.0\n"
@@ -1674,7 +1674,7 @@ msgstr "Blokiran praznik za korišćenje na važne dane."
 #. Label of the boarding_status (Select) field in DocType 'Employee Onboarding'
 #: hrms/hr/doctype/employee_onboarding/employee_onboarding.json
 msgid "Boarding Status"
-msgstr ""
+msgstr "Status uvođenja zaposlenog lica"
 
 #. Label of the bonus_section (Section Break) field in DocType 'Retention
 #. Bonus'
@@ -4960,7 +4960,7 @@ msgstr "Uključi praznike"
 
 #: hrms/hr/report/shift_attendance/shift_attendance.js:64
 msgid "Include Shift Attendance Without Checkins"
-msgstr ""
+msgstr "Uključi smensko prisustvo bez zapisa o prisustvu"
 
 #. Label of the include_holidays_in_total_working_days (Check) field in DocType
 #. 'Payroll Settings'
@@ -6692,7 +6692,7 @@ msgstr "Nije izabrano nijedno zaposleno lice"
 
 #: hrms/utils/holiday_list.py:107
 msgid "No Holiday List was found for Employee {0} or their company {1} for date {2}. Please assign through {3}"
-msgstr ""
+msgstr "Lista praznika nije definisana za zaposleno lice {0} niti za kompaniju {1} za datum {2}. Dodelite je putem {3}"
 
 #: hrms/hr/doctype/job_applicant/job_applicant_dashboard.html:53
 msgid "No Interview has been scheduled."
