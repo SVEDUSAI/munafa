@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2026-02-15 09:43+0000\n"
-"PO-Revision-Date: 2026-02-19 04:58\n"
+"PO-Revision-Date: 2026-02-21 05:57\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: Swedish\n"
 "MIME-Version: 1.0\n"
@@ -1042,7 +1042,7 @@ msgstr "Utvärdering Mål"
 #. Name of a DocType
 #: hrms/hr/doctype/appraisal_kra/appraisal_kra.json
 msgid "Appraisal KRA"
-msgstr "Utvärdering Nyckel Resultat Område"
+msgstr "Nyckel Resultat Område Utvärdering"
 
 #. Label of the section_break_cycle (Section Break) field in DocType 'Goal'
 #: hrms/hr/doctype/goal/goal.json hrms/hr/doctype/goal/goal_tree.js:96
@@ -5604,22 +5604,22 @@ msgstr "Juni"
 #: hrms/hr/doctype/goal/goal.json hrms/hr/doctype/goal/goal_tree.js:134
 #: hrms/hr/doctype/kra/kra.json
 msgid "KRA"
-msgstr "Nyckel Prestation Område"
+msgstr "Nyckel Resultat Område"
 
 #. Label of the kra_evaluation_method (Select) field in DocType 'Appraisal
 #. Cycle'
 #: hrms/hr/doctype/appraisal_cycle/appraisal_cycle.json
 msgid "KRA Evaluation Method"
-msgstr "Nyckel Prestation Område Evaluering Sätt"
+msgstr "Nyckel Resultat Område Evaluering Sätt"
 
 #: hrms/hr/doctype/goal/goal.py:99
 msgid "KRA updated for all child goals."
-msgstr "Nyckel Prestation Område uppdaterad för underordnade mål"
+msgstr "Nyckel Resultat Område uppdaterad för underordnade mål."
 
 #. Label of the appraisal_kra (Table) field in DocType 'Appraisal'
 #: hrms/hr/doctype/appraisal/appraisal.json
 msgid "KRA vs Goals"
-msgstr "Nyckel Prestation Område mot Mål"
+msgstr "Nyckel Resultat Område mot Mål"
 
 #. Label of the kra_tab (Tab Break) field in DocType 'Appraisal'
 #. Label of the goals (Table) field in DocType 'Appraisal Template'
@@ -5627,12 +5627,12 @@ msgstr "Nyckel Prestation Område mot Mål"
 #: hrms/hr/doctype/appraisal/appraisal.py:145
 #: hrms/hr/doctype/appraisal_template/appraisal_template.json
 msgid "KRAs"
-msgstr "Nyckel Prestation Områden"
+msgstr "Nyckel Resultat Områden"
 
 #. Description of the 'KRA' (Link) field in DocType 'Appraisal KRA'
 #: hrms/hr/doctype/appraisal_kra/appraisal_kra.json
 msgid "Key Performance Area"
-msgstr "Nyckel Prestanda Område"
+msgstr "Nyckel Resultat Område"
 
 #. Description of the 'Goal' (Small Text) field in DocType 'Appraisal Goal'
 #: hrms/hr/doctype/appraisal_goal/appraisal_goal.json
@@ -6160,7 +6160,7 @@ msgstr "Lime"
 #. 'Goal'
 #: hrms/hr/doctype/goal/goal.json hrms/hr/doctype/goal/goal_tree.js:97
 msgid "Link the cycle and tag KRA to your goal to update the appraisal's goal score based on the goal progress"
-msgstr "Länka cykeln och tagga Nyckel Prestation Område till ditt mål för att uppdatera utvärdering mål poäng baserat på mål framsteg"
+msgstr "Länka cykeln och tagga Nyckel Resultat Område till ditt mål för att uppdatera utvärdering mål poäng baserat på mål framsteg"
 
 #: hrms/controllers/employee_boarding_controller.py:154
 msgid "Linked Project {} and Tasks deleted."
@@ -7823,7 +7823,7 @@ msgstr "Ange \"Standard Löneutbetalning Konto\" i Bolag Inställningar"
 
 #: hrms/regional/india/utils.py:18
 msgid "Please set Basic and HRA component in Company {0}"
-msgstr "Ange Grund och HRA Komponent i Bolag {0}"
+msgstr "Ange Grund och Hyresbidrag Komponent i Bolag {0}"
 
 #: hrms/hr/doctype/leave_encashment/leave_encashment.py:162
 msgid "Please set Earning Component for Leave type: {0}."
