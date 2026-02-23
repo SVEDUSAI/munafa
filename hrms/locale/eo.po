@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
-"POT-Creation-Date: 2026-02-15 09:43+0000\n"
-"PO-Revision-Date: 2026-02-18 04:50\n"
+"POT-Creation-Date: 2026-02-22 09:43+0000\n"
+"PO-Revision-Date: 2026-02-23 06:21\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: Esperanto\n"
 "MIME-Version: 1.0\n"
@@ -419,7 +419,9 @@ msgid "Accrued Benefits"
 msgstr "crwdns159424:0crwdne159424:0"
 
 #. Name of a report
+#. Label of a Workspace Sidebar Item
 #: hrms/payroll/report/accrued_earnings_report/accrued_earnings_report.json
+#: hrms/workspace_sidebar/tax_&_benefits.json
 msgid "Accrued Earnings Report"
 msgstr "crwdns159426:0crwdne159426:0"
 
@@ -525,10 +527,12 @@ msgstr "crwdns104940:0crwdne104940:0"
 #. Label of a Link in the Expenses Workspace
 #. Name of a DocType
 #. Label of a Link in the Payroll Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/leave_encashment/leave_encashment.json
 #: hrms/hr/workspace/expenses/expenses.json
 #: hrms/payroll/doctype/additional_salary/additional_salary.json
 #: hrms/payroll/workspace/payroll/payroll.json
+#: hrms/workspace_sidebar/payroll.json
 msgid "Additional Salary"
 msgstr "crwdns104942:0crwdne104942:0"
 
@@ -965,8 +969,10 @@ msgstr "crwdns140990:0crwdne140990:0"
 
 #. Name of a DocType
 #. Label of a Link in the Recruitment Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/appointment_letter/appointment_letter.json
 #: hrms/hr/workspace/recruitment/recruitment.json
+#: hrms/workspace_sidebar/recruitment.json
 msgid "Appointment Letter"
 msgstr "crwdns105206:0crwdne105206:0"
 
@@ -974,9 +980,11 @@ msgstr "crwdns105206:0crwdne105206:0"
 #. 'Appointment Letter'
 #. Name of a DocType
 #. Label of a Link in the Recruitment Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/appointment_letter/appointment_letter.json
 #: hrms/hr/doctype/appointment_letter_template/appointment_letter_template.json
 #: hrms/hr/workspace/recruitment/recruitment.json
+#: hrms/workspace_sidebar/recruitment.json
 msgid "Appointment Letter Template"
 msgstr "crwdns105210:0crwdne105210:0"
 
@@ -988,9 +996,11 @@ msgstr "crwdns105216:0crwdne105216:0"
 #. Name of a DocType
 #. Label of the appraisal (Link) field in DocType 'Employee Performance
 #. Feedback'
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/appraisal/appraisal.json
 #: hrms/hr/doctype/employee_performance_feedback/employee_performance_feedback.json
 #: hrms/hr/report/appraisal_overview/appraisal_overview.py:44
+#: hrms/workspace_sidebar/performance.json
 msgid "Appraisal"
 msgstr "crwdns105218:0crwdne105218:0"
 
@@ -999,6 +1009,7 @@ msgstr "crwdns105218:0crwdne105218:0"
 #. Label of the appraisal_cycle (Link) field in DocType 'Employee Performance
 #. Feedback'
 #. Label of the appraisal_cycle (Link) field in DocType 'Goal'
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/appraisal/appraisal.json
 #: hrms/hr/doctype/appraisal_cycle/appraisal_cycle.json
 #: hrms/hr/doctype/employee_performance_feedback/employee_performance_feedback.json
@@ -1006,6 +1017,7 @@ msgstr "crwdns105218:0crwdne105218:0"
 #: hrms/hr/doctype/goal/goal_tree.js:105
 #: hrms/hr/report/appraisal_overview/appraisal_overview.js:18
 #: hrms/hr/report/appraisal_overview/appraisal_overview.py:37
+#: hrms/workspace_sidebar/performance.json
 msgid "Appraisal Cycle"
 msgstr "crwdns105228:0crwdne105228:0"
 
@@ -1026,17 +1038,21 @@ msgstr "crwdns105242:0crwdne105242:0"
 
 #. Name of a report
 #. Label of a chart in the Performance Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/report/appraisal_overview/appraisal_overview.json
 #: hrms/hr/workspace/performance/performance.json
+#: hrms/workspace_sidebar/performance.json
 msgid "Appraisal Overview"
 msgstr "crwdns105246:0crwdne105246:0"
 
 #. Label of the appraisal_template (Link) field in DocType 'Appraisal'
 #. Name of a DocType
 #. Label of the appraisal_template (Link) field in DocType 'Appraisee'
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/appraisal/appraisal.json
 #: hrms/hr/doctype/appraisal_template/appraisal_template.json
 #: hrms/hr/doctype/appraisee/appraisee.json hrms/setup.py:162
+#: hrms/workspace_sidebar/performance.json
 msgid "Appraisal Template"
 msgstr "crwdns105248:0crwdne105248:0"
 
@@ -1329,11 +1345,13 @@ msgstr "crwdns105354:0crwdne105354:0"
 #. Name of a DocType
 #. Label of a Link in the People Workspace
 #. Label of a Link in the Shift & Attendance Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/attendance/attendance.js:18
 #: hrms/hr/doctype/attendance/attendance.json
 #: hrms/hr/doctype/attendance_request/attendance_request.json
 #: hrms/hr/workspace/people/people.json
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
+#: hrms/workspace_sidebar/shift_&_attendance.json
 msgid "Attendance Request"
 msgstr "crwdns105358:0crwdne105358:0"
 
@@ -1516,7 +1534,7 @@ msgstr "crwdns141076:0crwdne141076:0"
 msgid "Backdated Leave Application is restricted. Please set the {} in {}"
 msgstr "crwdns105424:0crwdne105424:0"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.js:285
+#: hrms/hr/doctype/expense_claim/expense_claim.js:286
 msgid "Bank Entries"
 msgstr "crwdns105434:0crwdne105434:0"
 
@@ -1557,6 +1575,16 @@ msgstr "crwdns105456:0crwdne105456:0"
 #: hrms/payroll/doctype/employee_benefit_detail/employee_benefit_detail.json
 msgid "Benefit Amount"
 msgstr "crwdns159464:0crwdne159464:0"
+
+#. Label of a Workspace Sidebar Item
+#: hrms/workspace_sidebar/tax_&_benefits.json
+msgid "Benefit Application"
+msgstr "crwdns196004:0crwdne196004:0"
+
+#. Label of a Workspace Sidebar Item
+#: hrms/workspace_sidebar/tax_&_benefits.json
+msgid "Benefit Claim"
+msgstr "crwdns196006:0crwdne196006:0"
 
 #. Label of the employee_benefit_details_section (Section Break) field in
 #. DocType 'Employee Benefit Ledger'
@@ -1743,11 +1771,11 @@ msgstr "crwdns160874:0{0}crwdne160874:0"
 msgid "Cannot allocate more leaves due to maximum leaves allowed limit of {0} in {1} leave type."
 msgstr "crwdns160876:0{0}crwdnd160876:0{1}crwdne160876:0"
 
-#: hrms/api/roster.py:139
+#: hrms/api/roster.py:134
 msgid "Cannot break shift after end date"
 msgstr "crwdns148512:0crwdne148512:0"
 
-#: hrms/api/roster.py:141
+#: hrms/api/roster.py:136
 msgid "Cannot break shift before start date"
 msgstr "crwdns148514:0crwdne148514:0"
 
@@ -2804,15 +2832,19 @@ msgstr "crwdns106586:0crwdne106586:0"
 #. Name of a report
 #. Label of a Link in the People Workspace
 #. Label of a Link in the Tenure Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/report/employee_analytics/employee_analytics.json
 #: hrms/hr/workspace/people/people.json hrms/hr/workspace/tenure/tenure.json
+#: hrms/workspace_sidebar/tenure.json
 msgid "Employee Analytics"
 msgstr "crwdns106590:0crwdne106590:0"
 
 #. Name of a DocType
 #. Label of a Link in the Shift & Attendance Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/employee_attendance_tool/employee_attendance_tool.json
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
+#: hrms/workspace_sidebar/shift_&_attendance.json
 msgid "Employee Attendance Tool"
 msgstr "crwdns106592:0crwdne106592:0"
 
@@ -2855,8 +2887,10 @@ msgstr "crwdns106606:0crwdne106606:0"
 #. Name of a report
 #. Label of a Link in the People Workspace
 #. Label of a Link in the Tenure Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/report/employee_birthday/employee_birthday.json
 #: hrms/hr/workspace/people/people.json hrms/hr/workspace/tenure/tenure.json
+#: hrms/workspace_sidebar/tenure.json
 msgid "Employee Birthday"
 msgstr "crwdns106610:0crwdne106610:0"
 
@@ -2868,9 +2902,11 @@ msgstr "crwdns106612:0crwdne106612:0"
 #. Name of a DocType
 #. Label of a Link in the People Workspace
 #. Label of a Link in the Shift & Attendance Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/employee_checkin/employee_checkin.json
 #: hrms/hr/workspace/people/people.json
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
+#: hrms/workspace_sidebar/shift_&_attendance.json
 msgid "Employee Checkin"
 msgstr "crwdns106614:0crwdne106614:0"
 
@@ -2936,13 +2972,17 @@ msgstr "crwdns141368:0crwdne141368:0"
 #. Name of a report
 #. Label of a Link in the People Workspace
 #. Label of a Link in the Tenure Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/report/employee_exits/employee_exits.json
 #: hrms/hr/workspace/people/people.json hrms/hr/workspace/tenure/tenure.json
+#: hrms/workspace_sidebar/tenure.json
 msgid "Employee Exits"
 msgstr "crwdns106640:0crwdne106640:0"
 
 #. Name of a DocType
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/employee_feedback_criteria/employee_feedback_criteria.json
+#: hrms/workspace_sidebar/performance.json
 msgid "Employee Feedback Criteria"
 msgstr "crwdns106642:0crwdne106642:0"
 
@@ -2965,6 +3005,7 @@ msgstr "crwdns106646:0crwdne106646:0"
 #. Label of a Link in the People Workspace
 #. Label of the grade (Link) field in DocType 'Bulk Salary Structure
 #. Assignment'
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/employee_attendance_tool/employee_attendance_tool.json
 #: hrms/hr/doctype/employee_grade/employee_grade.json
 #: hrms/hr/doctype/employee_onboarding/employee_onboarding.json
@@ -2975,13 +3016,15 @@ msgstr "crwdns106646:0crwdne106646:0"
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.json
 #: hrms/hr/workspace/people/people.json
 #: hrms/payroll/doctype/bulk_salary_structure_assignment/bulk_salary_structure_assignment.json
+#: hrms/workspace_sidebar/people.json
 msgid "Employee Grade"
 msgstr "crwdns106650:0crwdne106650:0"
 
 #. Name of a DocType
 #. Label of a Link in the Tenure Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/employee_grievance/employee_grievance.json
-#: hrms/hr/workspace/tenure/tenure.json
+#: hrms/hr/workspace/tenure/tenure.json hrms/workspace_sidebar/tenure.json
 msgid "Employee Grievance"
 msgstr "crwdns106664:0crwdne106664:0"
 
@@ -2989,6 +3032,11 @@ msgstr "crwdns106664:0crwdne106664:0"
 #: hrms/hr/doctype/employee_health_insurance/employee_health_insurance.json
 msgid "Employee Health Insurance"
 msgstr "crwdns106670:0crwdne106670:0"
+
+#. Label of a Workspace Sidebar Item
+#: hrms/workspace_sidebar/shift_&_attendance.json
+msgid "Employee Hours Utilization"
+msgstr "crwdns196008:0crwdne196008:0"
 
 #. Name of a report
 #. Label of a Link in the Shift & Attendance Workspace
@@ -3017,8 +3065,10 @@ msgstr "crwdns141372:0crwdne141372:0"
 #. Name of a report
 #. Label of a Link in the People Workspace
 #. Label of a Link in the Tenure Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/report/employee_information/employee_information.json
 #: hrms/hr/workspace/people/people.json hrms/hr/workspace/tenure/tenure.json
+#: hrms/workspace_sidebar/tenure.json
 msgid "Employee Information"
 msgstr "crwdns106682:0crwdne106682:0"
 
@@ -3049,8 +3099,9 @@ msgstr "crwdns141374:0crwdne141374:0"
 
 #. Name of a DocType
 #. Label of a Link in the Tenure Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/employee_onboarding/employee_onboarding.json
-#: hrms/hr/workspace/tenure/tenure.json
+#: hrms/hr/workspace/tenure/tenure.json hrms/workspace_sidebar/tenure.json
 msgid "Employee Onboarding"
 msgstr "crwdns106778:0crwdne106778:0"
 
@@ -3074,12 +3125,16 @@ msgid "Employee Other Income"
 msgstr "crwdns106790:0crwdne106790:0"
 
 #. Name of a DocType
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/employee_performance_feedback/employee_performance_feedback.json
+#: hrms/workspace_sidebar/performance.json
 msgid "Employee Performance Feedback"
 msgstr "crwdns106792:0crwdne106792:0"
 
 #. Name of a DocType
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/employee_promotion/employee_promotion.json
+#: hrms/workspace_sidebar/performance.json
 msgid "Employee Promotion"
 msgstr "crwdns106798:0crwdne106798:0"
 
@@ -3132,7 +3187,9 @@ msgid "Employee Retained"
 msgstr "crwdns141384:0crwdne141384:0"
 
 #. Name of a DocType
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/employee_separation/employee_separation.json
+#: hrms/workspace_sidebar/tenure.json
 msgid "Employee Separation"
 msgstr "crwdns106820:0crwdne106820:0"
 
@@ -3157,8 +3214,9 @@ msgstr "crwdns106832:0crwdne106832:0"
 
 #. Name of a DocType
 #. Label of a Link in the Tenure Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/employee_skill_map/employee_skill_map.json
-#: hrms/hr/workspace/tenure/tenure.json
+#: hrms/hr/workspace/tenure/tenure.json hrms/workspace_sidebar/tenure.json
 msgid "Employee Skill Map"
 msgstr "crwdns106834:0crwdne106834:0"
 
@@ -3333,7 +3391,8 @@ msgid "Employees HTML"
 msgstr "crwdns141398:0crwdne141398:0"
 
 #. Label of a Link in the People Workspace
-#: hrms/hr/workspace/people/people.json
+#. Label of a Workspace Sidebar Item
+#: hrms/hr/workspace/people/people.json hrms/workspace_sidebar/leaves.json
 msgid "Employees Working on a Holiday"
 msgstr "crwdns106924:0crwdne106924:0"
 
@@ -3631,6 +3690,11 @@ msgstr "crwdns107046:0{0}crwdne107046:0"
 msgid "Exam"
 msgstr "crwdns141432:0crwdne141432:0"
 
+#. Label of a Workspace Sidebar Item
+#: hrms/workspace_sidebar/tax_&_benefits.json
+msgid "Excemption Submission Proof"
+msgstr "crwdns196010:0crwdne196010:0"
+
 #. Description of the 'Exchange Rate' (Float) field in DocType 'Expense Claim
 #. Advance'
 #: hrms/hr/doctype/expense_claim_advance/expense_claim_advance.json
@@ -3663,10 +3727,17 @@ msgstr "crwdns107064:0crwdne107064:0"
 #. Exemption Declaration Category'
 #. Label of the exemption_category (Read Only) field in DocType 'Employee Tax
 #. Exemption Proof Submission Detail'
+#. Label of a Workspace Sidebar Item
 #: hrms/payroll/doctype/employee_tax_exemption_declaration_category/employee_tax_exemption_declaration_category.json
 #: hrms/payroll/doctype/employee_tax_exemption_proof_submission_detail/employee_tax_exemption_proof_submission_detail.json
+#: hrms/workspace_sidebar/tax_&_benefits.json
 msgid "Exemption Category"
 msgstr "crwdns141440:0crwdne141440:0"
+
+#. Label of a Workspace Sidebar Item
+#: hrms/workspace_sidebar/tax_&_benefits.json
+msgid "Exemption Declaration"
+msgstr "crwdns196012:0crwdne196012:0"
 
 #. Label of the exemption_proofs_details_tab (Tab Break) field in DocType
 #. 'Employee Tax Exemption Proof Submission'
@@ -3830,10 +3901,12 @@ msgstr "crwdns151220:0crwdne151220:0"
 #. Name of a DocType
 #. Label of the expense_type (Data) field in DocType 'Expense Claim Type'
 #. Label of a Link in the Expenses Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/expense_claim/expense_claim.py:685
 #: hrms/hr/doctype/expense_claim_detail/expense_claim_detail.json
 #: hrms/hr/doctype/expense_claim_type/expense_claim_type.json
 #: hrms/hr/workspace/expenses/expenses.json
+#: hrms/workspace_sidebar/expenses.json
 msgid "Expense Claim Type"
 msgstr "crwdns107140:0crwdne107140:0"
 
@@ -3934,7 +4007,7 @@ msgstr "crwdns107188:0{0}crwdne107188:0"
 msgid "Failed to delete defaults for country {0}."
 msgstr "crwdns141486:0{0}crwdne141486:0"
 
-#: hrms/api/__init__.py:769
+#: hrms/api/__init__.py:771
 msgid "Failed to download PDF: {0}"
 msgstr "crwdns159538:0{0}crwdne159538:0"
 
@@ -4226,7 +4299,8 @@ msgstr "crwdns141544:0crwdne141544:0"
 msgid "Fractional Cost"
 msgstr "crwdns107314:0crwdne107314:0"
 
-#: frontend/src/components/BaseLayout.vue:9
+#. Label of a Desktop Icon
+#: frontend/src/components/BaseLayout.vue:9 hrms/desktop_icon/frappe_hr.json
 msgid "Frappe HR"
 msgstr "crwdns151228:0crwdne151228:0"
 
@@ -4509,9 +4583,10 @@ msgstr "crwdns141592:0crwdne141592:0"
 #. Label of the grievance_type (Link) field in DocType 'Employee Grievance'
 #. Name of a DocType
 #. Label of a Link in the Tenure Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/employee_grievance/employee_grievance.json
 #: hrms/hr/doctype/grievance_type/grievance_type.json
-#: hrms/hr/workspace/tenure/tenure.json
+#: hrms/hr/workspace/tenure/tenure.json hrms/workspace_sidebar/tenure.json
 msgid "Grievance Type"
 msgstr "crwdns107480:0crwdne107480:0"
 
@@ -4664,7 +4739,9 @@ msgid "Hiring Settings"
 msgstr "crwdns141614:0crwdne141614:0"
 
 #. Name of a DocType
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/holiday_list_assignment/holiday_list_assignment.json
+#: hrms/workspace_sidebar/leaves.json
 msgid "Holiday List Assignment"
 msgstr "crwdns194892:0crwdne194892:0"
 
@@ -4964,9 +5041,11 @@ msgstr "crwdns107710:0crwdne107710:0"
 #. Name of a report
 #. Label of a Link in the Payroll Workspace
 #. Label of a Link in the Tax & Benefits Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/payroll/report/income_tax_computation/income_tax_computation.json
 #: hrms/payroll/workspace/payroll/payroll.json
 #: hrms/payroll/workspace/tax_&_benefits/tax_&_benefits.json
+#: hrms/workspace_sidebar/tax_&_benefits.json
 msgid "Income Tax Computation"
 msgstr "crwdns107712:0crwdne107712:0"
 
@@ -4979,9 +5058,12 @@ msgstr "crwdns141688:0crwdne141688:0"
 #. Name of a report
 #. Label of a Link in the Payroll Workspace
 #. Label of a Link in the Tax & Benefits Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/payroll/report/income_tax_deductions/income_tax_deductions.json
 #: hrms/payroll/workspace/payroll/payroll.json
 #: hrms/payroll/workspace/tax_&_benefits/tax_&_benefits.json
+#: hrms/workspace_sidebar/payroll.json
+#: hrms/workspace_sidebar/tax_&_benefits.json
 msgid "Income Tax Deductions"
 msgstr "crwdns107716:0crwdne107716:0"
 
@@ -4992,6 +5074,7 @@ msgstr "crwdns107716:0crwdne107716:0"
 #. Assignment'
 #. Label of a Link in the Payroll Workspace
 #. Label of a Link in the Tax & Benefits Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/payroll/doctype/bulk_salary_structure_assignment/bulk_salary_structure_assignment.json
 #: hrms/payroll/doctype/income_tax_slab/income_tax_slab.json
 #: hrms/payroll/doctype/salary_structure/salary_structure.js:142
@@ -4999,6 +5082,7 @@ msgstr "crwdns107716:0crwdne107716:0"
 #: hrms/payroll/report/income_tax_computation/income_tax_computation.py:623
 #: hrms/payroll/workspace/payroll/payroll.json
 #: hrms/payroll/workspace/tax_&_benefits/tax_&_benefits.json
+#: hrms/workspace_sidebar/tax_&_benefits.json
 msgid "Income Tax Slab"
 msgstr "crwdns107718:0crwdne107718:0"
 
@@ -5089,11 +5173,13 @@ msgstr "crwdns141706:0crwdne141706:0"
 #. Name of a DocType
 #. Label of the interview (Link) field in DocType 'Interview Feedback'
 #. Label of a Link in the Recruitment Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/interview/interview.json
 #: hrms/hr/doctype/interview_feedback/interview_feedback.json
 #: hrms/hr/doctype/job_applicant/job_applicant.js:25
 #: hrms/hr/doctype/job_applicant/job_applicant_dashboard.html:7
 #: hrms/hr/workspace/recruitment/recruitment.json
+#: hrms/workspace_sidebar/recruitment.json
 msgid "Interview"
 msgstr "crwdns107760:0crwdne107760:0"
 
@@ -5154,11 +5240,13 @@ msgstr "crwdns107786:0crwdne107786:0"
 #. Label of the interview_round (Link) field in DocType 'Interview Feedback'
 #. Name of a DocType
 #. Label of a Link in the Recruitment Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/interview/interview.json
 #: hrms/hr/doctype/interview_feedback/interview_feedback.json
 #: hrms/hr/doctype/interview_round/interview_round.json
 #: hrms/hr/doctype/job_applicant/job_applicant_dashboard.html:8
 #: hrms/hr/workspace/recruitment/recruitment.json
+#: hrms/workspace_sidebar/recruitment.json
 msgid "Interview Round"
 msgstr "crwdns107788:0crwdne107788:0"
 
@@ -5191,9 +5279,11 @@ msgstr "crwdns107804:0crwdne107804:0"
 #. Label of the interview_type (Link) field in DocType 'Interview Round'
 #. Name of a DocType
 #. Label of a Link in the Recruitment Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/interview_round/interview_round.json
 #: hrms/hr/doctype/interview_type/interview_type.json
 #: hrms/hr/workspace/recruitment/recruitment.json
+#: hrms/workspace_sidebar/recruitment.json
 msgid "Interview Type"
 msgstr "crwdns107810:0crwdne107810:0"
 
@@ -5411,6 +5501,7 @@ msgstr "crwdns107906:0crwdne107906:0"
 #. Name of a DocType
 #. Label of the job_applicant (Link) field in DocType 'Job Offer'
 #. Label of a Link in the Recruitment Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/appointment_letter/appointment_letter.json
 #: hrms/hr/doctype/employee_onboarding/employee_onboarding.json
 #: hrms/hr/doctype/interview/interview.json
@@ -5419,6 +5510,7 @@ msgstr "crwdns107906:0crwdne107906:0"
 #: hrms/hr/doctype/job_offer/job_offer.json
 #: hrms/hr/report/recruitment_analytics/recruitment_analytics.py:38
 #: hrms/hr/workspace/recruitment/recruitment.json hrms/setup.py:193
+#: hrms/workspace_sidebar/recruitment.json
 msgid "Job Applicant"
 msgstr "crwdns107908:0crwdne107908:0"
 
@@ -5455,12 +5547,14 @@ msgstr "crwdns107930:0crwdne107930:0"
 #. Label of the job_offer (Link) field in DocType 'Employee Onboarding'
 #. Name of a DocType
 #. Label of a Link in the Recruitment Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/employee_onboarding/employee_onboarding.json
 #: hrms/hr/doctype/job_applicant/job_applicant.js:38
 #: hrms/hr/doctype/job_applicant/job_applicant.js:48
 #: hrms/hr/doctype/job_offer/job_offer.json
 #: hrms/hr/report/recruitment_analytics/recruitment_analytics.py:52
 #: hrms/hr/workspace/recruitment/recruitment.json
+#: hrms/workspace_sidebar/recruitment.json
 msgid "Job Offer"
 msgstr "crwdns107934:0crwdne107934:0"
 
@@ -5494,6 +5588,7 @@ msgstr "crwdns107950:0{0}crwdnd107950:0{1}crwdne107950:0"
 #. Name of a DocType
 #. Label of a field in the job-application Web Form
 #. Label of a Link in the Recruitment Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/interview/interview.json
 #: hrms/hr/doctype/job_applicant/job_applicant.json
 #: hrms/hr/doctype/job_opening/job_opening.json
@@ -5501,6 +5596,7 @@ msgstr "crwdns107950:0{0}crwdnd107950:0{1}crwdne107950:0"
 #: hrms/hr/report/recruitment_analytics/recruitment_analytics.py:31
 #: hrms/hr/web_form/job_application/job_application.json
 #: hrms/hr/workspace/recruitment/recruitment.json
+#: hrms/workspace_sidebar/recruitment.json
 msgid "Job Opening"
 msgstr "crwdns107952:0crwdne107952:0"
 
@@ -5526,9 +5622,11 @@ msgstr "crwdns107966:0{0}crwdnd107966:0{1}crwdne107966:0"
 #. Label of the job_requisition (Link) field in DocType 'Job Opening'
 #. Name of a DocType
 #. Label of a Link in the Recruitment Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/job_opening/job_opening.json
 #: hrms/hr/doctype/job_requisition/job_requisition.json
 #: hrms/hr/workspace/recruitment/recruitment.json
+#: hrms/workspace_sidebar/recruitment.json
 msgid "Job Requisition"
 msgstr "crwdns107968:0crwdne107968:0"
 
@@ -5571,10 +5669,11 @@ msgstr "crwdns107994:0crwdne107994:0"
 #. Goal'
 #. Label of the kra (Link) field in DocType 'Goal'
 #. Name of a DocType
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/appraisal_kra/appraisal_kra.json
 #: hrms/hr/doctype/appraisal_template_goal/appraisal_template_goal.json
 #: hrms/hr/doctype/goal/goal.json hrms/hr/doctype/goal/goal_tree.js:134
-#: hrms/hr/doctype/kra/kra.json
+#: hrms/hr/doctype/kra/kra.json hrms/workspace_sidebar/performance.json
 msgid "KRA"
 msgstr "crwdns107996:0crwdne107996:0"
 
@@ -5702,10 +5801,11 @@ msgstr "crwdns159572:0{0}crwdne159572:0"
 #. Name of a DocType
 #. Label of the leave_allocation (Link) field in DocType 'Leave Encashment'
 #. Label of a Link in the Leaves Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.json
 #: hrms/hr/doctype/leave_allocation/leave_allocation.json
 #: hrms/hr/doctype/leave_encashment/leave_encashment.json
-#: hrms/hr/workspace/leaves/leaves.json
+#: hrms/hr/workspace/leaves/leaves.json hrms/workspace_sidebar/leaves.json
 msgid "Leave Allocation"
 msgstr "crwdns108054:0crwdne108054:0"
 
@@ -5723,9 +5823,11 @@ msgstr "crwdns141798:0crwdne141798:0"
 #. Name of a DocType
 #. Label of a Link in the Leaves Workspace
 #. Label of a Link in the People Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/attendance/attendance.json
 #: hrms/hr/doctype/leave_application/leave_application.json
 #: hrms/hr/workspace/leaves/leaves.json hrms/hr/workspace/people/people.json
+#: hrms/workspace_sidebar/leaves.json
 msgid "Leave Application"
 msgstr "crwdns108064:0crwdne108064:0"
 
@@ -5763,8 +5865,10 @@ msgid "Leave Approver Name"
 msgstr "crwdns141804:0crwdne141804:0"
 
 #. Label of the leave_balance (Float) field in DocType 'Leave Encashment'
+#. Label of a Workspace Sidebar Item
 #: frontend/src/components/LeaveBalance.vue:4
 #: hrms/hr/doctype/leave_encashment/leave_encashment.json
+#: hrms/workspace_sidebar/leaves.json
 msgid "Leave Balance"
 msgstr "crwdns141806:0crwdne141806:0"
 
@@ -5773,10 +5877,17 @@ msgstr "crwdns141806:0crwdne141806:0"
 msgid "Leave Balance Before Application"
 msgstr "crwdns141808:0crwdne141808:0"
 
+#. Label of a Workspace Sidebar Item
+#: hrms/workspace_sidebar/leaves.json
+msgid "Leave Balance Summary"
+msgstr "crwdns196014:0crwdne196014:0"
+
 #. Name of a DocType
 #. Label of a Link in the Leaves Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/leave_block_list/leave_block_list.json
 #: hrms/hr/workspace/leaves/leaves.json hrms/setup.py:125
+#: hrms/workspace_sidebar/leaves.json
 msgid "Leave Block List"
 msgstr "crwdns108088:0crwdne108088:0"
 
@@ -5814,8 +5925,9 @@ msgstr "crwdns108102:0crwdne108102:0"
 
 #. Name of a DocType
 #. Label of a Link in the Leaves Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/leave_control_panel/leave_control_panel.json
-#: hrms/hr/workspace/leaves/leaves.json
+#: hrms/hr/workspace/leaves/leaves.json hrms/workspace_sidebar/leaves.json
 msgid "Leave Control Panel"
 msgstr "crwdns108104:0crwdne108104:0"
 
@@ -5826,8 +5938,9 @@ msgstr "crwdns141816:0crwdne141816:0"
 
 #. Name of a DocType
 #. Label of a Link in the Leaves Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/leave_encashment/leave_encashment.json
-#: hrms/hr/workspace/leaves/leaves.json
+#: hrms/hr/workspace/leaves/leaves.json hrms/workspace_sidebar/leaves.json
 msgid "Leave Encashment"
 msgstr "crwdns108110:0crwdne108110:0"
 
@@ -5869,12 +5982,13 @@ msgstr "crwdns152172:0{0}crwdnd152172:0{1}crwdne152172:0"
 #. Assignment'
 #. Label of the leave_period (Link) field in DocType 'Leave Policy Assignment'
 #. Label of a Link in the Leaves Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/leave_allocation/leave_allocation.json
 #: hrms/hr/doctype/leave_control_panel/leave_control_panel.json
 #: hrms/hr/doctype/leave_encashment/leave_encashment.json
 #: hrms/hr/doctype/leave_period/leave_period.json
 #: hrms/hr/doctype/leave_policy_assignment/leave_policy_assignment.json
-#: hrms/hr/workspace/leaves/leaves.json
+#: hrms/hr/workspace/leaves/leaves.json hrms/workspace_sidebar/leaves.json
 msgid "Leave Period"
 msgstr "crwdns108118:0crwdne108118:0"
 
@@ -5883,11 +5997,12 @@ msgstr "crwdns108118:0crwdne108118:0"
 #. Name of a DocType
 #. Label of the leave_policy (Link) field in DocType 'Leave Policy Assignment'
 #. Label of a Link in the Leaves Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/leave_allocation/leave_allocation.json
 #: hrms/hr/doctype/leave_control_panel/leave_control_panel.json
 #: hrms/hr/doctype/leave_policy/leave_policy.json
 #: hrms/hr/doctype/leave_policy_assignment/leave_policy_assignment.json
-#: hrms/hr/workspace/leaves/leaves.json
+#: hrms/hr/workspace/leaves/leaves.json hrms/workspace_sidebar/leaves.json
 msgid "Leave Policy"
 msgstr "crwdns108130:0crwdne108130:0"
 
@@ -5897,10 +6012,11 @@ msgstr "crwdns108130:0crwdne108130:0"
 #. Allocation'
 #. Name of a DocType
 #. Label of a Link in the Leaves Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/earned_leave_schedule/earned_leave_schedule.json
 #: hrms/hr/doctype/leave_allocation/leave_allocation.json
 #: hrms/hr/doctype/leave_policy_assignment/leave_policy_assignment.json
-#: hrms/hr/workspace/leaves/leaves.json
+#: hrms/hr/workspace/leaves/leaves.json hrms/workspace_sidebar/leaves.json
 msgid "Leave Policy Assignment"
 msgstr "crwdns108140:0crwdne108140:0"
 
@@ -5951,6 +6067,7 @@ msgstr "crwdns141824:0crwdne141824:0"
 #. Name of a DocType
 #. Label of a Link in the Leaves Workspace
 #. Label of the leave_type (Link) field in DocType 'Salary Slip Leave'
+#. Label of a Workspace Sidebar Item
 #: frontend/src/views/leave/List.vue:41
 #: hrms/hr/doctype/attendance/attendance.json
 #: hrms/hr/doctype/compensatory_leave_request/compensatory_leave_request.json
@@ -5970,6 +6087,7 @@ msgstr "crwdns141824:0crwdne141824:0"
 #: hrms/hr/report/leave_ledger/leave_ledger.py:65
 #: hrms/hr/workspace/leaves/leaves.json
 #: hrms/payroll/doctype/salary_slip_leave/salary_slip_leave.json
+#: hrms/workspace_sidebar/leaves.json
 msgid "Leave Type"
 msgstr "crwdns108158:0crwdne108158:0"
 
@@ -6054,13 +6172,15 @@ msgstr "crwdns141830:0crwdne141830:0"
 msgid "Leave(s) Taken"
 msgstr "crwdns108220:0crwdne108220:0"
 
+#. Label of a Desktop Icon
 #. Label of the leaves_tab (Tab Break) field in DocType 'HR Settings'
 #. Label of the leaves (Float) field in DocType 'Leave Ledger Entry'
 #. Name of a Workspace
 #. Label of a Card Break in the People Workspace
 #. Label of the leave_details_section (Tab Break) field in DocType 'Salary
 #. Slip'
-#: frontend/src/components/BottomTabs.vue:53
+#. Title of a Workspace Sidebar
+#: frontend/src/components/BottomTabs.vue:53 hrms/desktop_icon/leaves.json
 #: hrms/hr/doctype/hr_settings/hr_settings.json
 #: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.json
 #: hrms/hr/doctype/leave_policy/leave_policy_dashboard.py:8
@@ -6068,6 +6188,7 @@ msgstr "crwdns108220:0crwdne108220:0"
 #: hrms/hr/report/leave_ledger/leave_ledger.py:59
 #: hrms/hr/workspace/leaves/leaves.json hrms/hr/workspace/people/people.json
 #: hrms/payroll/doctype/salary_slip/salary_slip.json
+#: hrms/workspace_sidebar/leaves.json
 msgid "Leaves"
 msgstr "crwdns108222:0crwdne108222:0"
 
@@ -6518,9 +6639,11 @@ msgstr "crwdns141928:0crwdne141928:0"
 #. Name of a report
 #. Label of a Link in the People Workspace
 #. Label of a Link in the Shift & Attendance Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.json
 #: hrms/hr/workspace/people/people.json
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
+#: hrms/workspace_sidebar/shift_&_attendance.json
 msgid "Monthly Attendance Sheet"
 msgstr "crwdns108450:0crwdne108450:0"
 
@@ -7110,7 +7233,9 @@ msgstr "crwdns108694:0{0}crwdne108694:0"
 msgid "Optional Leaves are holidays that Employees can choose to avail from a list of holidays published by the company."
 msgstr "crwdns108696:0crwdne108696:0"
 
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/page/organizational_chart/organizational_chart.js:4
+#: hrms/workspace_sidebar/people.json
 msgid "Organizational Chart"
 msgstr "crwdns108698:0crwdne108698:0"
 
@@ -7158,9 +7283,11 @@ msgstr "crwdns108732:0crwdne108732:0"
 #. Label of the overtime_section (Section Break) field in DocType 'Attendance'
 #. Label of the overtime_section (Section Break) field in DocType 'Shift Type'
 #. Label of a Card Break in the Shift & Attendance Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/attendance/attendance.json
 #: hrms/hr/doctype/shift_type/shift_type.json
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
+#: hrms/workspace_sidebar/shift_&_attendance.json
 msgid "Overtime"
 msgstr "crwdns159610:0crwdne159610:0"
 
@@ -7196,8 +7323,10 @@ msgstr "crwdns159620:0crwdne159620:0"
 
 #. Name of a DocType
 #. Label of a Link in the Shift & Attendance Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/overtime_slip/overtime_slip.json
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
+#: hrms/workspace_sidebar/shift_&_attendance.json
 msgid "Overtime Slip"
 msgstr "crwdns159622:0crwdne159622:0"
 
@@ -7257,6 +7386,7 @@ msgstr "crwdns159646:0{0}crwdne159646:0"
 #. Label of the overtime_type (Link) field in DocType 'Shift Assignment'
 #. Label of the overtime_type (Link) field in DocType 'Shift Type'
 #. Label of a Link in the Shift & Attendance Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/attendance/attendance.json
 #: hrms/hr/doctype/employee_checkin/employee_checkin.json
 #: hrms/hr/doctype/overtime_details/overtime_details.json
@@ -7264,6 +7394,7 @@ msgstr "crwdns159646:0{0}crwdne159646:0"
 #: hrms/hr/doctype/shift_assignment/shift_assignment.json
 #: hrms/hr/doctype/shift_type/shift_type.json
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
+#: hrms/workspace_sidebar/shift_&_attendance.json
 msgid "Overtime Type"
 msgstr "crwdns159648:0crwdne159648:0"
 
@@ -7423,13 +7554,17 @@ msgstr "crwdns159656:0crwdne159656:0"
 msgid "Payout Unclaimed Amount in Final Payroll Cycle"
 msgstr "crwdns159658:0crwdne159658:0"
 
+#. Label of a Desktop Icon
 #. Label of the payroll (Section Break) field in DocType 'Leave Encashment'
 #. Name of a Workspace
 #. Label of a Card Break in the Payroll Workspace
+#. Title of a Workspace Sidebar
+#: hrms/desktop_icon/payroll.json
 #: hrms/hr/doctype/leave_encashment/leave_encashment.json
 #: hrms/overrides/dashboard_overrides.py:37
 #: hrms/overrides/dashboard_overrides.py:77
 #: hrms/payroll/workspace/payroll/payroll.json
+#: hrms/workspace_sidebar/payroll.json
 msgid "Payroll"
 msgstr "crwdns108836:0crwdne108836:0"
 
@@ -7605,8 +7740,11 @@ msgstr "crwdns108920:0crwdne108920:0"
 msgid "Pending Questionnaires"
 msgstr "crwdns108922:0crwdne108922:0"
 
+#. Label of a Desktop Icon
 #. Name of a Workspace
-#: hrms/hr/workspace/people/people.json
+#. Title of a Workspace Sidebar
+#: hrms/desktop_icon/people.json hrms/hr/workspace/people/people.json
+#: hrms/workspace_sidebar/people.json
 msgid "People"
 msgstr "crwdns194906:0crwdne194906:0"
 
@@ -7616,8 +7754,12 @@ msgstr "crwdns194906:0crwdne194906:0"
 msgid "Percent Deduction"
 msgstr "crwdns142100:0crwdne142100:0"
 
+#. Label of a Desktop Icon
 #. Name of a Workspace
+#. Title of a Workspace Sidebar
+#: hrms/desktop_icon/performance.json
 #: hrms/hr/workspace/performance/performance.json
+#: hrms/workspace_sidebar/performance.json
 msgid "Performance"
 msgstr "crwdns108930:0crwdne108930:0"
 
@@ -7834,7 +7976,7 @@ msgstr "crwdns194910:0{0}crwdnd194910:0{1}crwdne194910:0"
 msgid "Please set the Appraisal Template for all the {0} or select the template in the Employees table below."
 msgstr "crwdns109010:0{0}crwdne109010:0"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.js:522
+#: hrms/hr/doctype/expense_claim/expense_claim.js:523
 msgid "Please set the Company"
 msgstr "crwdns109012:0crwdne109012:0"
 
@@ -8025,8 +8167,10 @@ msgstr "crwdns142150:0crwdne142150:0"
 
 #. Name of a report
 #. Label of a Link in the Payroll Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/payroll/report/professional_tax_deductions/professional_tax_deductions.json
 #: hrms/payroll/workspace/payroll/payroll.json
+#: hrms/workspace_sidebar/payroll.json
 msgid "Professional Tax Deductions"
 msgstr "crwdns109090:0crwdne109090:0"
 
@@ -8041,8 +8185,10 @@ msgstr "crwdns109094:0crwdne109094:0"
 
 #. Name of a report
 #. Label of a Link in the Shift & Attendance Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/report/project_profitability/project_profitability.json
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
+#: hrms/workspace_sidebar/shift_&_attendance.json
 msgid "Project Profitability"
 msgstr "crwdns109114:0crwdne109114:0"
 
@@ -8094,9 +8240,11 @@ msgstr "crwdns142166:0crwdne142166:0"
 #. Label of the purpose_of_travel (Data) field in DocType 'Purpose of Travel'
 #. Label of the purpose_of_travel (Link) field in DocType 'Travel Request'
 #. Label of a Link in the Expenses Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/purpose_of_travel/purpose_of_travel.json
 #: hrms/hr/doctype/travel_request/travel_request.json
 #: hrms/hr/workspace/expenses/expenses.json
+#: hrms/workspace_sidebar/expenses.json
 msgid "Purpose of Travel"
 msgstr "crwdns109134:0crwdne109134:0"
 
@@ -8209,19 +8357,25 @@ msgstr "crwdns152563:0crwdne152563:0"
 msgid "Recover Cost"
 msgstr "crwdns142196:0crwdne142196:0"
 
+#. Label of a Desktop Icon
 #. Label of the recruitment_tab (Tab Break) field in DocType 'HR Settings'
 #. Name of a Workspace
+#. Title of a Workspace Sidebar
+#: hrms/desktop_icon/recruitment.json
 #: hrms/hr/doctype/hr_settings/hr_settings.json
 #: hrms/hr/workspace/recruitment/recruitment.json
+#: hrms/workspace_sidebar/recruitment.json
 msgid "Recruitment"
 msgstr "crwdns109188:0crwdne109188:0"
 
 #. Name of a report
 #. Label of a Link in the People Workspace
 #. Label of a Link in the Recruitment Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/report/recruitment_analytics/recruitment_analytics.json
 #: hrms/hr/workspace/people/people.json
 #: hrms/hr/workspace/recruitment/recruitment.json
+#: hrms/workspace_sidebar/recruitment.json
 msgid "Recruitment Analytics"
 msgstr "crwdns109190:0crwdne109190:0"
 
@@ -8528,7 +8682,9 @@ msgstr "crwdns142288:0crwdne142288:0"
 msgid "Role Allowed to Create Backdated Leave Application"
 msgstr "crwdns142294:0crwdne142294:0"
 
+#. Label of a Workspace Sidebar Item
 #: hrms/public/js/utils/index.js:252 hrms/public/js/utils/index.js:273
+#: hrms/workspace_sidebar/shift_&_attendance.json
 msgid "Roster"
 msgstr "crwdns148548:0crwdne148548:0"
 
@@ -8630,6 +8786,7 @@ msgstr "crwdns109408:0{0}crwdnd109408:0{1}crwdne109408:0"
 #. Name of a DocType
 #. Label of the salary_component (Link) field in DocType 'Salary Structure'
 #. Label of a Link in the Payroll Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/overtime_salary_component/overtime_salary_component.json
 #: hrms/payroll/doctype/additional_salary/additional_salary.json
 #: hrms/payroll/doctype/employee_benefit_ledger/employee_benefit_ledger.json
@@ -8642,7 +8799,7 @@ msgstr "crwdns109408:0{0}crwdnd109408:0{1}crwdne109408:0"
 #: hrms/payroll/report/accrued_earnings_report/accrued_earnings_report.js:77
 #: hrms/payroll/report/accrued_earnings_report/accrued_earnings_report.py:33
 #: hrms/payroll/workspace/payroll/payroll.json
-#: hrms/public/js/utils/payroll_utils.js:23
+#: hrms/public/js/utils/payroll_utils.js:23 hrms/workspace_sidebar/payroll.json
 msgid "Salary Component"
 msgstr "crwdns109414:0crwdne109414:0"
 
@@ -8732,8 +8889,10 @@ msgstr "crwdns109452:0crwdne109452:0"
 
 #. Name of a report
 #. Label of a Link in the Payroll Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/payroll/report/salary_register/salary_register.json
 #: hrms/payroll/workspace/payroll/payroll.json
+#: hrms/workspace_sidebar/payroll.json
 msgid "Salary Register"
 msgstr "crwdns109454:0crwdne109454:0"
 
@@ -8744,12 +8903,14 @@ msgstr "crwdns109454:0crwdne109454:0"
 #. Settings'
 #. Name of a DocType
 #. Label of a Link in the Payroll Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/leave_application/leave_application.json
 #: hrms/hr/doctype/overtime_slip/overtime_slip.json
 #: hrms/payroll/doctype/employee_benefit_ledger/employee_benefit_ledger.json
 #: hrms/payroll/doctype/payroll_settings/payroll_settings.json
 #: hrms/payroll/doctype/salary_slip/salary_slip.json
 #: hrms/payroll/workspace/payroll/payroll.json hrms/setup.py:309
+#: hrms/workspace_sidebar/payroll.json
 msgid "Salary Slip"
 msgstr "crwdns109456:0crwdne109456:0"
 
@@ -8854,6 +9015,7 @@ msgstr "crwdns109502:0{0}crwdnd109502:0{1}crwdne109502:0"
 #. Label of the salary_structure (Link) field in DocType 'Salary Structure
 #. Assignment'
 #. Label of a Link in the Payroll Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/payroll/doctype/arrear/arrear.json
 #: hrms/payroll/doctype/bulk_salary_structure_assignment/bulk_salary_structure_assignment.json
 #: hrms/payroll/doctype/salary_component/salary_component.js:31
@@ -8861,14 +9023,17 @@ msgstr "crwdns109502:0{0}crwdnd109502:0{1}crwdne109502:0"
 #: hrms/payroll/doctype/salary_structure/salary_structure.json
 #: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.json
 #: hrms/payroll/workspace/payroll/payroll.json
+#: hrms/workspace_sidebar/payroll.json
 msgid "Salary Structure"
 msgstr "crwdns109504:0crwdne109504:0"
 
 #. Name of a DocType
 #. Label of a Link in the Payroll Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/payroll/doctype/income_tax_slab/income_tax_slab.js:8
 #: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.json
 #: hrms/payroll/workspace/payroll/payroll.json
+#: hrms/workspace_sidebar/payroll.json
 msgid "Salary Structure Assignment"
 msgstr "crwdns109512:0crwdne109512:0"
 
@@ -8907,9 +9072,11 @@ msgstr "crwdns142342:0crwdne142342:0"
 #. Label of the salary_withholding (Link) field in DocType 'Salary Slip'
 #. Name of a DocType
 #. Label of a Link in the Payroll Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/payroll/doctype/salary_slip/salary_slip.json
 #: hrms/payroll/doctype/salary_withholding/salary_withholding.json
 #: hrms/payroll/workspace/payroll/payroll.json
+#: hrms/workspace_sidebar/payroll.json
 msgid "Salary Withholding"
 msgstr "crwdns143282:0crwdne143282:0"
 
@@ -9037,7 +9204,7 @@ msgstr "crwdns142362:0crwdne142362:0"
 msgid "Select Users"
 msgstr "crwdns142364:0crwdne142364:0"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.js:567
+#: hrms/hr/doctype/expense_claim/expense_claim.js:568
 msgid "Select an employee to get the employee advance."
 msgstr "crwdns109588:0crwdne109588:0"
 
@@ -9274,8 +9441,12 @@ msgstr "crwdns109702:0crwdne109702:0"
 msgid "Shared document with the user {0} with 'Submit' permission"
 msgstr "crwdns155426:0{0}crwdne155426:0"
 
+#. Label of a Desktop Icon
 #. Name of a Workspace
+#. Title of a Workspace Sidebar
+#: hrms/desktop_icon/shift_&_attendance.json
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
+#: hrms/workspace_sidebar/shift_&_attendance.json
 msgid "Shift & Attendance"
 msgstr "crwdns161508:0crwdne161508:0"
 
@@ -9333,8 +9504,10 @@ msgstr "crwdns159708:0{0}crwdnd159708:0{1}crwdne159708:0"
 
 #. Name of a report
 #. Label of a Link in the Shift & Attendance Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/report/shift_attendance/shift_attendance.json
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
+#: hrms/workspace_sidebar/shift_&_attendance.json
 msgid "Shift Attendance"
 msgstr "crwdns109736:0crwdne109736:0"
 
@@ -9362,21 +9535,25 @@ msgstr "crwdns109740:0crwdne109740:0"
 #. Label of the shift_location (Link) field in DocType 'Shift Schedule
 #. Assignment'
 #. Label of a Link in the Shift & Attendance Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/shift_assignment/shift_assignment.json
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.json
 #: hrms/hr/doctype/shift_location/shift_location.json
 #: hrms/hr/doctype/shift_schedule_assignment/shift_schedule_assignment.json
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
+#: hrms/workspace_sidebar/shift_&_attendance.json
 msgid "Shift Location"
 msgstr "crwdns149148:0crwdne149148:0"
 
 #. Label of the shift_request (Link) field in DocType 'Shift Assignment'
 #. Name of a DocType
 #. Label of a Link in the Shift & Attendance Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/shift_assignment/shift_assignment.json
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.js:220
 #: hrms/hr/doctype/shift_request/shift_request.json
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
+#: hrms/workspace_sidebar/shift_&_attendance.json
 msgid "Shift Request"
 msgstr "crwdns109742:0crwdne109742:0"
 
@@ -9406,10 +9583,12 @@ msgstr "crwdns142436:0crwdne142436:0"
 #. Label of the shift_schedule (Link) field in DocType 'Shift Schedule
 #. Assignment'
 #. Label of a Link in the Shift & Attendance Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.json
 #: hrms/hr/doctype/shift_schedule/shift_schedule.json
 #: hrms/hr/doctype/shift_schedule_assignment/shift_schedule_assignment.json
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
+#: hrms/workspace_sidebar/shift_&_attendance.json
 msgid "Shift Schedule"
 msgstr "crwdns151992:0crwdne151992:0"
 
@@ -9463,6 +9642,7 @@ msgstr "crwdns151998:0crwdne151998:0"
 #. Label of the shift_type (Link) field in DocType 'Shift Schedule'
 #. Name of a DocType
 #. Label of a Link in the Shift & Attendance Workspace
+#. Label of a Workspace Sidebar Item
 #: frontend/src/views/attendance/ShiftAssignmentList.vue:24
 #: frontend/src/views/attendance/ShiftRequestList.vue:42
 #: hrms/hr/doctype/shift_assignment/shift_assignment.json
@@ -9473,6 +9653,7 @@ msgstr "crwdns151998:0crwdne151998:0"
 #: hrms/hr/doctype/shift_type/shift_type.json
 #: hrms/hr/report/shift_attendance/shift_attendance.js:28
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
+#: hrms/workspace_sidebar/shift_&_attendance.json
 msgid "Shift Type"
 msgstr "crwdns109754:0crwdne109754:0"
 
@@ -9576,7 +9757,7 @@ msgstr "crwdns109800:0{0}crwdne109800:0"
 msgid "Source and Rating"
 msgstr "crwdns142458:0crwdne142458:0"
 
-#: hrms/api/roster.py:100
+#: hrms/api/roster.py:95
 msgid "Source and target shifts cannot be the same"
 msgstr "crwdns148560:0crwdne148560:0"
 
@@ -9594,10 +9775,12 @@ msgstr "crwdns142462:0crwdne142462:0"
 #. Label of the staffing_plan (Link) field in DocType 'Job Opening'
 #. Name of a DocType
 #. Label of a Link in the Recruitment Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/job_opening/job_opening.json
 #: hrms/hr/doctype/staffing_plan/staffing_plan.json
 #: hrms/hr/report/recruitment_analytics/recruitment_analytics.py:24
 #: hrms/hr/workspace/recruitment/recruitment.json
+#: hrms/workspace_sidebar/recruitment.json
 msgid "Staffing Plan"
 msgstr "crwdns109816:0crwdne109816:0"
 
@@ -9794,8 +9977,12 @@ msgstr "crwdns109992:0{0}crwdne109992:0"
 msgid "Take Exact Completed Years"
 msgstr "crwdns142492:0crwdne142492:0"
 
+#. Label of a Desktop Icon
 #. Name of a Workspace
+#. Title of a Workspace Sidebar
+#: hrms/desktop_icon/tax_&_benefits.json
 #: hrms/payroll/workspace/tax_&_benefits/tax_&_benefits.json
+#: hrms/workspace_sidebar/tax_&_benefits.json
 msgid "Tax & Benefits"
 msgstr "crwdns110006:0crwdne110006:0"
 
@@ -9906,10 +10093,12 @@ msgstr "crwdns151352:0crwdne151352:0"
 msgid "Team Updates"
 msgstr "crwdns110040:0crwdne110040:0"
 
+#. Label of a Desktop Icon
 #. Label of the tenure_tab (Tab Break) field in DocType 'HR Settings'
 #. Name of a Workspace
-#: hrms/hr/doctype/hr_settings/hr_settings.json
-#: hrms/hr/workspace/tenure/tenure.json
+#. Title of a Workspace Sidebar
+#: hrms/desktop_icon/tenure.json hrms/hr/doctype/hr_settings/hr_settings.json
+#: hrms/hr/workspace/tenure/tenure.json hrms/workspace_sidebar/tenure.json
 msgid "Tenure"
 msgstr "crwdns161232:0crwdne161232:0"
 
@@ -10539,6 +10728,7 @@ msgstr "crwdns142642:0crwdne142642:0"
 #. Label of the training_event (Link) field in DocType 'Training Feedback'
 #. Label of the training_event (Link) field in DocType 'Training Result'
 #. Label of a Link in the Tenure Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/training_event/training_event.json
 #: hrms/hr/doctype/training_feedback/training_feedback.json
 #: hrms/hr/doctype/training_feedback/training_feedback.py:14
@@ -10546,6 +10736,7 @@ msgstr "crwdns142642:0crwdne142642:0"
 #: hrms/hr/doctype/training_result/training_result.py:16
 #: hrms/hr/workspace/tenure/tenure.json
 #: hrms/templates/emails/training_event.html:1
+#: hrms/workspace_sidebar/tenure.json
 msgid "Training Event"
 msgstr "crwdns110358:0crwdne110358:0"
 
@@ -10564,9 +10755,10 @@ msgstr "crwdns110370:0crwdne110370:0"
 
 #. Name of a DocType
 #. Label of a Link in the Tenure Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/training_event/training_event.js:16
 #: hrms/hr/doctype/training_feedback/training_feedback.json
-#: hrms/hr/workspace/tenure/tenure.json
+#: hrms/hr/workspace/tenure/tenure.json hrms/workspace_sidebar/tenure.json
 msgid "Training Feedback"
 msgstr "crwdns110372:0crwdne110372:0"
 
@@ -10574,17 +10766,19 @@ msgstr "crwdns110372:0crwdne110372:0"
 #. Name of a DocType
 #. Label of the training_program (Data) field in DocType 'Training Program'
 #. Label of a Link in the Tenure Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/training_event/training_event.json
 #: hrms/hr/doctype/training_program/training_program.json
-#: hrms/hr/workspace/tenure/tenure.json
+#: hrms/hr/workspace/tenure/tenure.json hrms/workspace_sidebar/tenure.json
 msgid "Training Program"
 msgstr "crwdns110376:0crwdne110376:0"
 
 #. Name of a DocType
 #. Label of a Link in the Tenure Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/training_event/training_event.js:10
 #: hrms/hr/doctype/training_result/training_result.json
-#: hrms/hr/workspace/tenure/tenure.json
+#: hrms/hr/workspace/tenure/tenure.json hrms/workspace_sidebar/tenure.json
 msgid "Training Result"
 msgstr "crwdns110382:0crwdne110382:0"
 
@@ -10615,7 +10809,9 @@ msgid "Transfer Date"
 msgstr "crwdns142652:0crwdne142652:0"
 
 #. Label of a Card Break in the Expenses Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/workspace/expenses/expenses.json hrms/setup.py:336
+#: hrms/workspace_sidebar/expenses.json
 msgid "Travel"
 msgstr "crwdns110402:0crwdne110402:0"
 
@@ -10646,9 +10842,10 @@ msgstr "crwdns110410:0crwdne110410:0"
 #. Name of a DocType
 #. Label of a Link in the Expenses Workspace
 #. Label of a Link in the People Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/travel_request/travel_request.json
 #: hrms/hr/workspace/expenses/expenses.json
-#: hrms/hr/workspace/people/people.json
+#: hrms/hr/workspace/people/people.json hrms/workspace_sidebar/expenses.json
 msgid "Travel Request"
 msgstr "crwdns110414:0crwdne110414:0"
 
@@ -10743,8 +10940,10 @@ msgstr "crwdns159734:0crwdne159734:0"
 
 #. Name of a report
 #. Label of a Link in the Expenses Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/report/unpaid_expense_claim/unpaid_expense_claim.json
 #: hrms/hr/workspace/expenses/expenses.json
+#: hrms/workspace_sidebar/expenses.json
 msgid "Unpaid Expense Claim"
 msgstr "crwdns110466:0crwdne110466:0"
 
@@ -10928,19 +11127,23 @@ msgstr "crwdns142704:0crwdne142704:0"
 
 #. Name of a report
 #. Label of a Link in the Expenses Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/vehicle_log/vehicle_log.py:51
 #: hrms/hr/report/vehicle_expenses/vehicle_expenses.json
 #: hrms/hr/workspace/expenses/expenses.json
+#: hrms/workspace_sidebar/expenses.json
 msgid "Vehicle Expenses"
 msgstr "crwdns110558:0crwdne110558:0"
 
 #. Label of the vehicle_log (Link) field in DocType 'Expense Claim'
 #. Name of a DocType
 #. Label of a Link in the Expenses Workspace
+#. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/expense_claim/expense_claim.json
 #: hrms/hr/doctype/vehicle_log/vehicle_log.json
 #: hrms/hr/report/vehicle_expenses/vehicle_expenses.py:37
 #: hrms/hr/workspace/expenses/expenses.json
+#: hrms/workspace_sidebar/expenses.json
 msgid "Vehicle Log"
 msgstr "crwdns110560:0crwdne110560:0"
 
@@ -11196,7 +11399,7 @@ msgstr "crwdns110686:0{0}crwdnd110686:0{1}crwdnd110686:0{2}crwdnd110686:0{3}crwd
 msgid "You can only submit Leave Encashment for a valid encashment amount"
 msgstr "crwdns110688:0crwdne110688:0"
 
-#: hrms/api/__init__.py:726
+#: hrms/api/__init__.py:728
 msgid "You can only upload JPG, PNG, PDF, TXT or Microsoft documents."
 msgstr "crwdns110690:0crwdne110690:0"
 
