@@ -325,7 +325,7 @@ def get_feedback_history(employee: str, appraisal: str) -> dict:
 @frappe.validate_and_sanitize_search_inputs
 def get_kras_for_employee(
 	doctype: str, txt: str, searchfield: str, start: int, page_len: int, filters: dict
-) -> list[str]:
+) -> tuple[tuple[str]]:
 	appraisal = frappe.db.get_value(
 		"Appraisal",
 		{
