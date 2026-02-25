@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2026-02-22 09:43+0000\n"
-"PO-Revision-Date: 2026-02-23 06:20\n"
+"PO-Revision-Date: 2026-02-25 06:46\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: Croatian\n"
 "MIME-Version: 1.0\n"
@@ -1604,12 +1604,12 @@ msgstr "Iznos Naknade"
 #. Label of a Workspace Sidebar Item
 #: hrms/workspace_sidebar/tax_&_benefits.json
 msgid "Benefit Application"
-msgstr ""
+msgstr "Zahtjev za Beneficije"
 
 #. Label of a Workspace Sidebar Item
 #: hrms/workspace_sidebar/tax_&_benefits.json
 msgid "Benefit Claim"
-msgstr ""
+msgstr "Zahtjev za Naknadu"
 
 #. Label of the employee_benefit_details_section (Section Break) field in
 #. DocType 'Employee Benefit Ledger'
@@ -3064,7 +3064,7 @@ msgstr "Zdravstveno Osiguranje"
 #. Label of a Workspace Sidebar Item
 #: hrms/workspace_sidebar/shift_&_attendance.json
 msgid "Employee Hours Utilization"
-msgstr ""
+msgstr "Iskorištenost Sati Osoblja"
 
 #. Name of a report
 #. Label of a Link in the Shift & Attendance Workspace
@@ -3721,7 +3721,7 @@ msgstr "Ispit"
 #. Label of a Workspace Sidebar Item
 #: hrms/workspace_sidebar/tax_&_benefits.json
 msgid "Excemption Submission Proof"
-msgstr ""
+msgstr "Dokaz Podnošenja Izuzeća"
 
 #. Description of the 'Exchange Rate' (Float) field in DocType 'Expense Claim
 #. Advance'
@@ -3765,7 +3765,7 @@ msgstr "Kategorija Izuzeća"
 #. Label of a Workspace Sidebar Item
 #: hrms/workspace_sidebar/tax_&_benefits.json
 msgid "Exemption Declaration"
-msgstr ""
+msgstr "Deklaracija Izuzeća"
 
 #. Label of the exemption_proofs_details_tab (Tab Break) field in DocType
 #. 'Employee Tax Exemption Proof Submission'
@@ -5908,7 +5908,7 @@ msgstr "Stanje Osustva prije Zahtjeva"
 #. Label of a Workspace Sidebar Item
 #: hrms/workspace_sidebar/leaves.json
 msgid "Leave Balance Summary"
-msgstr ""
+msgstr "Sažetak Stanja Odsustva"
 
 #. Name of a DocType
 #. Label of a Link in the Leaves Workspace
