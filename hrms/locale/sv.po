@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2026-02-22 09:43+0000\n"
-"PO-Revision-Date: 2026-02-23 06:20\n"
+"PO-Revision-Date: 2026-02-25 06:45\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: Swedish\n"
 "MIME-Version: 1.0\n"
@@ -1044,7 +1044,7 @@ msgstr "Utvärdering"
 #: hrms/hr/report/appraisal_overview/appraisal_overview.py:37
 #: hrms/workspace_sidebar/performance.json
 msgid "Appraisal Cycle"
-msgstr "Utvärdering Cykel"
+msgstr "Intervall"
 
 #. Name of a DocType
 #: hrms/hr/doctype/appraisal_goal/appraisal_goal.json
@@ -1105,7 +1105,7 @@ msgstr "Utvärdering skapande i kö. Det kan ta några minuter."
 
 #: hrms/hr/doctype/appraisal/appraisal.py:58
 msgid "Appraisal {0} already exists for Employee {1} for this Appraisal Cycle or overlapping period"
-msgstr "Utvärdering {0} finns redan för Personal {1} för denna Utvärdering Cykel eller överlappande period"
+msgstr "Utvärdering {0} finns redan för Personal {1} för denna Utvärdering Intervall eller överlappande period"
 
 #: hrms/hr/doctype/employee_performance_feedback/employee_performance_feedback.py:45
 msgid "Appraisal {0} does not belong to Employee {1}"
@@ -1604,12 +1604,12 @@ msgstr "Förmån Belopp"
 #. Label of a Workspace Sidebar Item
 #: hrms/workspace_sidebar/tax_&_benefits.json
 msgid "Benefit Application"
-msgstr ""
+msgstr "Förmån Ansökan"
 
 #. Label of a Workspace Sidebar Item
 #: hrms/workspace_sidebar/tax_&_benefits.json
 msgid "Benefit Claim"
-msgstr ""
+msgstr "Förmån Anspråk"
 
 #. Label of the employee_benefit_details_section (Section Break) field in
 #. DocType 'Employee Benefit Ledger'
@@ -1826,7 +1826,7 @@ msgstr "Kan inte skapa Jobb Sökande mot stängd Jobb Erbjudande"
 
 #: hrms/hr/doctype/appraisal_cycle/appraisal_cycle.py:201
 msgid "Cannot create or change transactions against an Appraisal Cycle with status {0}."
-msgstr "Kan inte skapa eller ändra transaktioner mot utvärderingscykel med status {0}."
+msgstr "Kan inte skapa eller ändra transaktioner mot utvärdering intervall med status {0}."
 
 #: hrms/hr/doctype/leave_application/leave_application.py:634
 msgid "Cannot find active Leave Period"
@@ -2344,7 +2344,7 @@ msgstr "Anpassat Intervall"
 #. Label of the cycle_name (Data) field in DocType 'Appraisal Cycle'
 #: hrms/hr/doctype/appraisal_cycle/appraisal_cycle.json
 msgid "Cycle Name"
-msgstr "Utvärdering Cykel Namn"
+msgstr "Benämning"
 
 #. Label of the cycles (Table) field in DocType 'Salary Withholding'
 #: hrms/payroll/doctype/salary_withholding/salary_withholding.json
@@ -3064,7 +3064,7 @@ msgstr "Sjukförsäkring"
 #. Label of a Workspace Sidebar Item
 #: hrms/workspace_sidebar/shift_&_attendance.json
 msgid "Employee Hours Utilization"
-msgstr ""
+msgstr "Personal Arbetstimmar Utnyttjande"
 
 #. Name of a report
 #. Label of a Link in the Shift & Attendance Workspace
@@ -3157,14 +3157,14 @@ msgstr "Andra Intäkter"
 #: hrms/hr/doctype/employee_performance_feedback/employee_performance_feedback.json
 #: hrms/workspace_sidebar/performance.json
 msgid "Employee Performance Feedback"
-msgstr "Prestation Återkoppling"
+msgstr "Återkoppling"
 
 #. Name of a DocType
 #. Label of a Workspace Sidebar Item
 #: hrms/hr/doctype/employee_promotion/employee_promotion.json
 #: hrms/workspace_sidebar/performance.json
 msgid "Employee Promotion"
-msgstr "Personal Befordran"
+msgstr "Befordran"
 
 #. Label of the details_section (Section Break) field in DocType 'Employee
 #. Promotion'
@@ -3650,7 +3650,7 @@ msgstr "Utvärdering Datum"
 
 #: hrms/hr/doctype/appraisal_cycle/appraisal_cycle.py:25
 msgid "Evaluation Method cannot be changed as there are existing appraisals created for this cycle"
-msgstr "Utvärdering Sätt kan inte ändras eftersom det finns befintliga bedömningar skapade för denna cykel"
+msgstr "Utvärdering Sätt kan inte ändras eftersom det finns befintliga bedömningar skapade för denna intervall"
 
 #. Label of the event_details (Section Break) field in DocType 'Travel Request'
 #: hrms/hr/doctype/travel_request/travel_request.json
@@ -3721,7 +3721,7 @@ msgstr "Examen"
 #. Label of a Workspace Sidebar Item
 #: hrms/workspace_sidebar/tax_&_benefits.json
 msgid "Excemption Submission Proof"
-msgstr ""
+msgstr "Undantag Inlämning Bevis"
 
 #. Description of the 'Exchange Rate' (Float) field in DocType 'Expense Claim
 #. Advance'
@@ -3765,7 +3765,7 @@ msgstr "Undantag Kategori"
 #. Label of a Workspace Sidebar Item
 #: hrms/workspace_sidebar/tax_&_benefits.json
 msgid "Exemption Declaration"
-msgstr ""
+msgstr "Undantag Deklaration"
 
 #. Label of the exemption_proofs_details_tab (Tab Break) field in DocType
 #. 'Employee Tax Exemption Proof Submission'
@@ -4537,7 +4537,7 @@ msgstr "Mål ansvarig ska vara samma personal som dess överordnade mål."
 
 #: hrms/hr/doctype/goal/goal.py:75
 msgid "Goal should belong to the same Appraisal Cycle as its parent goal."
-msgstr "Målet ska tillhöra samma Utvärdering Cykel som dess överordnade mål."
+msgstr "Målet ska tillhöra samma Utvärdering Intervall som dess överordnade mål."
 
 #: hrms/hr/doctype/goal/goal_tree.js:288
 msgid "Goal updated successfully"
@@ -5908,7 +5908,7 @@ msgstr "Frånvaro Saldo Före Ansökan"
 #. Label of a Workspace Sidebar Item
 #: hrms/workspace_sidebar/leaves.json
 msgid "Leave Balance Summary"
-msgstr ""
+msgstr "Frånvaro Saldo Översikt"
 
 #. Name of a DocType
 #. Label of a Link in the Leaves Workspace
@@ -6281,7 +6281,7 @@ msgstr "Lime"
 #. 'Goal'
 #: hrms/hr/doctype/goal/goal.json hrms/hr/doctype/goal/goal_tree.js:97
 msgid "Link the cycle and tag KRA to your goal to update the appraisal's goal score based on the goal progress"
-msgstr "Länka cykeln och tagga Nyckel Resultat Område till ditt mål för att uppdatera utvärdering mål poäng baserat på mål framsteg"
+msgstr "Länka intervall och tagga Nyckel Resultat Område till ditt mål för att uppdatera utvärdering mål poäng baserat på mål framsteg"
 
 #: hrms/controllers/employee_boarding_controller.py:154
 msgid "Linked Project {} and Tasks deleted."
@@ -7789,7 +7789,7 @@ msgstr "Procent Avdrag"
 #: hrms/hr/workspace/performance/performance.json
 #: hrms/workspace_sidebar/performance.json
 msgid "Performance"
-msgstr "Prestation"
+msgstr "Utvärdering"
 
 #: frontend/src/components/FormView.vue:291
 msgid "Permanently cancel {0}"
@@ -8064,7 +8064,7 @@ msgstr "Ange {0} och {1} (om sådana finns), för korrekt skatteberäkning i fra
 
 #: hrms/hr/doctype/appraisal_cycle/appraisal_cycle.py:157
 msgid "Please submit the {0} before marking the cycle as Completed"
-msgstr "Godkänn {0} innan du anger Utvärdering Cykel som Klar"
+msgstr "Godkänn {0} innan du anger Utvärdering Intervall som Klar"
 
 #: hrms/templates/emails/training_event.html:13
 msgid "Please update your status for this training event"
