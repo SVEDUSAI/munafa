@@ -232,7 +232,7 @@ def get_paid_amount_and_received_amount(
 def get_payment_reference_details(
 	reference_doctype: str,
 	reference_name: str,
-	party_account_currency: float,
+	party_account_currency: str,
 	party_type: str | None = None,
 	party: str | None = None,
 ):
@@ -246,7 +246,7 @@ def get_payment_reference_details(
 
 @frappe.whitelist()
 def get_reference_details_for_employee(
-	reference_doctype: str, reference_name: str, party_account_currency: float
+	reference_doctype: str, reference_name: str, party_account_currency: str
 ):
 	"""
 	Returns payment reference details for employee related doctypes:
