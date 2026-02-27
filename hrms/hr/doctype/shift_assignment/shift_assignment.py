@@ -2,7 +2,7 @@
 # For license information, please see license.txt
 
 
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta
 
 import frappe
 from frappe import _
@@ -163,7 +163,7 @@ def has_overlapping_timings(shift_1: str, shift_2: str) -> bool:
 
 
 @frappe.whitelist()
-def get_events(start: str, end: str, filters: dict | None = None):
+def get_events(start: str | date, end: str | date, filters: list | None = None):
 	employee = frappe.db.get_value(
 		"Employee", {"user_id": frappe.session.user}, ["name", "company"], as_dict=True
 	)

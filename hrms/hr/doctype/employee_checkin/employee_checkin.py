@@ -133,7 +133,7 @@ class EmployeeCheckin(Document):
 @frappe.whitelist()
 def add_log_based_on_employee_field(
 	employee_field_value: str | int,
-	timestamp: str | datetime.datetime,
+	timestamp: str | datetime,
 	device_id: str | int | None = None,
 	log_type: str | None = None,
 	skip_auto_attendance: str | bool | int = 0,

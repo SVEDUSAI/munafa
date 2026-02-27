@@ -425,7 +425,7 @@ def create_assignment_for_multiple_employees(employees: str | list[str], data: s
 	failed = []
 
 	for employee in employees:
-		assignment = create_assignment(employee, data)
+		assignment = create_assignment(employee, frappe._dict(data))
 		savepoint = "before_assignment_submission"
 		try:
 			frappe.db.savepoint(savepoint)
@@ -444,7 +444,7 @@ def create_assignment_for_multiple_employees(employees: str | list[str], data: s
 
 
 @frappe.whitelist()
-def create_assignment(employee: str, data: dict) -> Document:
+def create_assignment(employee: str, data: frappe._dict) -> Document:
 	assignment = frappe.new_doc("Leave Policy Assignment")
 	assignment.employee = employee
 	assignment.assignment_based_on = data.assignment_based_on or None
