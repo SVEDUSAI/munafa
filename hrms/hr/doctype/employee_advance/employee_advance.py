@@ -256,7 +256,7 @@ class EmployeeAdvance(Document):
 
 
 @frappe.whitelist()
-def make_bank_entry(dt, dn):
+def make_bank_entry(dt: str, dn: str) -> dict:
 	doc = frappe.get_doc(dt, dn)
 	payment_account = get_same_currency_bank_cash_account(doc.company, doc.currency, doc.mode_of_payment)
 
@@ -297,7 +297,7 @@ def make_bank_entry(dt, dn):
 
 
 @frappe.whitelist()
-def create_return_through_additional_salary(doc):
+def create_return_through_additional_salary(doc: str | dict | Document) -> Document:
 	import json
 
 	if isinstance(doc, str):
@@ -317,14 +317,14 @@ def create_return_through_additional_salary(doc):
 
 @frappe.whitelist()
 def make_return_entry(
-	employee,
-	company,
-	employee_advance_name,
-	return_amount,
-	advance_account,
-	currency,
-	mode_of_payment=None,
-):
+	employee: str,
+	company: str,
+	employee_advance_name: str,
+	return_amount: str | float,
+	advance_account: str,
+	currency: str,
+	mode_of_payment: str | None = None,
+) -> dict:
 	bank_cash_account = get_same_currency_bank_cash_account(company, currency, mode_of_payment)
 
 	advance_account_currency = frappe.db.get_value("Account", advance_account, "account_currency")

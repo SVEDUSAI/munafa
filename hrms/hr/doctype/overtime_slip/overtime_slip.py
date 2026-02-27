@@ -392,7 +392,6 @@ class OvertimeSlip(Document):
 		return details
 
 
-@frappe.whitelist()
 def filter_employees_for_overtime_slip_creation(start_date, end_date, employees, limit=None):
 	if not employees:
 		return []
