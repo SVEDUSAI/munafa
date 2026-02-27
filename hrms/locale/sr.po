@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2026-02-22 09:43+0000\n"
-"PO-Revision-Date: 2026-02-23 06:20\n"
+"PO-Revision-Date: 2026-02-27 08:00\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: Serbian (Cyrillic)\n"
 "MIME-Version: 1.0\n"
@@ -1604,12 +1604,12 @@ msgstr "Износ бенефиције"
 #. Label of a Workspace Sidebar Item
 #: hrms/workspace_sidebar/tax_&_benefits.json
 msgid "Benefit Application"
-msgstr ""
+msgstr "Пријава за бенефицију"
 
 #. Label of a Workspace Sidebar Item
 #: hrms/workspace_sidebar/tax_&_benefits.json
 msgid "Benefit Claim"
-msgstr ""
+msgstr "Захтев за остваривањем бенефиције"
 
 #. Label of the employee_benefit_details_section (Section Break) field in
 #. DocType 'Employee Benefit Ledger'
@@ -3062,7 +3062,7 @@ msgstr "Здравствено осигурање запосленог лица"
 #. Label of a Workspace Sidebar Item
 #: hrms/workspace_sidebar/shift_&_attendance.json
 msgid "Employee Hours Utilization"
-msgstr ""
+msgstr "Искоришћеност радних сати запосленог лица"
 
 #. Name of a report
 #. Label of a Link in the Shift & Attendance Workspace
@@ -3719,7 +3719,7 @@ msgstr "Испит"
 #. Label of a Workspace Sidebar Item
 #: hrms/workspace_sidebar/tax_&_benefits.json
 msgid "Excemption Submission Proof"
-msgstr ""
+msgstr "Доказ о подношењу захтева за изузеће"
 
 #. Description of the 'Exchange Rate' (Float) field in DocType 'Expense Claim
 #. Advance'
@@ -3763,7 +3763,7 @@ msgstr "Категорија ослобођења"
 #. Label of a Workspace Sidebar Item
 #: hrms/workspace_sidebar/tax_&_benefits.json
 msgid "Exemption Declaration"
-msgstr ""
+msgstr "Изјава о изузећу"
 
 #. Label of the exemption_proofs_details_tab (Tab Break) field in DocType
 #. 'Employee Tax Exemption Proof Submission'
@@ -5906,7 +5906,7 @@ msgstr "Стање одмора пре подношења захтева"
 #. Label of a Workspace Sidebar Item
 #: hrms/workspace_sidebar/leaves.json
 msgid "Leave Balance Summary"
-msgstr ""
+msgstr "Резиме стања одсуства"
 
 #. Name of a DocType
 #. Label of a Link in the Leaves Workspace
