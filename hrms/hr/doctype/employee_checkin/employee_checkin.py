@@ -2,7 +2,7 @@
 # For license information, please see license.txt
 
 
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta
 
 import frappe
 from frappe import _
@@ -200,12 +200,12 @@ def bulk_fetch_shift(checkins: list[str] | str) -> None:
 def mark_attendance_and_link_log(
 	logs: list[Document],
 	attendance_status: str,
-	attendance_date: str | datetime.date,
+	attendance_date: str | date,
 	working_hours: float | None = None,
 	late_entry: int | bool = False,
 	early_exit: int | bool = False,
-	in_time: datetime.datetime | None = None,
-	out_time: datetime.datetime | None = None,
+	in_time: datetime | None = None,
+	out_time: datetime | None = None,
 	shift: str | None = None,
 	overtime_type: str | None = None,
 ) -> Document | None:

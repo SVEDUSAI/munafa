@@ -418,7 +418,7 @@ class LeaveAllocation(Document):
 		frappe.msgprint(_("Adjustment Created Successfully"), indicator="green", alert=True)
 
 	@frappe.whitelist()
-	def retry_failed_allocations(self, failed_allocations: str | list) -> None:
+	def retry_failed_allocations(self, failed_allocations: list) -> None:
 		if not frappe.has_permission(doctype="Leave Allocation", ptype="write", user=frappe.session.user):
 			frappe.throw(_("You do not have permission to complete this action"), frappe.PermissionError)
 

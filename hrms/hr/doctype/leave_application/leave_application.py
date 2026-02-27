@@ -1294,7 +1294,7 @@ def is_lwp(leave_type):
 
 
 @frappe.whitelist()
-def get_events(start: str, end: str, filters: str | dict | None = None) -> list[dict]:
+def get_events(start: str, end: str, filters: str | None = None) -> list[dict]:
 	import json
 
 	filters = json.loads(filters)
