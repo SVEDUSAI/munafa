@@ -67,7 +67,7 @@ class JobRequisition(Document):
 			self.time_to_fill = time_diff_in_seconds(self.completed_on, self.posting_date)
 
 	@frappe.whitelist()
-	def associate_job_opening(self, job_opening):
+	def associate_job_opening(self, job_opening: str) -> None:
 		frappe.db.set_value(
 			"Job Opening", job_opening, {"job_requisition": self.name, "vacancies": self.no_of_positions}
 		)
@@ -80,7 +80,7 @@ class JobRequisition(Document):
 
 
 @frappe.whitelist()
-def make_job_opening(source_name, target_doc=None):
+def make_job_opening(source_name: str, target_doc: str | Document | None = None) -> Document:
 	def set_missing_values(source, target):
 		target.job_title = source.designation
 		target.status = "Open"

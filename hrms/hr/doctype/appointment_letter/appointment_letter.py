@@ -33,7 +33,7 @@ class AppointmentLetter(Document):
 
 
 @frappe.whitelist()
-def get_appointment_letter_details(template):
+def get_appointment_letter_details(template: str) -> list:
 	body = []
 	intro = frappe.get_list(
 		"Appointment Letter Template",
