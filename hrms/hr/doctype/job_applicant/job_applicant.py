@@ -18,6 +18,34 @@ class DuplicationError(frappe.ValidationError):
 
 
 class JobApplicant(Document):
+	# begin: auto-generated types
+	# This code is auto-generated. Do not modify anything in this block.
+
+	from typing import TYPE_CHECKING
+
+	if TYPE_CHECKING:
+		from frappe.types import DF
+
+		applicant_name: DF.Data
+		applicant_rating: DF.Rating
+		country: DF.Link | None
+		cover_letter: DF.Text | None
+		currency: DF.Link | None
+		designation: DF.Link | None
+		email_id: DF.Data
+		employee_referral: DF.Link | None
+		job_title: DF.Link | None
+		lower_range: DF.Currency
+		notes: DF.Data | None
+		phone_number: DF.Data | None
+		resume_attachment: DF.Attach | None
+		resume_link: DF.Data | None
+		source: DF.Link | None
+		source_name: DF.Link | None
+		status: DF.Literal["Open", "Replied", "Rejected", "Hold", "Accepted"]
+		upper_range: DF.Currency
+	# end: auto-generated types
+
 	def onload(self):
 		job_offer = frappe.get_all("Job Offer", filters={"job_applicant": self.name})
 		if job_offer:

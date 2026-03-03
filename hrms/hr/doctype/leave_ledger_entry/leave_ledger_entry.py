@@ -13,6 +13,30 @@ class InvalidLeaveLedgerEntry(frappe.ValidationError):
 
 
 class LeaveLedgerEntry(Document):
+	# begin: auto-generated types
+	# This code is auto-generated. Do not modify anything in this block.
+
+	from typing import TYPE_CHECKING
+
+	if TYPE_CHECKING:
+		from frappe.types import DF
+
+		amended_from: DF.Link | None
+		company: DF.Link
+		employee: DF.Link | None
+		employee_name: DF.Data | None
+		from_date: DF.Date | None
+		holiday_list: DF.Link | None
+		is_carry_forward: DF.Check
+		is_expired: DF.Check
+		is_lwp: DF.Check
+		leave_type: DF.Link | None
+		leaves: DF.Float
+		to_date: DF.Date | None
+		transaction_name: DF.DynamicLink | None
+		transaction_type: DF.Link | None
+	# end: auto-generated types
+
 	def validate(self):
 		if getdate(self.from_date) > getdate(self.to_date):
 			frappe.throw(

@@ -14,6 +14,43 @@ from hrms.payroll.utils import sanitize_expression
 
 
 class Appraisal(Document, AppraisalMixin):
+	# begin: auto-generated types
+	# This code is auto-generated. Do not modify anything in this block.
+
+	from typing import TYPE_CHECKING
+
+	if TYPE_CHECKING:
+		from frappe.types import DF
+
+		from hrms.hr.doctype.appraisal_goal.appraisal_goal import AppraisalGoal
+		from hrms.hr.doctype.appraisal_kra.appraisal_kra import AppraisalKRA
+		from hrms.hr.doctype.employee_feedback_rating.employee_feedback_rating import EmployeeFeedbackRating
+
+		amended_from: DF.Link | None
+		appraisal_cycle: DF.Link
+		appraisal_kra: DF.Table[AppraisalKRA]
+		appraisal_template: DF.Link | None
+		avg_feedback_score: DF.Float
+		company: DF.Link
+		department: DF.Link | None
+		designation: DF.Link | None
+		employee: DF.Link
+		employee_image: DF.AttachImage | None
+		employee_name: DF.Data | None
+		end_date: DF.Date | None
+		final_score: DF.Float
+		goal_score_percentage: DF.Float
+		goals: DF.Table[AppraisalGoal]
+		naming_series: DF.Literal["HR-APR-.YYYY.-"]
+		rate_goals_manually: DF.Check
+		reflections: DF.TextEditor | None
+		remarks: DF.Text | None
+		self_ratings: DF.Table[EmployeeFeedbackRating]
+		self_score: DF.Float
+		start_date: DF.Date | None
+		total_score: DF.Float
+	# end: auto-generated types
+
 	def validate(self):
 		self.set_kra_evaluation_method()
 
