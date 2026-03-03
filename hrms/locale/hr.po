@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
-"POT-Creation-Date: 2026-02-22 09:43+0000\n"
-"PO-Revision-Date: 2026-02-25 06:46\n"
+"POT-Creation-Date: 2026-03-01 09:43+0000\n"
+"PO-Revision-Date: 2026-03-03 08:41\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: Croatian\n"
 "MIME-Version: 1.0\n"
@@ -587,7 +587,7 @@ msgstr "Adresa Organizatora"
 msgid "Adjust Allocation"
 msgstr "Podesi Dodjelu"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:412
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:418
 msgid "Adjustment Created Successfully"
 msgstr "Prilagodba uspješno kreirana"
 
@@ -625,7 +625,7 @@ msgstr "Valuta predujma {} treba biti ista kao valuta plaće {}. Odaberi istu va
 msgid "Advanced Filters"
 msgstr "Napredni Filteri"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:422
+#: hrms/hr/doctype/expense_claim/expense_claim.py:423
 msgid "All Exchange Gain/Loss amount of {0} has been booked through {1}"
 msgstr "Sav rezultat od tečaja u iznosu od {0} knjiženi su putem {1}"
 
@@ -641,7 +641,7 @@ msgstr "Svi Poslovi"
 msgid "All allocated assets should be returned before submission"
 msgstr "Svu dodijeljenu imovinu treba vratiti prije podnošenja"
 
-#: hrms/hr/doctype/employee_onboarding/employee_onboarding.py:48
+#: hrms/hr/doctype/employee_onboarding/employee_onboarding.py:49
 msgid "All the mandatory tasks for employee creation are not completed yet."
 msgstr "Svi obavezni zadaci za kreiranje personala još nisu završeni."
 
@@ -700,7 +700,7 @@ msgstr "Detalji Dodjele"
 msgid "Allocation Expired!"
 msgstr "Dodjela je Istekla!"
 
-#: hrms/hr/doctype/leave_adjustment/leave_adjustment.py:60
+#: hrms/hr/doctype/leave_adjustment/leave_adjustment.py:62
 msgid "Allocation is greater than the maximum allowed {0} for leave type {1}"
 msgstr "Dodjela je veća od maksimalno dopuštenog {0} za vrstu dopusta {1}"
 
@@ -1136,7 +1136,7 @@ msgstr "Odobrenje"
 msgid "Approval Status"
 msgstr "Status Odobrenja"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:148
+#: hrms/hr/doctype/expense_claim/expense_claim.py:149
 msgid "Approval Status must be 'Approved' or 'Rejected'"
 msgstr "Status Odobrenja mora biti 'Odobren' ili 'Odbijen'"
 
@@ -1788,11 +1788,11 @@ msgstr "Nije moguće promijeniti vrijeme"
 msgid "Cannot allocate leaves outside the allocation period {0} - {1}"
 msgstr "Nije moguće dodijeliti odsustvo izvan perioda dodjele {0} - {1}"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:446
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:452
 msgid "Cannot allocate more leaves due to maximum leave allocation limit of {0} in leave policy assignment"
 msgstr "Nije moguće dodijeliti više dopusta zbog maksimalnog ograničenja dodjele dopusta od {0} u dodjeli pravila o dopustu"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:438
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:444
 msgid "Cannot allocate more leaves due to maximum leaves allowed limit of {0} in {1} leave type."
 msgstr "Nije moguće dodijeliti više dopusta zbog maksimalnog dopuštenog broja dopusta od {0} u vrsti dopusta {1}."
 
@@ -2560,7 +2560,7 @@ msgstr "Odobravač Odjela"
 msgid "Department Wise Openings"
 msgstr "Otvorena Radna Mjesta po Odjelu"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:107
+#: hrms/hr/doctype/expense_claim/expense_claim.py:108
 msgid "Department {0} does not belong to company: {1}"
 msgstr "Odjel {0} ne pripada tvrtki: {1}"
 
@@ -2674,7 +2674,7 @@ msgstr "Otkriven Dvostruki Zahtjev"
 msgid "Duplicate Job Requisition"
 msgstr "Dupliciraj Zahtjev za Posao"
 
-#: hrms/hr/doctype/leave_adjustment/leave_adjustment.py:40
+#: hrms/hr/doctype/leave_adjustment/leave_adjustment.py:42
 msgid "Duplicate Leave Adjustment"
 msgstr "Duplicira Prilagodbu Dopusta"
 
@@ -3143,7 +3143,7 @@ msgstr "Introdukcija"
 msgid "Employee Onboarding Template"
 msgstr "Predložak Introdukcije"
 
-#: hrms/hr/doctype/employee_onboarding/employee_onboarding.py:32
+#: hrms/hr/doctype/employee_onboarding/employee_onboarding.py:33
 msgid "Employee Onboarding: {0} already exists for Job Applicant: {1}"
 msgstr "Introdukcija: {0} već postoji za kandidata za posao: {1}"
 
@@ -3356,7 +3356,7 @@ msgstr "Personal je naveden kao Odsutan zbog neispunjavanja praga radnih sati ra
 msgid "Employee was marked Absent for other half due to missing Employee Checkins."
 msgstr "Personal je označen kao odsutan tokom druge polovine dana zbog nedostajućih prijava."
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:456
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:455
 msgid "Employee {0} : {1}"
 msgstr "Zaposlenik {0} : {1}"
 
@@ -3573,7 +3573,7 @@ msgstr "Vrijeme završetka ne može biti prije vremena početka"
 msgid "Enter Interview Round"
 msgstr "Unesi Intervju Rundu"
 
-#: hrms/hr/doctype/leave_adjustment/leave_adjustment.py:48
+#: hrms/hr/doctype/leave_adjustment/leave_adjustment.py:50
 msgid "Enter a non-zero value to adjust."
 msgstr "Unesite vrijednost koja nije nula za prilagodbu."
 
@@ -3718,11 +3718,6 @@ msgstr "Svi, čestitamo {0} rođendan."
 msgid "Exam"
 msgstr "Ispit"
 
-#. Label of a Workspace Sidebar Item
-#: hrms/workspace_sidebar/tax_&_benefits.json
-msgid "Excemption Submission Proof"
-msgstr "Dokaz Podnošenja Izuzeća"
-
 #. Description of the 'Exchange Rate' (Float) field in DocType 'Expense Claim
 #. Advance'
 #: hrms/hr/doctype/expense_claim_advance/expense_claim_advance.json
@@ -3781,6 +3776,11 @@ msgstr "Dokaz o Izuzeću"
 #: hrms/payroll/doctype/employee_tax_exemption_proof_submission_detail/employee_tax_exemption_proof_submission_detail.json
 msgid "Exemption Sub Category"
 msgstr "Podkategorija Izuzeća"
+
+#. Label of a Workspace Sidebar Item
+#: hrms/workspace_sidebar/tax_&_benefits.json
+msgid "Exemption Submission Proof"
+msgstr "Dokaz Podnošenja Izuzeća"
 
 #: hrms/hr/doctype/attendance_request/attendance_warnings.html:10
 msgid "Existing Record"
@@ -3930,7 +3930,7 @@ msgstr "Sažetak Potraživanja Troškova"
 #. Label of the expense_type (Data) field in DocType 'Expense Claim Type'
 #. Label of a Link in the Expenses Workspace
 #. Label of a Workspace Sidebar Item
-#: hrms/hr/doctype/expense_claim/expense_claim.py:685
+#: hrms/hr/doctype/expense_claim/expense_claim.py:686
 #: hrms/hr/doctype/expense_claim_detail/expense_claim_detail.json
 #: hrms/hr/doctype/expense_claim_type/expense_claim_type.json
 #: hrms/hr/workspace/expenses/expenses.json
@@ -4005,7 +4005,7 @@ msgstr "Povuci Dodjelu"
 msgid "Expire Carry Forwarded Leaves (Days)"
 msgstr "Istek Proslijeđenog Odsustva (Dana)"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:568
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:574
 msgid "Expire Leaves"
 msgstr "Istekni Odsustvo"
 
@@ -4039,7 +4039,7 @@ msgstr "Brisanje standard postavki za zemlju {0} nije uspjelo."
 msgid "Failed to download PDF: {0}"
 msgstr "Preuzimanje PDF-a nije uspjelo: {0}"
 
-#: hrms/hr/doctype/interview/interview.py:117
+#: hrms/hr/doctype/interview/interview.py:119
 msgid "Failed to send the Interview Reschedule notification. Please configure your email account."
 msgstr "Nije uspjelo slanje obavještenja o ponovnom rasporedu intervjua. Konfigurišite vaš račun e-pošte."
 
@@ -4051,7 +4051,7 @@ msgstr "Postavljanje standard postavki za zemlju {0} nije uspjelo."
 msgid "Failed to submit some leave policy assignments:"
 msgstr "Nije uspjelo slanje nekih dodjela pravila o odsustvu:"
 
-#: hrms/hr/doctype/interview/interview.py:208
+#: hrms/hr/doctype/interview/interview.py:210
 msgid "Failed to update the Job Applicant status"
 msgstr "Ažuriranje statusa kandidata za posao nije uspjelo"
 
@@ -5238,11 +5238,11 @@ msgstr "Povratne Informacije Intervjua"
 msgid "Interview Feedback Reminder"
 msgstr "Podsjetnik Povratne Informacije Intervjua"
 
-#: hrms/hr/doctype/interview/interview.py:343
+#: hrms/hr/doctype/interview/interview.py:345
 msgid "Interview Feedback {0} submitted successfully"
 msgstr "Povratne Informacije Intervjua {0} su uspješno poslane"
 
-#: hrms/hr/doctype/interview/interview.py:87
+#: hrms/hr/doctype/interview/interview.py:89
 msgid "Interview Not Rescheduled"
 msgstr "Intervju nije Odgođen"
 
@@ -5260,7 +5260,7 @@ msgstr "Intervju Podsjetnik"
 msgid "Interview Reminder Notification Template"
 msgstr "Predložak Obavijesti Podsjetnika Intervjua"
 
-#: hrms/hr/doctype/interview/interview.py:122
+#: hrms/hr/doctype/interview/interview.py:124
 msgid "Interview Rescheduled successfully"
 msgstr "Intervju je uspješno ponovo zakazan"
 
@@ -5278,7 +5278,7 @@ msgstr "Intervju je uspješno ponovo zakazan"
 msgid "Interview Round"
 msgstr "Intervju Runda"
 
-#: hrms/hr/doctype/job_applicant/job_applicant.py:72
+#: hrms/hr/doctype/job_applicant/job_applicant.py:68
 msgid "Interview Round {0} is only applicable for the Designation {1}"
 msgstr "Runda Intervjua {0} primjenjiva je samo za Imenovanje {1}"
 
@@ -5315,7 +5315,7 @@ msgstr "Sažetak Intervjua"
 msgid "Interview Type"
 msgstr "Tip Intervjua"
 
-#: hrms/hr/doctype/interview/interview.py:103
+#: hrms/hr/doctype/interview/interview.py:105
 msgid "Interview: {0} Rescheduled"
 msgstr "Intervju: {0} Odložen"
 
@@ -5378,7 +5378,7 @@ msgstr "Nevažeći Datumi"
 msgid "Invalid LWP Days Reversed"
 msgstr "Nevažeći neplačeni dani su poništeni"
 
-#: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:25
+#: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:26
 msgid "Invalid Leave Ledger Entry"
 msgstr "Nevažeći Unos Registra Odsustva"
 
@@ -5391,7 +5391,7 @@ msgstr "Nevažeći Račun Uplate Plate. Valuta računa mora biti {0} ili {1}"
 msgid "Invalid Shift Times"
 msgstr "Nevažeća Vremena Smjena"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:926
+#: hrms/hr/doctype/expense_claim/expense_claim.py:934
 msgid "Invalid parameters provided. Please pass the required arguments."
 msgstr "Navedeni su nevažeći parametri. Navedi tražene argumente."
 
@@ -5820,7 +5820,7 @@ msgstr "Odsustvo"
 msgid "Leave Adjustment"
 msgstr "Prilagodba Odsustva"
 
-#: hrms/hr/doctype/leave_adjustment/leave_adjustment.py:41
+#: hrms/hr/doctype/leave_adjustment/leave_adjustment.py:43
 msgid "Leave Adjustment for this allocation already exists: {0}. Please amend existing adjustment."
 msgstr "Prilagodba dopusta za ovu dodjelu već postoji: {0}. Molimo izmijenite postojeću prilagodbu."
 
@@ -5947,7 +5947,7 @@ msgstr "Datumi Liste Blokiranog Odsustva"
 msgid "Leave Block List Name"
 msgstr "Naziv Liste Blokiranog Odsustva"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:1388
+#: hrms/hr/doctype/leave_application/leave_application.py:1386
 msgid "Leave Blocked"
 msgstr "Odsustvo Blokirano"
 
@@ -5996,7 +5996,7 @@ msgstr "Registar Odsustva"
 msgid "Leave Ledger Entry"
 msgstr "Unos Registra Odsustva"
 
-#: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:18
+#: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:19
 msgid "Leave Ledger Entry's To date needs to be after From date. Currently, From Date is {0} and To Date is {1}"
 msgstr "Unosi Registra Odsustva Do Datuma mora biti nakon Od Datuma. Trenutno je Od Datuma {0}, a Do Datuma {1}"
 
@@ -6140,7 +6140,7 @@ msgstr "Tip Odsustva je obavezan"
 msgid "Leave Type {0} cannot be allocated since it is leave without pay"
 msgstr "Tip Odsustva {0} ne može se dodijeliti jer je to neplaćeno odsustvo"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:557
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:563
 msgid "Leave Type {0} cannot be carry-forwarded"
 msgstr "Tip Odsustva {0} ne može se prenijeti naprijed"
 
@@ -6163,7 +6163,7 @@ msgstr "Neplaćeno Odsustvo ne odgovara odobrenim {} zapisima"
 msgid "Leave allocation is skipped for {0}, because number of leaves to be allocated is 0."
 msgstr "Dodjela dopusta se preskače za {0}, jer je broj koji će se dodijeliti 0."
 
-#: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:54
+#: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:55
 msgid "Leave allocation {0} is linked with the Leave Application {1}"
 msgstr "Dodjela Odsustva {0} je povezana sa zahtjevom za odsustvo {1}"
 
@@ -6236,7 +6236,7 @@ msgstr "Odsustvo Nakon Prilagodbe"
 msgid "Leaves Allocated"
 msgstr "Odsustvo Dodjeljeno"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:562
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:568
 msgid "Leaves Expired"
 msgstr "Odsustvo Isteklo"
 
@@ -6650,7 +6650,7 @@ msgstr "Nedostaje Porezna Tabela"
 msgid "Mode of Travel"
 msgstr "Način Putovanja"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:439
+#: hrms/hr/doctype/expense_claim/expense_claim.py:440
 msgid "Mode of payment is required to make a payment"
 msgstr "Način plaćanja je obavezan za plaćanje"
 
@@ -6918,7 +6918,7 @@ msgstr "Nije pronađen zapis Prisutnosti."
 msgid "No attendance records to create"
 msgstr "Nema zapisa o prisutnosti za stvaranje"
 
-#: hrms/hr/doctype/interview/interview.py:87
+#: hrms/hr/doctype/interview/interview.py:89
 msgid "No changes found in timings."
 msgstr "Nisu pronađene promjene u terminima."
 
@@ -7203,7 +7203,7 @@ msgstr "Samo popunjeni dokumenti mogu se podnijeti"
 msgid "Only Employee Grievance with status {0} or {1} can be submitted"
 msgstr "Samo žalba personala sa statusom {0} ili {1} mogu se podnijeti"
 
-#: hrms/hr/doctype/interview/interview.py:325
+#: hrms/hr/doctype/interview/interview.py:327
 msgid "Only Interviewer Are allowed to submit Interview Feedback"
 msgstr "Samo Intervjueru je dozvoljeno da podnesu Povratne Informacije Intervjua"
 
@@ -7219,7 +7219,7 @@ msgstr "Samo Zahtjevi Odsustva sa statusom \"Odobren\" i \"Odbijen\" mogu se pod
 msgid "Only Shift Request with status 'Approved' and 'Rejected' can be submitted"
 msgstr "Samo Zahtjev Smjene sa statusom \"Odobren\" i \"Odbijen\" može se podnijeti"
 
-#: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:33
+#: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:34
 msgid "Only expired allocation can be cancelled"
 msgstr "Samo dodjela koja je istekla može se otkazati"
 
@@ -7358,11 +7358,11 @@ msgstr "Komponenta plaće za prekovremeni rad"
 msgid "Overtime Slip"
 msgstr "Lista Prekovremenog Rada"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:457
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:456
 msgid "Overtime Slip Creation Error for {0}"
 msgstr "Pogreška u izradi Liste Prekovremenog Rada za {0}"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:468
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:467
 msgid "Overtime Slip Creation Failed"
 msgstr "Izrada Liste Prekovremenog Rada nije uspjela"
 
@@ -7371,19 +7371,19 @@ msgstr "Izrada Liste Prekovremenog Rada nije uspjela"
 msgid "Overtime Slip Step"
 msgstr "Koraci Liste Prekovremenog Rada"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:491
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:490
 msgid "Overtime Slip Submission Error for {0}"
 msgstr "Pogreška pri podnošenju Liste Prekovremenog Rada za {0}"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:502
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:501
 msgid "Overtime Slip Submission Failed"
 msgstr "Podnošenje Liste Prekovremenog Rada nije uspjelo"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:497
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:496
 msgid "Overtime Slip Submitted"
 msgstr "Lista Prekovremenog Rada podnešena"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:461
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:460
 msgid "Overtime Slip created for {0} employee(s)"
 msgstr "Lista Prekovremenog Rada izrađena je za {0}"
 
@@ -7399,11 +7399,11 @@ msgstr "Podnošenje Liste Prekovremenog Rada je u redu čekanja. Može potrajati
 msgid "Overtime Slip:{0} has been created between {1} and {2}"
 msgstr "Lista Prekovremenog Rada:{0} je izrađena između {1} i {2}"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:463
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:462
 msgid "Overtime Slips Created"
 msgstr "Liste Prekovremenog Rada izrađene"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:495
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:494
 msgid "Overtime Slips submitted for {0} employee(s)"
 msgstr "Liste Prekovremenog Rada podnesene za {0}"
 
@@ -7521,7 +7521,7 @@ msgstr "Plati putem Unosa Plaćanja"
 msgid "Pay via Salary Slip"
 msgstr "Plaćanje putem Platne Liste"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:137
+#: hrms/hr/doctype/expense_claim/expense_claim.py:138
 msgid "Payable Account is mandatory to submit an Expense Claim"
 msgstr "Račun Isplate je obavezan za podnošenje Zahtjeva za Trošak"
 
@@ -7856,7 +7856,7 @@ msgstr "Smanji {0} kako biste izbjegli preklapanje vremena smjene sa samom sobom
 msgid "Please see attachment"
 msgstr "Pogledaj Prilog"
 
-#: hrms/hr/doctype/staffing_plan/staffing_plan.py:225
+#: hrms/hr/doctype/staffing_plan/staffing_plan.py:231
 msgid "Please select Company and Designation"
 msgstr "Odaberi Tvrtku i Poziciju"
 
@@ -8054,7 +8054,7 @@ msgstr "Postavi Seriju Numeracije Prisustva putem Podešavanja > Serija Numerisa
 msgid "Please share your feedback to the training by clicking on 'Training Feedback' and then 'New'"
 msgstr "Podijeli Povratne Informacije obuke klikom na 'Povratne Informacije Obukei', a zatim 'Novo'"
 
-#: hrms/hr/doctype/interview/interview.py:194
+#: hrms/hr/doctype/interview/interview.py:196
 msgid "Please specify the job applicant to be updated."
 msgstr "Navedi kandidata za posao kojeg treba ažurirati."
 
@@ -8210,15 +8210,6 @@ msgstr "Stručnost"
 #: hrms/hr/report/project_profitability/project_profitability.py:183
 msgid "Profit"
 msgstr "Dobit"
-
-#. Name of a report
-#. Label of a Link in the Shift & Attendance Workspace
-#. Label of a Workspace Sidebar Item
-#: hrms/hr/report/project_profitability/project_profitability.json
-#: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
-#: hrms/workspace_sidebar/shift_&_attendance.json
-msgid "Project Profitability"
-msgstr "Profitabilnost Projekta"
 
 #. Label of the promotion_date (Date) field in DocType 'Employee Promotion'
 #: hrms/hr/doctype/employee_promotion/employee_promotion.json
@@ -8417,7 +8408,7 @@ msgstr "Smanji"
 msgid "Reducing maximum leaves allowed after allocation may cause scheduler to allocate incorrect number of earned leaves. Proceed with caution."
 msgstr "Smanjenje maksimalnog dopuštenog broja dopusta nakon dodjele može uzrokovati da planer dodijeli netočan broj zarađenih dopusta. Budite oprezni."
 
-#: hrms/hr/doctype/leave_adjustment/leave_adjustment.py:75
+#: hrms/hr/doctype/leave_adjustment/leave_adjustment.py:77
 msgid "Reduction is more than {0}'s available leave balance {1} for leave type {2}"
 msgstr "Smanjenje je veće od {0} dostupnog stanja dopusta {1} za vrstu dopusta {2}"
 
@@ -8659,8 +8650,8 @@ msgstr "Bonus Zadržavanja"
 msgid "Retirement Age (In Years)"
 msgstr "Dob za Penzionisanje (u Godinama)"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:441
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:449
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:447
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:455
 msgid "Retry Failed"
 msgstr "Ponovni pokušaj nije uspio"
 
@@ -8761,11 +8752,11 @@ msgstr "Red #{0}: Komponenta {1} ima omogućene opcije {2} i {3}."
 msgid "Row #{0}: Timesheet amount will overwrite the Earning component amount for the Salary Component {1}"
 msgstr "Red #{0}: Iznos Radnog Lista će prepisati Iznos Komponente Zarade za Komponentu Plate {1}"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:901
+#: hrms/hr/doctype/expense_claim/expense_claim.py:902
 msgid "Row No {0}: Amount cannot be greater than the Outstanding Amount against Expense Claim {1}. Outstanding Amount is {2}"
 msgstr "Red Broj {0}: Iznos ne može biti veći od Nepodmirenog iznosa prema Potraživanju Troškova {1}. Nepodmireni iznos je {2}"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:503
+#: hrms/hr/doctype/expense_claim/expense_claim.py:504
 msgid "Row {0}# Allocated amount {1} cannot be greater than unclaimed amount {2}"
 msgstr "Red {0}# Dodijeljeni iznos {1} ne može biti veći od nezatraženog iznosa {2}"
 
@@ -8797,7 +8788,7 @@ msgstr "Red {0}: Uplaćeni iznos {1} je veći od nagomilanog iznosa na čekanju 
 msgid "Row {0}: {1}"
 msgstr "Red {0}: {1}"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:432
+#: hrms/hr/doctype/expense_claim/expense_claim.py:433
 msgid "Row {0}: {1} is required in the expenses table to book an expense claim."
 msgstr "Red {0}: {1} je obavezan u tabeli troškova za knjiženje potraživanja troška."
 
@@ -9156,7 +9147,7 @@ msgstr "Sankcionisani Iznos"
 msgid "Sanctioned Amount (Company Currency)"
 msgstr "Sankcionirani Iznos (Valuta Tvrtke)"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:527
+#: hrms/hr/doctype/expense_claim/expense_claim.py:528
 msgid "Sanctioned Amount cannot be greater than Claim Amount in Row {0}."
 msgstr "Sankcionisani Iznos ne može biti veći od iznosa potraživanja u redu {0}."
 
@@ -9308,7 +9299,7 @@ msgstr "Samorezultat"
 msgid "Self-Study"
 msgstr "Samoučenje"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:121
+#: hrms/hr/doctype/expense_claim/expense_claim.py:122
 msgid "Self-approval for Expense Claims is not allowed"
 msgstr "Samoodobrenje zahtjeva za naknadu troškova nije dopušteno"
 
@@ -9430,7 +9421,7 @@ msgstr "Postavite početna stanja za zarade i poreze od prethodnog poslodavca"
 msgid "Set optional filters to fetch employees in the appraisee list"
 msgstr "Postavite opcije filtera da biste preuzelii osoblje sa listr ocjenjivača"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:684
+#: hrms/hr/doctype/expense_claim/expense_claim.py:685
 msgid "Set the default account for the {0} {1}"
 msgstr "Postavi standard nalog za {0} {1}"
 
@@ -9817,7 +9808,7 @@ msgstr "Plan Zapošljavanja"
 msgid "Staffing Plan Detail"
 msgstr "Detalji Plana Zapošljavanja"
 
-#: hrms/hr/doctype/staffing_plan/staffing_plan.py:71
+#: hrms/hr/doctype/staffing_plan/staffing_plan.py:72
 msgid "Staffing Plan {0} already exist for designation {1}"
 msgstr "Plan Zapošljavanja {0} već postoji za poziciju {1}"
 
@@ -9943,7 +9934,7 @@ msgstr "Pošalji Platni List"
 msgid "Submit this Leave Application to confirm."
 msgstr "Podnesi ovaj Zahtjev Odustva da potvrdite."
 
-#: hrms/hr/doctype/employee_onboarding/employee_onboarding.py:39
+#: hrms/hr/doctype/employee_onboarding/employee_onboarding.py:40
 msgid "Submit this to create the Employee record"
 msgstr "Podnesi ovo da kreirate Personalni zapis"
 
@@ -9961,7 +9952,7 @@ msgstr "Podnose se Platni Listovi i kreiraju Nalozi Knjiženja..."
 msgid "Submitting Salary Slips..."
 msgstr "Podnošenje Platnih Listova u toku..."
 
-#: hrms/hr/doctype/staffing_plan/staffing_plan.py:161
+#: hrms/hr/doctype/staffing_plan/staffing_plan.py:162
 msgid "Subsidiary companies have already planned for {1} vacancies at a budget of {2}. Staffing Plan for {0} should allocate more vacancies and budget for {3} than planned for its subsidiary companies"
 msgstr "Podružnice su već planirale {1} slobodnih radnih mjesta sa budžetom od {2}. Plan Zapošljavanja za {0} trebao bi izdvojiti više slobodnih radnih mjesta i budžeta za {3} nego što je planirano za podružnice"
 
@@ -10654,7 +10645,7 @@ msgstr "Ukupni Rezultat"
 msgid "Total Self Score"
 msgstr "Ukupni Samorezultat"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:521
+#: hrms/hr/doctype/expense_claim/expense_claim.py:522
 msgid "Total advance amount cannot be greater than total sanctioned amount"
 msgstr "Ukupan iznos predujma ne može biti veći od ukupnog sankcionisanog iznosa"
 
@@ -11046,7 +11037,7 @@ msgstr "Ažuriraj Porez"
 msgid "Updated status from {0} to {1} for date {2} in the attendance record {3}"
 msgstr "Ažuriran status sa {0} na {1} za datum {2} u zapisniku prisutnosti {3}"
 
-#: hrms/hr/doctype/interview/interview.py:201
+#: hrms/hr/doctype/interview/interview.py:203
 msgid "Updated the Job Applicant status to {0}"
 msgstr "Ažuriran status Kandidata za Posao na {0}"
 
@@ -11419,7 +11410,7 @@ msgstr "Ne možete definirati više tabela ako imate tabelu bez donjih i gornjih
 msgid "You can not request for your Default Shift: {0}"
 msgstr "Ne možete zatražiti svoju Standard Smjenu: {0}"
 
-#: hrms/hr/doctype/staffing_plan/staffing_plan.py:94
+#: hrms/hr/doctype/staffing_plan/staffing_plan.py:95
 msgid "You can only plan for upto {0} vacancies and budget {1} for {2} as per staffing plan {3} for parent company {4}."
 msgstr "Možete planirati samo do {0} slobodnih radnih mjesta i budžet {1} za {2} prema planu zapošljavanja {3} za matičnu tvrtku {4}."
 
@@ -11435,8 +11426,8 @@ msgstr "Možete učitati samo JPG, PNG, PDF, TXT ili Microsoft dokumente."
 msgid "You cannot reverse more than the total LWP days {0}. You have already reversed {1} days for this employee."
 msgstr "Ne možete stornirati više od ukupnog broja neplaćenih odsutnih dana {0}. Već ste stornirali {1} dana za ovog zaposlenika."
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:417
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:580
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:423
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:586
 msgid "You do not have permission to complete this action"
 msgstr "Nemate dozvolu za dovršetak ove radnje"
 
@@ -11476,7 +11467,7 @@ msgstr "Morate biti unutar {0} metara od lokacije vaše smjene da biste se prija
 msgid "You were only present for Half Day on {}. Cannot apply for a full day compensatory leave"
 msgstr "Bili ste prisutni samo na pola dana {}. Ne može se prijaviti za cjelodnevno kompenzacijsko odsustvo"
 
-#: hrms/hr/doctype/interview/interview.py:104
+#: hrms/hr/doctype/interview/interview.py:106
 msgid "Your Interview session is rescheduled from {0} {1} - {2} to {3} {4} - {5}"
 msgstr "Vaša Intervju je pomjeren sa {0} {1} - {2} na {3} {4} - {5}"
 
@@ -11575,7 +11566,7 @@ msgstr "{0} & {1}"
 msgid "{0} & {1} more"
 msgstr "{0} & {1} više"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:489
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:488
 msgid "{0} : {1}"
 msgstr "{0} : {1}"
 
@@ -11673,7 +11664,7 @@ msgstr "{0} nije na listi Opcija Praznika"
 msgid "{0} leaves allocated successfully"
 msgstr "{0} odsustva su uspješno dodijeljena"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:563
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:569
 msgid "{0} leaves from allocation for {1} leave type have expired and will be processed during the next scheduled job. It is recommended to expire them now before creating new leave policy assignments."
 msgstr "{0} odsustva iz dodjele za {1} tip odsustva su istekla i bit će obrađena tijekom sljedećeg planiranog posla. Preporuča se da im sada istekne prije stvaranja novih dodjela principa odsustva."
 
@@ -11706,7 +11697,7 @@ msgstr "{0} {1} personal?"
 msgid "{0} updated successfully!"
 msgstr "{0} uspješno ažurirano!"
 
-#: hrms/hr/doctype/staffing_plan/staffing_plan.py:128
+#: hrms/hr/doctype/staffing_plan/staffing_plan.py:129
 msgid "{0} vacancies and {1} budget for {2} already planned for subsidiary companies of {3}. You can only plan for upto {4} vacancies and and budget {5} as per staffing plan {6} for parent company {3}."
 msgstr "{0} slobodnih radnih mjesta i {1} proračun za {2} već je planiran za podružnice tvrtke {3}. Možete planirati samo do {4} slobodnih radnih mjesta i proračun {5} prema planu osoblja {6} za matičnu tvrtku {3}."
 
