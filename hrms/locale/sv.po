@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
-"POT-Creation-Date: 2026-02-22 09:43+0000\n"
-"PO-Revision-Date: 2026-02-25 06:45\n"
+"POT-Creation-Date: 2026-03-01 09:43+0000\n"
+"PO-Revision-Date: 2026-03-03 08:41\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: Swedish\n"
 "MIME-Version: 1.0\n"
@@ -587,7 +587,7 @@ msgstr "Arrangör Adress"
 msgid "Adjust Allocation"
 msgstr "Justera Tilldelning"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:412
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:418
 msgid "Adjustment Created Successfully"
 msgstr "Justering Skapad"
 
@@ -625,7 +625,7 @@ msgstr "Förskott Konto {} valuta ska vara samma som lönevaluta för {}. Välj 
 msgid "Advanced Filters"
 msgstr "Avancerade Filter"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:422
+#: hrms/hr/doctype/expense_claim/expense_claim.py:423
 msgid "All Exchange Gain/Loss amount of {0} has been booked through {1}"
 msgstr "All Valutaväxling resultat belopp för {0} har bokförts via {1}"
 
@@ -641,7 +641,7 @@ msgstr "Alla Jobb"
 msgid "All allocated assets should be returned before submission"
 msgstr "Alla tilldelade tillgångar ska returneras innan godkännade"
 
-#: hrms/hr/doctype/employee_onboarding/employee_onboarding.py:48
+#: hrms/hr/doctype/employee_onboarding/employee_onboarding.py:49
 msgid "All the mandatory tasks for employee creation are not completed yet."
 msgstr "Alla erfodrade uppgifter för att skapa Personal är inte klara ännu."
 
@@ -700,7 +700,7 @@ msgstr "Tilldelning Detaljer"
 msgid "Allocation Expired!"
 msgstr "Tilldelning Förfallen!"
 
-#: hrms/hr/doctype/leave_adjustment/leave_adjustment.py:60
+#: hrms/hr/doctype/leave_adjustment/leave_adjustment.py:62
 msgid "Allocation is greater than the maximum allowed {0} for leave type {1}"
 msgstr "Tilldelning är högre än det högsta tillåtna {0} för frånvaro typ {1}"
 
@@ -1136,7 +1136,7 @@ msgstr "Godkännande"
 msgid "Approval Status"
 msgstr "Godkännande Status"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:148
+#: hrms/hr/doctype/expense_claim/expense_claim.py:149
 msgid "Approval Status must be 'Approved' or 'Rejected'"
 msgstr "Godkännande Status måste vara \"Godkänd\" eller \"Avvisad\""
 
@@ -1788,11 +1788,11 @@ msgstr "Kan inte ändra tid"
 msgid "Cannot allocate leaves outside the allocation period {0} - {1}"
 msgstr "Kan inte tilldela frånvaro utanför tilldelning period {0} - {1}"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:446
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:452
 msgid "Cannot allocate more leaves due to maximum leave allocation limit of {0} in leave policy assignment"
 msgstr "Kan inte tilldela mer frånvaro på grund av högsta tillåtna frånvaro tilldelning av {0} i frånvaro tilldelning princip"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:438
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:444
 msgid "Cannot allocate more leaves due to maximum leaves allowed limit of {0} in {1} leave type."
 msgstr "Kan inte tilldela mer frånvaro på grund av högst tillåtna gräns för frånvaro av {0} i {1} frånvaro typ."
 
@@ -2560,7 +2560,7 @@ msgstr "Avdelning Godkännare"
 msgid "Department Wise Openings"
 msgstr "Lediga Jobb per Avdelning"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:107
+#: hrms/hr/doctype/expense_claim/expense_claim.py:108
 msgid "Department {0} does not belong to company: {1}"
 msgstr "Avdelning {0} tillhör inte bolag: {1}"
 
@@ -2674,7 +2674,7 @@ msgstr "Dubblett av Anspråk Upptäckt"
 msgid "Duplicate Job Requisition"
 msgstr "Duplicera Jobb Ansökan"
 
-#: hrms/hr/doctype/leave_adjustment/leave_adjustment.py:40
+#: hrms/hr/doctype/leave_adjustment/leave_adjustment.py:42
 msgid "Duplicate Leave Adjustment"
 msgstr "Duplicera Frånvaro Justering"
 
@@ -3143,7 +3143,7 @@ msgstr "Introduktion"
 msgid "Employee Onboarding Template"
 msgstr "Introduktion Mall"
 
-#: hrms/hr/doctype/employee_onboarding/employee_onboarding.py:32
+#: hrms/hr/doctype/employee_onboarding/employee_onboarding.py:33
 msgid "Employee Onboarding: {0} already exists for Job Applicant: {1}"
 msgstr "Introduktion: {0} finns redan för Jobb Sökande: {1}"
 
@@ -3356,7 +3356,7 @@ msgstr "Personal angavs Frånvarande för att inte ha uppfyllt arbetstid tröske
 msgid "Employee was marked Absent for other half due to missing Employee Checkins."
 msgstr "Personal angiven som Frånvarande för andra halvan på grund av uteblivna stämplingar."
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:456
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:455
 msgid "Employee {0} : {1}"
 msgstr "Personal {0} : {1}"
 
@@ -3573,7 +3573,7 @@ msgstr "Slut Tid kan inte vara tidigare Start Tid"
 msgid "Enter Interview Round"
 msgstr "Ange Intervju Runda"
 
-#: hrms/hr/doctype/leave_adjustment/leave_adjustment.py:48
+#: hrms/hr/doctype/leave_adjustment/leave_adjustment.py:50
 msgid "Enter a non-zero value to adjust."
 msgstr "Ange ett värde som inte är noll för att justera."
 
@@ -3718,11 +3718,6 @@ msgstr "Alla, låt oss gratulera {0} på deras födelsedag."
 msgid "Exam"
 msgstr "Examen"
 
-#. Label of a Workspace Sidebar Item
-#: hrms/workspace_sidebar/tax_&_benefits.json
-msgid "Excemption Submission Proof"
-msgstr "Undantag Inlämning Bevis"
-
 #. Description of the 'Exchange Rate' (Float) field in DocType 'Expense Claim
 #. Advance'
 #: hrms/hr/doctype/expense_claim_advance/expense_claim_advance.json
@@ -3781,6 +3776,11 @@ msgstr "Undantag Verifikat"
 #: hrms/payroll/doctype/employee_tax_exemption_proof_submission_detail/employee_tax_exemption_proof_submission_detail.json
 msgid "Exemption Sub Category"
 msgstr "Undantag Underkategori"
+
+#. Label of a Workspace Sidebar Item
+#: hrms/workspace_sidebar/tax_&_benefits.json
+msgid "Exemption Submission Proof"
+msgstr "Undantag Inlämning Bevis"
 
 #: hrms/hr/doctype/attendance_request/attendance_warnings.html:10
 msgid "Existing Record"
@@ -3930,7 +3930,7 @@ msgstr "Utlägg Sammanfattning"
 #. Label of the expense_type (Data) field in DocType 'Expense Claim Type'
 #. Label of a Link in the Expenses Workspace
 #. Label of a Workspace Sidebar Item
-#: hrms/hr/doctype/expense_claim/expense_claim.py:685
+#: hrms/hr/doctype/expense_claim/expense_claim.py:686
 #: hrms/hr/doctype/expense_claim_detail/expense_claim_detail.json
 #: hrms/hr/doctype/expense_claim_type/expense_claim_type.json
 #: hrms/hr/workspace/expenses/expenses.json
@@ -4005,7 +4005,7 @@ msgstr "Dra Tilldelning"
 msgid "Expire Carry Forwarded Leaves (Days)"
 msgstr "Ta bort Vidarebefordrad Frånvaro (dagar)"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:568
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:574
 msgid "Expire Leaves"
 msgstr "Utgå Frånvaro"
 
@@ -4039,7 +4039,7 @@ msgstr "Kunde inte ta bort standardinställningar för land {0}."
 msgid "Failed to download PDF: {0}"
 msgstr "Misslyckades med att ladda ner PDF: {0}"
 
-#: hrms/hr/doctype/interview/interview.py:117
+#: hrms/hr/doctype/interview/interview.py:119
 msgid "Failed to send the Interview Reschedule notification. Please configure your email account."
 msgstr "Misslyckades att skicka meddelande om ombokning av intervju. Konfigurera ditt e-post konto."
 
@@ -4051,7 +4051,7 @@ msgstr "Kunde inte ange standard inställningarna för land {0}."
 msgid "Failed to submit some leave policy assignments:"
 msgstr "Misslyckades att godkänna några frånvaro princip tilldelningar:"
 
-#: hrms/hr/doctype/interview/interview.py:208
+#: hrms/hr/doctype/interview/interview.py:210
 msgid "Failed to update the Job Applicant status"
 msgstr "Misslyckades med att uppdatera Jobb Sökande Status"
 
@@ -5238,11 +5238,11 @@ msgstr "Intervju Återkoppling"
 msgid "Interview Feedback Reminder"
 msgstr "Intervju Återkoppling Påminnelse"
 
-#: hrms/hr/doctype/interview/interview.py:343
+#: hrms/hr/doctype/interview/interview.py:345
 msgid "Interview Feedback {0} submitted successfully"
 msgstr "Intervju Återkoppling {0} skickad"
 
-#: hrms/hr/doctype/interview/interview.py:87
+#: hrms/hr/doctype/interview/interview.py:89
 msgid "Interview Not Rescheduled"
 msgstr "Intervju Ej Ombokad"
 
@@ -5260,7 +5260,7 @@ msgstr "Intervju Påminnelse"
 msgid "Interview Reminder Notification Template"
 msgstr "Intervju Påminnelse Avisering Mall"
 
-#: hrms/hr/doctype/interview/interview.py:122
+#: hrms/hr/doctype/interview/interview.py:124
 msgid "Interview Rescheduled successfully"
 msgstr "Intervju Ombokad"
 
@@ -5278,7 +5278,7 @@ msgstr "Intervju Ombokad"
 msgid "Interview Round"
 msgstr "Intervju Omgång"
 
-#: hrms/hr/doctype/job_applicant/job_applicant.py:72
+#: hrms/hr/doctype/job_applicant/job_applicant.py:68
 msgid "Interview Round {0} is only applicable for the Designation {1}"
 msgstr "Intervju Omgång {0} är endast tillämplig för Beteckning {1}"
 
@@ -5315,7 +5315,7 @@ msgstr "Intervju Översikt"
 msgid "Interview Type"
 msgstr "Intervju Typ"
 
-#: hrms/hr/doctype/interview/interview.py:103
+#: hrms/hr/doctype/interview/interview.py:105
 msgid "Interview: {0} Rescheduled"
 msgstr "Intervju: {0} Ombokad"
 
@@ -5378,7 +5378,7 @@ msgstr "Ogiltiga Datum"
 msgid "Invalid LWP Days Reversed"
 msgstr "Ogiltiga Obetalda Frånvaro Dagar Återförda"
 
-#: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:25
+#: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:26
 msgid "Invalid Leave Ledger Entry"
 msgstr "Ogiltig Frånvaro Register Post"
 
@@ -5391,7 +5391,7 @@ msgstr "Ogiltig Löne Konto. Konto valuta måste vara {0} eller {1}"
 msgid "Invalid Shift Times"
 msgstr "Ogiltiga Skifttider"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:926
+#: hrms/hr/doctype/expense_claim/expense_claim.py:934
 msgid "Invalid parameters provided. Please pass the required arguments."
 msgstr "Ogiltiga parametrar angivna. Skicka erfordrade argument."
 
@@ -5820,7 +5820,7 @@ msgstr "Frånvaro"
 msgid "Leave Adjustment"
 msgstr "Frånvaro Justering"
 
-#: hrms/hr/doctype/leave_adjustment/leave_adjustment.py:41
+#: hrms/hr/doctype/leave_adjustment/leave_adjustment.py:43
 msgid "Leave Adjustment for this allocation already exists: {0}. Please amend existing adjustment."
 msgstr "Frånvaro Justering för denna tilldelning finns redan: {0}. Ändra befintlig justering."
 
@@ -5947,7 +5947,7 @@ msgstr "Frånvaro Spärr Lista Datum"
 msgid "Leave Block List Name"
 msgstr "Frånvaro Spärr Lista Namn"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:1388
+#: hrms/hr/doctype/leave_application/leave_application.py:1386
 msgid "Leave Blocked"
 msgstr "Frånvaro Spärrad"
 
@@ -5996,7 +5996,7 @@ msgstr "Frånvaro Register"
 msgid "Leave Ledger Entry"
 msgstr "Frånvaro Register Post"
 
-#: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:18
+#: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:19
 msgid "Leave Ledger Entry's To date needs to be after From date. Currently, From Date is {0} and To Date is {1}"
 msgstr "Frånvaro Register Post Till datum måste vara efter Från datum. För närvarande Från Datum är {0} och Till Datum är {1}"
 
@@ -6140,7 +6140,7 @@ msgstr "Frånvaro Typ erfordras"
 msgid "Leave Type {0} cannot be allocated since it is leave without pay"
 msgstr "Frånvaro Typ {0} kan inte tilldelas eftersom det är obetald ledighet"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:557
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:563
 msgid "Leave Type {0} cannot be carry-forwarded"
 msgstr "Frånvaro Typ {0} kan inte vidarebefordras"
 
@@ -6163,7 +6163,7 @@ msgstr "Obetald Frånvaro stämmer inte med godkända {} poster"
 msgid "Leave allocation is skipped for {0}, because number of leaves to be allocated is 0."
 msgstr "Frånvaro hoppas över för {0}, eftersom antalet som ska tilldelas är 0."
 
-#: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:54
+#: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:55
 msgid "Leave allocation {0} is linked with the Leave Application {1}"
 msgstr "Frånvaro Tilldelning {0} är länkad till Frånvaro Ansökan {1}"
 
@@ -6236,7 +6236,7 @@ msgstr "Frånvaro Efter Justering"
 msgid "Leaves Allocated"
 msgstr "Frånvaro Tilldelad"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:562
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:568
 msgid "Leaves Expired"
 msgstr "Frånvaro Utgången"
 
@@ -6650,7 +6650,7 @@ msgstr "Inkomst Skatt Tabell saknas"
 msgid "Mode of Travel"
 msgstr "Rese Sätt"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:439
+#: hrms/hr/doctype/expense_claim/expense_claim.py:440
 msgid "Mode of payment is required to make a payment"
 msgstr "Betalning Sätt erfordras att skapa betalning"
 
@@ -6918,7 +6918,7 @@ msgstr "Inga närvaro poster funna."
 msgid "No attendance records to create"
 msgstr "Inga närvaro poster att skapa"
 
-#: hrms/hr/doctype/interview/interview.py:87
+#: hrms/hr/doctype/interview/interview.py:89
 msgid "No changes found in timings."
 msgstr "Inga ändringar hittades i tider."
 
@@ -7203,7 +7203,7 @@ msgstr "Endast ifyllda dokument kan godkännas"
 msgid "Only Employee Grievance with status {0} or {1} can be submitted"
 msgstr "Endast klagomål från personal med status {0} eller {1} kan godkännas"
 
-#: hrms/hr/doctype/interview/interview.py:325
+#: hrms/hr/doctype/interview/interview.py:327
 msgid "Only Interviewer Are allowed to submit Interview Feedback"
 msgstr "Endast Intervjuare får lämna Intervju Återkoppling"
 
@@ -7219,7 +7219,7 @@ msgstr "Endast Frånvaro Ansökan med status 'Godkänd' och 'Avvisad' kan skicka
 msgid "Only Shift Request with status 'Approved' and 'Rejected' can be submitted"
 msgstr "Endast Skift förfågan med status 'Godkänd' och 'Avvisad' kan skickas in"
 
-#: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:33
+#: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:34
 msgid "Only expired allocation can be cancelled"
 msgstr "Endast Förfallen Tilldelning kan annulleras"
 
@@ -7358,11 +7358,11 @@ msgstr "Övertid Lönekomponent"
 msgid "Overtime Slip"
 msgstr "Övertid Specifikation"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:457
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:456
 msgid "Overtime Slip Creation Error for {0}"
 msgstr "Fel vid skapande av Övertid Specifikation för {0}"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:468
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:467
 msgid "Overtime Slip Creation Failed"
 msgstr "Skapande av Övertid Specifikation misslyckades"
 
@@ -7371,19 +7371,19 @@ msgstr "Skapande av Övertid Specifikation misslyckades"
 msgid "Overtime Slip Step"
 msgstr "Övertid Specifikation Steg"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:491
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:490
 msgid "Overtime Slip Submission Error for {0}"
 msgstr "Fel vid godkännande av Övertid Specifikation för {0}"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:502
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:501
 msgid "Overtime Slip Submission Failed"
 msgstr "Godkännande av Övertid Specifikation misslyckades"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:497
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:496
 msgid "Overtime Slip Submitted"
 msgstr "Övertid Specifikation Godkänd"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:461
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:460
 msgid "Overtime Slip created for {0} employee(s)"
 msgstr "Övertid Specifikation skapad för {0}"
 
@@ -7399,11 +7399,11 @@ msgstr "Godkännande av Övertid Specifikation står i kö. Det kan ta några mi
 msgid "Overtime Slip:{0} has been created between {1} and {2}"
 msgstr "Övertid Specifikation:{0} är skapad mellan {1} och {2}"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:463
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:462
 msgid "Overtime Slips Created"
 msgstr "Övertid Specifikationer skapade"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:495
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:494
 msgid "Overtime Slips submitted for {0} employee(s)"
 msgstr "Övertid Specifikationer godkända för {0}"
 
@@ -7521,7 +7521,7 @@ msgstr "Betala via Betalning Post"
 msgid "Pay via Salary Slip"
 msgstr "Betala via Lönespecifikation"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:137
+#: hrms/hr/doctype/expense_claim/expense_claim.py:138
 msgid "Payable Account is mandatory to submit an Expense Claim"
 msgstr "Betalning Konto erfordras för att godkänna Utlägg Anspråk"
 
@@ -7856,7 +7856,7 @@ msgstr "Minska {0} för att undvika att skifttid överlappar sig själv"
 msgid "Please see attachment"
 msgstr "Se Bilaga"
 
-#: hrms/hr/doctype/staffing_plan/staffing_plan.py:225
+#: hrms/hr/doctype/staffing_plan/staffing_plan.py:231
 msgid "Please select Company and Designation"
 msgstr "Välj Bolag och Befattning"
 
@@ -8054,7 +8054,7 @@ msgstr "Ange Nummer Serier för Närvaro via Inställningar > Nummer Serie"
 msgid "Please share your feedback to the training by clicking on 'Training Feedback' and then 'New'"
 msgstr "Dela din återkoppling till utbildning genom att klicka på 'Utbildning Återkoppling' och sedan 'Ny'"
 
-#: hrms/hr/doctype/interview/interview.py:194
+#: hrms/hr/doctype/interview/interview.py:196
 msgid "Please specify the job applicant to be updated."
 msgstr "Ange jobbsökande som ska uppdateras."
 
@@ -8210,15 +8210,6 @@ msgstr "Skicklighet"
 #: hrms/hr/report/project_profitability/project_profitability.py:183
 msgid "Profit"
 msgstr "Vinst"
-
-#. Name of a report
-#. Label of a Link in the Shift & Attendance Workspace
-#. Label of a Workspace Sidebar Item
-#: hrms/hr/report/project_profitability/project_profitability.json
-#: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
-#: hrms/workspace_sidebar/shift_&_attendance.json
-msgid "Project Profitability"
-msgstr "Projekt Resultat"
 
 #. Label of the promotion_date (Date) field in DocType 'Employee Promotion'
 #: hrms/hr/doctype/employee_promotion/employee_promotion.json
@@ -8417,7 +8408,7 @@ msgstr "Minska"
 msgid "Reducing maximum leaves allowed after allocation may cause scheduler to allocate incorrect number of earned leaves. Proceed with caution."
 msgstr "Att minska maximal antal tillåten frånvaro efter tilldelning kan göra att schemaläggaren tilldelar felaktigt antal intjänad frånvaro. Var försiktig."
 
-#: hrms/hr/doctype/leave_adjustment/leave_adjustment.py:75
+#: hrms/hr/doctype/leave_adjustment/leave_adjustment.py:77
 msgid "Reduction is more than {0}'s available leave balance {1} for leave type {2}"
 msgstr "Minskning är högre än {0} tillgänglig frånvaro saldo {1} för frånvaro typ {2}"
 
@@ -8659,8 +8650,8 @@ msgstr "Bonus"
 msgid "Retirement Age (In Years)"
 msgstr "Pensionsålder"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:441
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:449
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:447
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:455
 msgid "Retry Failed"
 msgstr "Försök Misslyckades"
 
@@ -8761,11 +8752,11 @@ msgstr "Rad #{0}: Komponent {1} har alternativ {2} och {3} aktiverade."
 msgid "Row #{0}: Timesheet amount will overwrite the Earning component amount for the Salary Component {1}"
 msgstr "Rad #{0}: Tidrapport belopp kommer att skriva över Inkomst komponent belopp för löne komponent {1}"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:901
+#: hrms/hr/doctype/expense_claim/expense_claim.py:902
 msgid "Row No {0}: Amount cannot be greater than the Outstanding Amount against Expense Claim {1}. Outstanding Amount is {2}"
 msgstr "Rad #{0}: Belopp kan inte vara högre än Utestående Belopp mot Utlägg {1}. Utestående Belopp är {2}"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:503
+#: hrms/hr/doctype/expense_claim/expense_claim.py:504
 msgid "Row {0}# Allocated amount {1} cannot be greater than unclaimed amount {2}"
 msgstr "Rad #{0}: Tilldelad Belopp {1} kan inte vara högre än ofodrad belopp {2}"
 
@@ -8797,7 +8788,7 @@ msgstr "Rad {0}: Betalt belopp {1} är högre än förväntad ackumulerad belopp
 msgid "Row {0}: {1}"
 msgstr "Rad {0}: {1}"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:432
+#: hrms/hr/doctype/expense_claim/expense_claim.py:433
 msgid "Row {0}: {1} is required in the expenses table to book an expense claim."
 msgstr "Rad #{0}: {1} erfordras i Kostnad Tabell att registrera Utlägg."
 
@@ -9156,7 +9147,7 @@ msgstr "Godkänd Belopp"
 msgid "Sanctioned Amount (Company Currency)"
 msgstr "Sanktionerad Belopp (Bolag Valuta)"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:527
+#: hrms/hr/doctype/expense_claim/expense_claim.py:528
 msgid "Sanctioned Amount cannot be greater than Claim Amount in Row {0}."
 msgstr "Godkänd Belopp kan inte vara högre än Fordring Belopp på rad {0}."
 
@@ -9308,7 +9299,7 @@ msgstr "Själv Resultat"
 msgid "Self-Study"
 msgstr "Självlärd"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:121
+#: hrms/hr/doctype/expense_claim/expense_claim.py:122
 msgid "Self-approval for Expense Claims is not allowed"
 msgstr "Självgodkännande för Utlägg Anspråk är inte tillåtet"
 
@@ -9430,7 +9421,7 @@ msgstr "Ange öppning saldo för inkomster och skatter från tidigare arbetsgiva
 msgid "Set optional filters to fetch employees in the appraisee list"
 msgstr "Ange filter (frivilligt) att söka personal för Bedömning."
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:684
+#: hrms/hr/doctype/expense_claim/expense_claim.py:685
 msgid "Set the default account for the {0} {1}"
 msgstr "Ange Standard Konto för {0} {1}"
 
@@ -9817,7 +9808,7 @@ msgstr "Bemanning Plan"
 msgid "Staffing Plan Detail"
 msgstr "Bemanning Plan Detalj"
 
-#: hrms/hr/doctype/staffing_plan/staffing_plan.py:71
+#: hrms/hr/doctype/staffing_plan/staffing_plan.py:72
 msgid "Staffing Plan {0} already exist for designation {1}"
 msgstr "Bemanning Plan {0} finns redan för Befattning {1}"
 
@@ -9943,7 +9934,7 @@ msgstr "Godkänn Lönespecifikation"
 msgid "Submit this Leave Application to confirm."
 msgstr "Godkänn denna ledighet ansökan för att bekräfta."
 
-#: hrms/hr/doctype/employee_onboarding/employee_onboarding.py:39
+#: hrms/hr/doctype/employee_onboarding/employee_onboarding.py:40
 msgid "Submit this to create the Employee record"
 msgstr "Godkänn detta för att skapa Anställning Post"
 
@@ -9961,7 +9952,7 @@ msgstr "Godkänner Lönespecifikationer och skapar Journal Post..."
 msgid "Submitting Salary Slips..."
 msgstr "Godkänner Lönespecifikationer..."
 
-#: hrms/hr/doctype/staffing_plan/staffing_plan.py:161
+#: hrms/hr/doctype/staffing_plan/staffing_plan.py:162
 msgid "Subsidiary companies have already planned for {1} vacancies at a budget of {2}. Staffing Plan for {0} should allocate more vacancies and budget for {3} than planned for its subsidiary companies"
 msgstr "Dotterbolag har redan planerat för {1} lediga tjänster till en budget på {2}. Bemanningsplan för {0} ska tilldela fler lediga tjänster och budget för {3} än planerat för dotterbolag"
 
@@ -10654,7 +10645,7 @@ msgstr "Totalt Resultat"
 msgid "Total Self Score"
 msgstr "Totalt Själv Resultat"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:521
+#: hrms/hr/doctype/expense_claim/expense_claim.py:522
 msgid "Total advance amount cannot be greater than total sanctioned amount"
 msgstr "Totalt Förskott Belopp får inte vara högre än Totalt Godkänd Belopp"
 
@@ -11046,7 +11037,7 @@ msgstr "Uppdatera Moms"
 msgid "Updated status from {0} to {1} for date {2} in the attendance record {3}"
 msgstr "Uppdaterade status från {0} till {1} för datum {2} i närvaro post {3}"
 
-#: hrms/hr/doctype/interview/interview.py:201
+#: hrms/hr/doctype/interview/interview.py:203
 msgid "Updated the Job Applicant status to {0}"
 msgstr "Uppdaterade status för Jobb Sökande till {0}"
 
@@ -11419,7 +11410,7 @@ msgstr "Du kan inte definiera flera tabeller om du har tabell utan nedre och öv
 msgid "You can not request for your Default Shift: {0}"
 msgstr "Man kan inte begära din Standard Skift: {0}"
 
-#: hrms/hr/doctype/staffing_plan/staffing_plan.py:94
+#: hrms/hr/doctype/staffing_plan/staffing_plan.py:95
 msgid "You can only plan for upto {0} vacancies and budget {1} for {2} as per staffing plan {3} for parent company {4}."
 msgstr "Du kan bara planera för upp till {0} lediga platser och budget {1} för {2} enligt bemanning plan {3} för moderbolag {4}."
 
@@ -11435,8 +11426,8 @@ msgstr "Du kan bara ladda upp JPG, PNG, PDF, TXT eller Microsoft Dokument."
 msgid "You cannot reverse more than the total LWP days {0}. You have already reversed {1} days for this employee."
 msgstr "Du kan inte återföra mer än total antal obetald frånvaro dagar {0}. Du har redan återfört {1} dagar för denna personal."
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:417
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:580
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:423
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:586
 msgid "You do not have permission to complete this action"
 msgstr "Du har inte behörighet att slutföra denna åtgärd"
 
@@ -11476,7 +11467,7 @@ msgstr "Du måste befinna dig inom {0} meter från din arbetsplats för att stä
 msgid "You were only present for Half Day on {}. Cannot apply for a full day compensatory leave"
 msgstr "Du var bara närvarande under halvdag den {}. Kan inte ansöka om heldag kompensation ledighet"
 
-#: hrms/hr/doctype/interview/interview.py:104
+#: hrms/hr/doctype/interview/interview.py:106
 msgid "Your Interview session is rescheduled from {0} {1} - {2} to {3} {4} - {5}"
 msgstr "Din Intervju är ombokad från {0} {1} - {2} till {3} {4} - {5}"
 
@@ -11575,7 +11566,7 @@ msgstr "{0} & {1}"
 msgid "{0} & {1} more"
 msgstr "{0} & {1} mer"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:489
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:488
 msgid "{0} : {1}"
 msgstr "{0} : {1}"
 
@@ -11673,7 +11664,7 @@ msgstr "{0} finns inte i valfri Helg Lista"
 msgid "{0} leaves allocated successfully"
 msgstr "{0} Frånvaro tilldelad"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:563
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:569
 msgid "{0} leaves from allocation for {1} leave type have expired and will be processed during the next scheduled job. It is recommended to expire them now before creating new leave policy assignments."
 msgstr "{0} frånvaro från tilldelning för {1} frånvaro typ har gått ut och kommer att behandlas under nästa schemalagda jobb. Det rekommenderas att radera dem nu innan du skapar nya frånvaro princip tilldelning."
 
@@ -11706,7 +11697,7 @@ msgstr "{0} till {1} i personal?"
 msgid "{0} updated successfully!"
 msgstr "{0} uppdaterad!"
 
-#: hrms/hr/doctype/staffing_plan/staffing_plan.py:128
+#: hrms/hr/doctype/staffing_plan/staffing_plan.py:129
 msgid "{0} vacancies and {1} budget for {2} already planned for subsidiary companies of {3}. You can only plan for upto {4} vacancies and and budget {5} as per staffing plan {6} for parent company {3}."
 msgstr "{0} lediga platser och {1} budget för {2} redan planerade för dotterbolagför {3}. Du kan bara planera för upp till {4} lediga platser och budget {5} enligt bemanningsplan {6} för moderbolag {3}."
 
