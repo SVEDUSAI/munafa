@@ -110,7 +110,9 @@ class SalaryComponent(Document):
 		)
 
 	@frappe.whitelist()
-	def update_salary_structures(self, field: str, value, structures: list | None = None) -> None:
+	def update_salary_structures(
+		self, field: str, value: str | int | float | None, structures: list | None = None
+	) -> None:
 		is_formula_related = field == "formula"
 
 		if not structures:

@@ -1,6 +1,7 @@
 # Copyright (c) 2017, Frappe Technologies Pvt. Ltd. and contributors
 # For license information, please see license.txt
 
+import datetime
 import json
 
 from dateutil.relativedelta import relativedelta
@@ -1438,7 +1439,7 @@ def remove_payrolled_employees(emp_list, start_date, end_date):
 
 @frappe.whitelist()
 def get_start_end_dates(
-	payroll_frequency: str, start_date: str | None = None, company: str | None = None
+	payroll_frequency: str, start_date: datetime.date | None = None, company: str | None = None
 ) -> frappe._dict:
 	"""Returns dict of start and end dates for given payroll frequency based on start_date"""
 

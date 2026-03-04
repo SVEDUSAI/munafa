@@ -1,6 +1,7 @@
 # Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and Contributors
 # License: GNU General Public License v3. See license.txt
 
+import datetime
 import re
 
 import frappe
@@ -335,7 +336,7 @@ def make_salary_slip(
 	source_name: str,
 	target_doc: Document | None = None,
 	employee: str | None = None,
-	posting_date: str | None = None,
+	posting_date: datetime.date | None = None,
 	as_print: bool = False,
 	print_format: str | None = None,
 	for_preview: int = 0,
