@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
-"POT-Creation-Date: 2026-02-22 09:43+0000\n"
-"PO-Revision-Date: 2026-02-23 06:20\n"
+"POT-Creation-Date: 2026-03-01 09:43+0000\n"
+"PO-Revision-Date: 2026-03-03 08:41\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -587,7 +587,7 @@ msgstr "组织者地址"
 msgid "Adjust Allocation"
 msgstr "调整分配"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:412
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:418
 msgid "Adjustment Created Successfully"
 msgstr "调整项创建成功"
 
@@ -625,7 +625,7 @@ msgstr ""
 msgid "Advanced Filters"
 msgstr "高级筛选"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:422
+#: hrms/hr/doctype/expense_claim/expense_claim.py:423
 msgid "All Exchange Gain/Loss amount of {0} has been booked through {1}"
 msgstr ""
 
@@ -641,7 +641,7 @@ msgstr "所有职位"
 msgid "All allocated assets should be returned before submission"
 msgstr "提交前需归还所有已分配资产"
 
-#: hrms/hr/doctype/employee_onboarding/employee_onboarding.py:48
+#: hrms/hr/doctype/employee_onboarding/employee_onboarding.py:49
 msgid "All the mandatory tasks for employee creation are not completed yet."
 msgstr "员工建档的必填任务尚未全部完成"
 
@@ -700,7 +700,7 @@ msgstr "分配明细"
 msgid "Allocation Expired!"
 msgstr "分配已过期！"
 
-#: hrms/hr/doctype/leave_adjustment/leave_adjustment.py:60
+#: hrms/hr/doctype/leave_adjustment/leave_adjustment.py:62
 msgid "Allocation is greater than the maximum allowed {0} for leave type {1}"
 msgstr "分配天数超过假期类型{1}允许的最大值{0}"
 
@@ -1136,7 +1136,7 @@ msgstr "审批"
 msgid "Approval Status"
 msgstr "审批状态"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:148
+#: hrms/hr/doctype/expense_claim/expense_claim.py:149
 msgid "Approval Status must be 'Approved' or 'Rejected'"
 msgstr "审批状态必须为'已批准'或'已拒绝'"
 
@@ -1788,11 +1788,11 @@ msgstr "不可修改时间"
 msgid "Cannot allocate leaves outside the allocation period {0} - {1}"
 msgstr "不可在分配期间{0}-{1}外分配假期"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:446
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:452
 msgid "Cannot allocate more leaves due to maximum leave allocation limit of {0} in leave policy assignment"
 msgstr ""
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:438
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:444
 msgid "Cannot allocate more leaves due to maximum leaves allowed limit of {0} in {1} leave type."
 msgstr ""
 
@@ -2560,7 +2560,7 @@ msgstr "部门审批人"
 msgid "Department Wise Openings"
 msgstr "部门空缺分布"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:107
+#: hrms/hr/doctype/expense_claim/expense_claim.py:108
 msgid "Department {0} does not belong to company: {1}"
 msgstr "部门{0}不属于公司{1}"
 
@@ -2674,7 +2674,7 @@ msgstr "检测到重复报销"
 msgid "Duplicate Job Requisition"
 msgstr "重复职位申请"
 
-#: hrms/hr/doctype/leave_adjustment/leave_adjustment.py:40
+#: hrms/hr/doctype/leave_adjustment/leave_adjustment.py:42
 msgid "Duplicate Leave Adjustment"
 msgstr "重复假期调整"
 
@@ -3143,7 +3143,7 @@ msgstr "员工入职流程"
 msgid "Employee Onboarding Template"
 msgstr "员工入职模板"
 
-#: hrms/hr/doctype/employee_onboarding/employee_onboarding.py:32
+#: hrms/hr/doctype/employee_onboarding/employee_onboarding.py:33
 msgid "Employee Onboarding: {0} already exists for Job Applicant: {1}"
 msgstr "职位申请人{1}已存在员工入职流程{0}"
 
@@ -3356,7 +3356,7 @@ msgstr "因未达到工时阈值，员工标记为缺勤"
 msgid "Employee was marked Absent for other half due to missing Employee Checkins."
 msgstr "由于缺少员工打卡记录，该员工另一半被标记为缺勤"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:456
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:455
 msgid "Employee {0} : {1}"
 msgstr "员工{0}：{1}"
 
@@ -3573,7 +3573,7 @@ msgstr "结束时间不得早于开始时间"
 msgid "Enter Interview Round"
 msgstr "输入面试轮次"
 
-#: hrms/hr/doctype/leave_adjustment/leave_adjustment.py:48
+#: hrms/hr/doctype/leave_adjustment/leave_adjustment.py:50
 msgid "Enter a non-zero value to adjust."
 msgstr "请输入非零值进行调整。"
 
@@ -3718,11 +3718,6 @@ msgstr "让我们共同祝贺{0}生日快乐！"
 msgid "Exam"
 msgstr "考试"
 
-#. Label of a Workspace Sidebar Item
-#: hrms/workspace_sidebar/tax_&_benefits.json
-msgid "Excemption Submission Proof"
-msgstr ""
-
 #. Description of the 'Exchange Rate' (Float) field in DocType 'Expense Claim
 #. Advance'
 #: hrms/hr/doctype/expense_claim_advance/expense_claim_advance.json
@@ -3781,6 +3776,11 @@ msgstr "豁免证明"
 #: hrms/payroll/doctype/employee_tax_exemption_proof_submission_detail/employee_tax_exemption_proof_submission_detail.json
 msgid "Exemption Sub Category"
 msgstr "豁免子类别"
+
+#. Label of a Workspace Sidebar Item
+#: hrms/workspace_sidebar/tax_&_benefits.json
+msgid "Exemption Submission Proof"
+msgstr ""
 
 #: hrms/hr/doctype/attendance_request/attendance_warnings.html:10
 msgid "Existing Record"
@@ -3930,7 +3930,7 @@ msgstr "费用报销汇总"
 #. Label of the expense_type (Data) field in DocType 'Expense Claim Type'
 #. Label of a Link in the Expenses Workspace
 #. Label of a Workspace Sidebar Item
-#: hrms/hr/doctype/expense_claim/expense_claim.py:685
+#: hrms/hr/doctype/expense_claim/expense_claim.py:686
 #: hrms/hr/doctype/expense_claim_detail/expense_claim_detail.json
 #: hrms/hr/doctype/expense_claim_type/expense_claim_type.json
 #: hrms/hr/workspace/expenses/expenses.json
@@ -4005,7 +4005,7 @@ msgstr "分配到期"
 msgid "Expire Carry Forwarded Leaves (Days)"
 msgstr "结转假期有效期（天）"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:568
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:574
 msgid "Expire Leaves"
 msgstr "过期假期处理"
 
@@ -4039,7 +4039,7 @@ msgstr "删除国家{0}默认设置失败"
 msgid "Failed to download PDF: {0}"
 msgstr "无法下载 PDF： {0}"
 
-#: hrms/hr/doctype/interview/interview.py:117
+#: hrms/hr/doctype/interview/interview.py:119
 msgid "Failed to send the Interview Reschedule notification. Please configure your email account."
 msgstr "无法发送面试改期通知。请配置您的邮箱账户。"
 
@@ -4051,7 +4051,7 @@ msgstr "设置国家{0}默认值失败"
 msgid "Failed to submit some leave policy assignments:"
 msgstr "部分休假政策分配提交失败："
 
-#: hrms/hr/doctype/interview/interview.py:208
+#: hrms/hr/doctype/interview/interview.py:210
 msgid "Failed to update the Job Applicant status"
 msgstr "更新职位申请人状态失败"
 
@@ -5238,11 +5238,11 @@ msgstr "面试反馈"
 msgid "Interview Feedback Reminder"
 msgstr "面试反馈提醒"
 
-#: hrms/hr/doctype/interview/interview.py:343
+#: hrms/hr/doctype/interview/interview.py:345
 msgid "Interview Feedback {0} submitted successfully"
 msgstr "面试反馈{0}提交成功"
 
-#: hrms/hr/doctype/interview/interview.py:87
+#: hrms/hr/doctype/interview/interview.py:89
 msgid "Interview Not Rescheduled"
 msgstr "面试未改期"
 
@@ -5260,7 +5260,7 @@ msgstr "面试提醒"
 msgid "Interview Reminder Notification Template"
 msgstr "面试提醒通知模板"
 
-#: hrms/hr/doctype/interview/interview.py:122
+#: hrms/hr/doctype/interview/interview.py:124
 msgid "Interview Rescheduled successfully"
 msgstr "面试改期成功"
 
@@ -5278,7 +5278,7 @@ msgstr "面试改期成功"
 msgid "Interview Round"
 msgstr "面试轮次"
 
-#: hrms/hr/doctype/job_applicant/job_applicant.py:72
+#: hrms/hr/doctype/job_applicant/job_applicant.py:68
 msgid "Interview Round {0} is only applicable for the Designation {1}"
 msgstr "面试轮次{0}仅适用于职级{1}"
 
@@ -5315,7 +5315,7 @@ msgstr "面试汇总"
 msgid "Interview Type"
 msgstr "面试类型"
 
-#: hrms/hr/doctype/interview/interview.py:103
+#: hrms/hr/doctype/interview/interview.py:105
 msgid "Interview: {0} Rescheduled"
 msgstr "面试改期：{0}"
 
@@ -5378,7 +5378,7 @@ msgstr "无效日期"
 msgid "Invalid LWP Days Reversed"
 msgstr "无效LWP天数冲销"
 
-#: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:25
+#: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:26
 msgid "Invalid Leave Ledger Entry"
 msgstr "无效假期台账条目"
 
@@ -5391,7 +5391,7 @@ msgstr "应付薪资账户无效，账户币种必须为{0}或{1}"
 msgid "Invalid Shift Times"
 msgstr "无效班次时间"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:926
+#: hrms/hr/doctype/expense_claim/expense_claim.py:934
 msgid "Invalid parameters provided. Please pass the required arguments."
 msgstr "参数无效，请传递必要参数"
 
@@ -5820,7 +5820,7 @@ msgstr "假期"
 msgid "Leave Adjustment"
 msgstr "假期调整"
 
-#: hrms/hr/doctype/leave_adjustment/leave_adjustment.py:41
+#: hrms/hr/doctype/leave_adjustment/leave_adjustment.py:43
 msgid "Leave Adjustment for this allocation already exists: {0}. Please amend existing adjustment."
 msgstr "此分配已存在假期调整：{0}。请修改现有调整。"
 
@@ -5947,7 +5947,7 @@ msgstr "假期封存日期"
 msgid "Leave Block List Name"
 msgstr "假期封存列表名称"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:1388
+#: hrms/hr/doctype/leave_application/leave_application.py:1386
 msgid "Leave Blocked"
 msgstr "已封存假期"
 
@@ -5996,7 +5996,7 @@ msgstr "假期台账"
 msgid "Leave Ledger Entry"
 msgstr "假期台账条目"
 
-#: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:18
+#: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:19
 msgid "Leave Ledger Entry's To date needs to be after From date. Currently, From Date is {0} and To Date is {1}"
 msgstr "假期台账截止日期需晚于起始日期。当前起始日期为{0}，截止日期为{1}"
 
@@ -6140,7 +6140,7 @@ msgstr "必须选择假期类型"
 msgid "Leave Type {0} cannot be allocated since it is leave without pay"
 msgstr "假期类型{0}为无薪假不可分配"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:557
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:563
 msgid "Leave Type {0} cannot be carry-forwarded"
 msgstr "假期类型{0}不可结转"
 
@@ -6163,7 +6163,7 @@ msgstr "无薪假与已批准的{}记录不符"
 msgid "Leave allocation is skipped for {0}, because number of leaves to be allocated is 0."
 msgstr ""
 
-#: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:54
+#: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:55
 msgid "Leave allocation {0} is linked with the Leave Application {1}"
 msgstr "假期分配{0}关联请假申请{1}"
 
@@ -6236,7 +6236,7 @@ msgstr "调整后假期"
 msgid "Leaves Allocated"
 msgstr "已分配假期"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:562
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:568
 msgid "Leaves Expired"
 msgstr "已过期假期"
 
@@ -6650,7 +6650,7 @@ msgstr "缺失税级"
 msgid "Mode of Travel"
 msgstr "出行方式"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:439
+#: hrms/hr/doctype/expense_claim/expense_claim.py:440
 msgid "Mode of payment is required to make a payment"
 msgstr "付款必须指定支付方式"
 
@@ -6918,7 +6918,7 @@ msgstr "未找到考勤记录"
 msgid "No attendance records to create"
 msgstr "无需创建考勤记录"
 
-#: hrms/hr/doctype/interview/interview.py:87
+#: hrms/hr/doctype/interview/interview.py:89
 msgid "No changes found in timings."
 msgstr "未发现时间变更"
 
@@ -7203,7 +7203,7 @@ msgstr "仅完成状态的单据可提交"
 msgid "Only Employee Grievance with status {0} or {1} can be submitted"
 msgstr "仅状态为{0}或{1}的员工申诉可提交"
 
-#: hrms/hr/doctype/interview/interview.py:325
+#: hrms/hr/doctype/interview/interview.py:327
 msgid "Only Interviewer Are allowed to submit Interview Feedback"
 msgstr "仅面试官可提交面试反馈"
 
@@ -7219,7 +7219,7 @@ msgstr "仅'已批准'或'已拒绝'状态的请假申请可提交"
 msgid "Only Shift Request with status 'Approved' and 'Rejected' can be submitted"
 msgstr "仅'已批准'或'已拒绝'状态的班次申请可提交"
 
-#: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:33
+#: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:34
 msgid "Only expired allocation can be cancelled"
 msgstr "仅过期分配可取消"
 
@@ -7358,11 +7358,11 @@ msgstr "加班工资组件"
 msgid "Overtime Slip"
 msgstr "加班单"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:457
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:456
 msgid "Overtime Slip Creation Error for {0}"
 msgstr "{0}的加班单创建错误"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:468
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:467
 msgid "Overtime Slip Creation Failed"
 msgstr "加班单创建失败"
 
@@ -7371,19 +7371,19 @@ msgstr "加班单创建失败"
 msgid "Overtime Slip Step"
 msgstr "加班单步骤"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:491
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:490
 msgid "Overtime Slip Submission Error for {0}"
 msgstr "{0}的加班单提交错误"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:502
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:501
 msgid "Overtime Slip Submission Failed"
 msgstr "加班单提交失败"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:497
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:496
 msgid "Overtime Slip Submitted"
 msgstr "加班单已提交"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:461
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:460
 msgid "Overtime Slip created for {0} employee(s)"
 msgstr "已为{0}名员工创建加班单"
 
@@ -7399,11 +7399,11 @@ msgstr "加班单提交已加入队列。可能需要几分钟时间"
 msgid "Overtime Slip:{0} has been created between {1} and {2}"
 msgstr "加班单：{0}已在{1}至{2}期间创建"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:463
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:462
 msgid "Overtime Slips Created"
 msgstr "加班单已创建"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:495
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:494
 msgid "Overtime Slips submitted for {0} employee(s)"
 msgstr "已为{0}名员工提交加班单"
 
@@ -7521,7 +7521,7 @@ msgstr "通过付款分录支付"
 msgid "Pay via Salary Slip"
 msgstr "通过工资条支付"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:137
+#: hrms/hr/doctype/expense_claim/expense_claim.py:138
 msgid "Payable Account is mandatory to submit an Expense Claim"
 msgstr "提交费用报销必须填写应付账户"
 
@@ -7856,7 +7856,7 @@ msgstr "请调整{0}以避免班次时间重叠"
 msgid "Please see attachment"
 msgstr "请查看附件"
 
-#: hrms/hr/doctype/staffing_plan/staffing_plan.py:225
+#: hrms/hr/doctype/staffing_plan/staffing_plan.py:231
 msgid "Please select Company and Designation"
 msgstr "请选择公司和职级"
 
@@ -8054,7 +8054,7 @@ msgstr "请通过设置>编号规则配置考勤编号系列"
 msgid "Please share your feedback to the training by clicking on 'Training Feedback' and then 'New'"
 msgstr "请点击'培训反馈'后点击'新建'提交反馈"
 
-#: hrms/hr/doctype/interview/interview.py:194
+#: hrms/hr/doctype/interview/interview.py:196
 msgid "Please specify the job applicant to be updated."
 msgstr "请指定要更新的职位申请人"
 
@@ -8210,15 +8210,6 @@ msgstr "熟练程度"
 #: hrms/hr/report/project_profitability/project_profitability.py:183
 msgid "Profit"
 msgstr "利润"
-
-#. Name of a report
-#. Label of a Link in the Shift & Attendance Workspace
-#. Label of a Workspace Sidebar Item
-#: hrms/hr/report/project_profitability/project_profitability.json
-#: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
-#: hrms/workspace_sidebar/shift_&_attendance.json
-msgid "Project Profitability"
-msgstr "项目盈利能力"
 
 #. Label of the promotion_date (Date) field in DocType 'Employee Promotion'
 #: hrms/hr/doctype/employee_promotion/employee_promotion.json
@@ -8417,7 +8408,7 @@ msgstr "减少"
 msgid "Reducing maximum leaves allowed after allocation may cause scheduler to allocate incorrect number of earned leaves. Proceed with caution."
 msgstr "分配后减少允许的最大假期天数可能导致调度程序分配错误的应计假期天数。请谨慎操作。"
 
-#: hrms/hr/doctype/leave_adjustment/leave_adjustment.py:75
+#: hrms/hr/doctype/leave_adjustment/leave_adjustment.py:77
 msgid "Reduction is more than {0}'s available leave balance {1} for leave type {2}"
 msgstr "减少天数超过{0}在假期类型{2}下的可用假期余额{1}"
 
@@ -8659,8 +8650,8 @@ msgstr "留任奖金"
 msgid "Retirement Age (In Years)"
 msgstr "退休年龄（年）"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:441
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:449
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:447
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:455
 msgid "Retry Failed"
 msgstr ""
 
@@ -8761,11 +8752,11 @@ msgstr "行号#{0}：组件{1}已启用{2}和{3}选项"
 msgid "Row #{0}: Timesheet amount will overwrite the Earning component amount for the Salary Component {1}"
 msgstr "行号#{0}：工时表金额将覆盖薪资组件{1}的收入项金额"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:901
+#: hrms/hr/doctype/expense_claim/expense_claim.py:902
 msgid "Row No {0}: Amount cannot be greater than the Outstanding Amount against Expense Claim {1}. Outstanding Amount is {2}"
 msgstr "行号{0}：金额不可超过费用报销{1}的未结金额{2}"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:503
+#: hrms/hr/doctype/expense_claim/expense_claim.py:504
 msgid "Row {0}# Allocated amount {1} cannot be greater than unclaimed amount {2}"
 msgstr "行号{0}# 分配金额{1}不可超过未申领金额{2}"
 
@@ -8797,7 +8788,7 @@ msgstr "行号{0}：已付金额{1}超过贷款{3}的待计金额{2}"
 msgid "Row {0}: {1}"
 msgstr "行号{0}：{1}"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:432
+#: hrms/hr/doctype/expense_claim/expense_claim.py:433
 msgid "Row {0}: {1} is required in the expenses table to book an expense claim."
 msgstr "行号{0}：费用表中需填写{1}以登记费用报销"
 
@@ -9156,7 +9147,7 @@ msgstr "批准金额"
 msgid "Sanctioned Amount (Company Currency)"
 msgstr ""
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:527
+#: hrms/hr/doctype/expense_claim/expense_claim.py:528
 msgid "Sanctioned Amount cannot be greater than Claim Amount in Row {0}."
 msgstr "行号{0}中批准金额不可超过报销金额"
 
@@ -9308,7 +9299,7 @@ msgstr "自我评分"
 msgid "Self-Study"
 msgstr "自主学习"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:121
+#: hrms/hr/doctype/expense_claim/expense_claim.py:122
 msgid "Self-approval for Expense Claims is not allowed"
 msgstr "不允许费用报销的自我审批"
 
@@ -9430,7 +9421,7 @@ msgstr "设置前雇主收入与税费期初余额"
 msgid "Set optional filters to fetch employees in the appraisee list"
 msgstr "设置可选筛选条件获取被考核人列表"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:684
+#: hrms/hr/doctype/expense_claim/expense_claim.py:685
 msgid "Set the default account for the {0} {1}"
 msgstr "为{0}{1}设置默认账户"
 
@@ -9817,7 +9808,7 @@ msgstr "人员配置计划"
 msgid "Staffing Plan Detail"
 msgstr "人员配置计划明细"
 
-#: hrms/hr/doctype/staffing_plan/staffing_plan.py:71
+#: hrms/hr/doctype/staffing_plan/staffing_plan.py:72
 msgid "Staffing Plan {0} already exist for designation {1}"
 msgstr "职级{1}已存在人员配置计划{0}"
 
@@ -9943,7 +9934,7 @@ msgstr "提交工资条"
 msgid "Submit this Leave Application to confirm."
 msgstr "提交请假申请以确认"
 
-#: hrms/hr/doctype/employee_onboarding/employee_onboarding.py:39
+#: hrms/hr/doctype/employee_onboarding/employee_onboarding.py:40
 msgid "Submit this to create the Employee record"
 msgstr "提交以创建员工档案"
 
@@ -9961,7 +9952,7 @@ msgstr "提交工资条并创建日记账分录..."
 msgid "Submitting Salary Slips..."
 msgstr "正在提交工资条..."
 
-#: hrms/hr/doctype/staffing_plan/staffing_plan.py:161
+#: hrms/hr/doctype/staffing_plan/staffing_plan.py:162
 msgid "Subsidiary companies have already planned for {1} vacancies at a budget of {2}. Staffing Plan for {0} should allocate more vacancies and budget for {3} than planned for its subsidiary companies"
 msgstr "子公司已规划{1}个空缺岗位，预算{2}。{0}的人员配置计划应为{3}分配更多空缺和预算"
 
@@ -10654,7 +10645,7 @@ msgstr "总分"
 msgid "Total Self Score"
 msgstr "自评总分"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:521
+#: hrms/hr/doctype/expense_claim/expense_claim.py:522
 msgid "Total advance amount cannot be greater than total sanctioned amount"
 msgstr "预支总额不可超过批准总额"
 
@@ -11046,7 +11037,7 @@ msgstr "更新税务"
 msgid "Updated status from {0} to {1} for date {2} in the attendance record {3}"
 msgstr "考勤记录{3}中日期{2}的状态已从{0}更新为{1}"
 
-#: hrms/hr/doctype/interview/interview.py:201
+#: hrms/hr/doctype/interview/interview.py:203
 msgid "Updated the Job Applicant status to {0}"
 msgstr "已将职位申请人状态更新为{0}"
 
@@ -11419,7 +11410,7 @@ msgstr "存在无上下限的税率段时不可定义多个税率段"
 msgid "You can not request for your Default Shift: {0}"
 msgstr "不可申请默认班次{0}"
 
-#: hrms/hr/doctype/staffing_plan/staffing_plan.py:94
+#: hrms/hr/doctype/staffing_plan/staffing_plan.py:95
 msgid "You can only plan for upto {0} vacancies and budget {1} for {2} as per staffing plan {3} for parent company {4}."
 msgstr "根据母公司{4}的编制计划{3}，您最多可规划{2}的{0}个空缺职位及{1}预算"
 
@@ -11435,8 +11426,8 @@ msgstr "仅可上传JPG、PNG、PDF、TXT或Microsoft文档"
 msgid "You cannot reverse more than the total LWP days {0}. You have already reversed {1} days for this employee."
 msgstr "您不能冲销超过总LWP天数{0}。您已为该员工冲销{1}天。"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:417
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:580
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:423
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:586
 msgid "You do not have permission to complete this action"
 msgstr "您无权限执行此操作"
 
@@ -11476,7 +11467,7 @@ msgstr "需在班次地点{0}米范围内方可签到"
 msgid "You were only present for Half Day on {}. Cannot apply for a full day compensatory leave"
 msgstr "您仅于{}出勤半天，不可申请全天调休"
 
-#: hrms/hr/doctype/interview/interview.py:104
+#: hrms/hr/doctype/interview/interview.py:106
 msgid "Your Interview session is rescheduled from {0} {1} - {2} to {3} {4} - {5}"
 msgstr "您的面试时段已从{0}{1}-{2}调整至{3}{4}-{5}"
 
@@ -11575,7 +11566,7 @@ msgstr "{0} & {1}"
 msgid "{0} & {1} more"
 msgstr "{0} 及另外{1}项"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:489
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:488
 msgid "{0} : {1}"
 msgstr "{0}：{1}"
 
@@ -11673,7 +11664,7 @@ msgstr "{0}不在可选假期列表中"
 msgid "{0} leaves allocated successfully"
 msgstr "成功分配{0}天假期"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:563
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:569
 msgid "{0} leaves from allocation for {1} leave type have expired and will be processed during the next scheduled job. It is recommended to expire them now before creating new leave policy assignments."
 msgstr "针对{1}假期类型分配的{0}天假期已过期，系统将在下次计划任务中自动处理。建议在新建假期政策分配前立即执行过期操作。"
 
@@ -11706,7 +11697,7 @@ msgstr "确认将{0}应用于{1}名员工？"
 msgid "{0} updated successfully!"
 msgstr "{0}更新成功！"
 
-#: hrms/hr/doctype/staffing_plan/staffing_plan.py:128
+#: hrms/hr/doctype/staffing_plan/staffing_plan.py:129
 msgid "{0} vacancies and {1} budget for {2} already planned for subsidiary companies of {3}. You can only plan for upto {4} vacancies and and budget {5} as per staffing plan {6} for parent company {3}."
 msgstr "子公司{3}已规划{2}的{0}个空缺职位及{1}预算。根据母公司{3}的编制计划{6}，您最多可规划{4}个空缺职位及{5}预算"
 
