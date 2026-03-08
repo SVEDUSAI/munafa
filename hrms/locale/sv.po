@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2026-03-01 09:43+0000\n"
-"PO-Revision-Date: 2026-03-03 08:41\n"
+"PO-Revision-Date: 2026-03-08 09:50\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: Swedish\n"
 "MIME-Version: 1.0\n"
@@ -4330,7 +4330,7 @@ msgstr "Delkostnad"
 #. Label of a Desktop Icon
 #: frontend/src/components/BaseLayout.vue:9 hrms/desktop_icon/frappe_hr.json
 msgid "Frappe HR"
-msgstr "Frappe HR"
+msgstr "Personal"
 
 #. Label of the from_amount (Currency) field in DocType 'Taxable Salary Slab'
 #: hrms/payroll/doctype/taxable_salary_slab/taxable_salary_slab.json
@@ -5163,7 +5163,7 @@ msgstr "Installera"
 #: frontend/src/components/InstallPrompt.vue:5
 #: frontend/src/components/InstallPrompt.vue:28
 msgid "Install Frappe HR"
-msgstr "Installera Frappe HR"
+msgstr "Installera Personal"
 
 #: hrms/hr/doctype/leave_application/leave_application.py:465
 msgid "Insufficient Balance"
@@ -6344,7 +6344,7 @@ msgstr "Inloggning misslyckades"
 
 #: frontend/src/views/Login.vue:8
 msgid "Login to Frappe HR"
-msgstr "Logga in på Frappe HR"
+msgstr "Logga in till Personal"
 
 #: frontend/src/components/CheckInPanel.vue:132
 msgid "Longitude: {0}°"
