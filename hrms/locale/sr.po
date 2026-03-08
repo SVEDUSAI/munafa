@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2026-03-01 09:43+0000\n"
-"PO-Revision-Date: 2026-03-06 10:27\n"
+"PO-Revision-Date: 2026-03-08 09:50\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: Serbian (Cyrillic)\n"
 "MIME-Version: 1.0\n"
@@ -3778,7 +3778,7 @@ msgstr "Подкатегорија ослобођења"
 #. Label of a Workspace Sidebar Item
 #: hrms/workspace_sidebar/tax_&_benefits.json
 msgid "Exemption Submission Proof"
-msgstr ""
+msgstr "Доказ о достављеном ослобођењу"
 
 #: hrms/hr/doctype/attendance_request/attendance_warnings.html:10
 msgid "Existing Record"
