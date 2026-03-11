@@ -7,6 +7,7 @@ from datetime import date
 
 import frappe
 from frappe import _, msgprint
+from frappe.model.document import Document
 from frappe.model.naming import make_autoname
 from frappe.query_builder import Order
 from frappe.query_builder.functions import Count, Sum
@@ -433,7 +434,7 @@ class SalarySlip(TransactionBase):
 			self.end_date = date_details.end_date
 
 	@frappe.whitelist()
-	def get_emp_and_working_day_details(self):
+	def get_emp_and_working_day_details(self) -> None:
 		"""First time, load all the components from salary structure"""
 		if self.employee:
 			self.set("earnings", [])
@@ -2309,12 +2310,12 @@ class SalarySlip(TransactionBase):
 			self.bank_account_no = account_details.bank_ac_no
 
 	@frappe.whitelist()
-	def process_salary_based_on_working_days(self):
+	def process_salary_based_on_working_days(self) -> None:
 		self.get_working_days_details(lwp=self.leave_without_pay)
 		self.calculate_net_pay()
 
 	@frappe.whitelist()
-	def set_totals(self):
+	def set_totals(self) -> None:
 		self.gross_pay = 0.0
 		if self.salary_slip_based_on_timesheet == 1:
 			self.calculate_total_for_salary_slip_based_on_timesheet()
@@ -2665,7 +2666,7 @@ def get_lwp_or_ppl_for_date_range(employee, start_date, end_date):
 
 
 @frappe.whitelist()
-def make_salary_slip_from_timesheet(source_name, target_doc=None):
+def make_salary_slip_from_timesheet(source_name: str, target_doc: str | Document | None = None) -> Document:
 	target = frappe.new_doc("Salary Slip")
 	set_missing_values(source_name, target)
 	target.run_method("get_emp_and_working_day_details")
@@ -2785,7 +2786,7 @@ def _check_attributes(code: str) -> None:
 
 
 @frappe.whitelist()
-def enqueue_email_salary_slips(names) -> None:
+def enqueue_email_salary_slips(names: list | str) -> None:
 	"""enqueue bulk emailing salary slips"""
 	import json
 

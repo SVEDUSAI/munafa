@@ -147,7 +147,7 @@ class SalaryStructureAssignment(Document):
 			self.payroll_payable_account = payroll_payable_account
 
 	@frappe.whitelist()
-	def set_payroll_cost_centers(self):
+	def set_payroll_cost_centers(self) -> None:
 		self.payroll_cost_centers = []
 		default_payroll_cost_center = self.get_payroll_cost_center()
 		if default_payroll_cost_center:
@@ -233,7 +233,7 @@ def get_assigned_salary_structure(employee, on_date):
 
 
 @frappe.whitelist()
-def get_employee_currency(employee):
+def get_employee_currency(employee: str) -> str:
 	employee_currency = frappe.db.get_value("Salary Structure Assignment", {"employee": employee}, "currency")
 	if not employee_currency:
 		frappe.throw(
