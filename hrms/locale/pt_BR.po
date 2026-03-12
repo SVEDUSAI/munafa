@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2026-03-08 09:41+0000\n"
-"PO-Revision-Date: 2026-03-09 10:36\n"
+"PO-Revision-Date: 2026-03-12 11:39\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\n"
@@ -883,7 +883,7 @@ msgstr ""
 #. Label of the applicant_email (Data) field in DocType 'Job Offer'
 #: hrms/hr/doctype/job_offer/job_offer.json
 msgid "Applicant Email Address"
-msgstr ""
+msgstr "E-Mail do Candidato"
 
 #. Label of the applicant_name (Data) field in DocType 'Appointment Letter'
 #. Label of the applicant_name (Data) field in DocType 'Job Applicant'
@@ -894,12 +894,12 @@ msgstr ""
 #: hrms/hr/doctype/job_offer/job_offer.json
 #: hrms/hr/web_form/job_application/job_application.json
 msgid "Applicant Name"
-msgstr ""
+msgstr "Nome do Candidato"
 
 #. Label of the applicant_rating (Rating) field in DocType 'Job Applicant'
 #: hrms/hr/doctype/job_applicant/job_applicant.json
 msgid "Applicant Rating"
-msgstr ""
+msgstr "Avaliação do Candidato"
 
 #. Description of a DocType
 #: hrms/hr/doctype/job_applicant/job_applicant.json
@@ -908,7 +908,7 @@ msgstr ""
 
 #: hrms/hr/report/recruitment_analytics/recruitment_analytics.py:44
 msgid "Applicant name"
-msgstr ""
+msgstr "Nome do Candidato"
 
 #. Label of a Card Break in the Leaves Workspace
 #: hrms/hr/workspace/leaves/leaves.json
@@ -1528,7 +1528,7 @@ msgstr ""
 #. Option for the 'Status' (Select) field in DocType 'Job Offer'
 #: hrms/hr/doctype/job_offer/job_offer.json
 msgid "Awaiting Response"
-msgstr ""
+msgstr "Aguardando Resposta"
 
 #: hrms/hr/doctype/leave_application/leave_application.py:216
 msgid "Backdated Leave Application is restricted. Please set the {} in {}"
@@ -5274,7 +5274,7 @@ msgstr ""
 #: hrms/hr/doctype/interview/interview.json
 #: hrms/hr/doctype/job_applicant/job_applicant.js:77
 msgid "Interview Summary"
-msgstr ""
+msgstr "Resumo da Entrevista"
 
 #. Label of the interview_type (Link) field in DocType 'Interview Round'
 #. Name of a DocType
@@ -5512,7 +5512,7 @@ msgstr ""
 #: hrms/hr/workspace/recruitment/recruitment.json hrms/setup.py:193
 #: hrms/workspace_sidebar/recruitment.json
 msgid "Job Applicant"
-msgstr ""
+msgstr "Candidato à Vaga"
 
 #. Name of a DocType
 #: hrms/hr/doctype/job_applicant_source/job_applicant_source.json
@@ -5568,12 +5568,12 @@ msgstr ""
 #: hrms/hr/doctype/job_offer/job_offer.json
 #: hrms/hr/doctype/job_offer_term_template/job_offer_term_template.json
 msgid "Job Offer Term Template"
-msgstr ""
+msgstr "Modelo de Termos da Oferta de Trabalho"
 
 #. Label of the offer_terms (Table) field in DocType 'Job Offer'
 #: hrms/hr/doctype/job_offer/job_offer.json
 msgid "Job Offer Terms"
-msgstr ""
+msgstr "Termos da Oferta de Trabalho"
 
 #: hrms/hr/report/recruitment_analytics/recruitment_analytics.py:61
 msgid "Job Offer status"
@@ -5598,7 +5598,7 @@ msgstr ""
 #: hrms/hr/workspace/recruitment/recruitment.json
 #: hrms/workspace_sidebar/recruitment.json
 msgid "Job Opening"
-msgstr ""
+msgstr "Vaga de Trabalho"
 
 #: hrms/hr/doctype/job_requisition/job_requisition.py:78
 msgid "Job Opening Associated"
@@ -6329,7 +6329,7 @@ msgstr ""
 #: hrms/hr/doctype/job_opening/job_opening.json
 #: hrms/hr/web_form/job_application/job_application.json
 msgid "Lower Range"
-msgstr ""
+msgstr "Faixa Inferior"
 
 #: hrms/payroll/report/salary_payments_via_ecs/salary_payments_via_ecs.py:61
 msgid "MICR"
@@ -8590,7 +8590,7 @@ msgstr ""
 #. Label of the resume_attachment (Attach) field in DocType 'Job Applicant'
 #: hrms/hr/doctype/job_applicant/job_applicant.json
 msgid "Resume Attachment"
-msgstr ""
+msgstr "Anexar o Currículo"
 
 #. Label of the resume_link (Data) field in DocType 'Employee Referral'
 #. Label of the resume_link (Data) field in DocType 'Job Applicant'
@@ -8849,7 +8849,7 @@ msgstr ""
 #. Applicant'
 #: hrms/hr/doctype/job_applicant/job_applicant.json
 msgid "Salary Expectation"
-msgstr ""
+msgstr "Expectativa Salarial"
 
 #: frontend/src/views/Profile.vue:200
 msgid "Salary Information"
@@ -9187,7 +9187,7 @@ msgstr ""
 #. Label of the select_terms (Link) field in DocType 'Job Offer'
 #: hrms/hr/doctype/job_offer/job_offer.json
 msgid "Select Terms and Conditions"
-msgstr ""
+msgstr "Selecione os Termos e Condições"
 
 #. Label of the select_users (Section Break) field in DocType 'Daily Work
 #. Summary Group'
@@ -9746,7 +9746,7 @@ msgstr ""
 #. Applicant'
 #: hrms/hr/doctype/job_applicant/job_applicant.json
 msgid "Source and Rating"
-msgstr ""
+msgstr "Origem e Avaliação"
 
 #: hrms/api/roster.py:95
 msgid "Source and target shifts cannot be the same"
@@ -11049,7 +11049,7 @@ msgstr ""
 #: hrms/hr/doctype/job_opening/job_opening.json
 #: hrms/hr/web_form/job_application/job_application.json
 msgid "Upper Range"
-msgstr ""
+msgstr "Faixa Superior"
 
 #. Label of the used_leaves (Float) field in DocType 'Salary Slip Leave'
 #: hrms/payroll/doctype/salary_slip_leave/salary_slip_leave.json
