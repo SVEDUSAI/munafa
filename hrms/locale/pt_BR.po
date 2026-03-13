@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2026-03-08 09:41+0000\n"
-"PO-Revision-Date: 2026-03-12 11:39\n"
+"PO-Revision-Date: 2026-03-13 11:36\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\n"
@@ -965,7 +965,7 @@ msgstr ""
 #. Label of the appointment_date (Date) field in DocType 'Appointment Letter'
 #: hrms/hr/doctype/appointment_letter/appointment_letter.json
 msgid "Appointment Date"
-msgstr ""
+msgstr "Data de Nomeação"
 
 #. Name of a DocType
 #. Label of a Link in the Recruitment Workspace
@@ -974,7 +974,7 @@ msgstr ""
 #: hrms/hr/workspace/recruitment/recruitment.json
 #: hrms/workspace_sidebar/recruitment.json
 msgid "Appointment Letter"
-msgstr ""
+msgstr "Contrato de Trabalho"
 
 #. Label of the appointment_letter_template (Link) field in DocType
 #. 'Appointment Letter'
@@ -986,7 +986,7 @@ msgstr ""
 #: hrms/hr/workspace/recruitment/recruitment.json
 #: hrms/workspace_sidebar/recruitment.json
 msgid "Appointment Letter Template"
-msgstr ""
+msgstr "Modelo do Contrato de Trabalho"
 
 #. Name of a DocType
 #: hrms/hr/doctype/appointment_letter_content/appointment_letter_content.json
@@ -1502,7 +1502,7 @@ msgstr ""
 #: hrms/hr/doctype/interview_feedback/interview_feedback.json
 #: hrms/public/js/templates/feedback_summary.html:5
 msgid "Average Rating"
-msgstr ""
+msgstr "Avaliação Média"
 
 #. Description of the 'Final Score' (Float) field in DocType 'Appraisal'
 #: hrms/hr/doctype/appraisal/appraisal.json
@@ -1975,7 +1975,7 @@ msgstr ""
 #: hrms/hr/doctype/interview/interview.json
 #: hrms/hr/doctype/interview_feedback/interview_feedback.json
 msgid "Cleared"
-msgstr ""
+msgstr "Liberado"
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.js:292
 msgid "Click {0} to change the configuration and then resave salary slip"
@@ -2003,7 +2003,7 @@ msgstr ""
 #: hrms/hr/doctype/appointment_letter/appointment_letter.json
 #: hrms/hr/doctype/appointment_letter_template/appointment_letter_template.json
 msgid "Closing Notes"
-msgstr ""
+msgstr "Notas de Fechamento"
 
 #: frontend/src/views/Profile.vue:177
 msgid "Company Information"
@@ -3836,7 +3836,7 @@ msgstr ""
 #: hrms/hr/doctype/interview/interview.json
 #: hrms/hr/doctype/interview_round/interview_round.json
 msgid "Expected Average Rating"
-msgstr ""
+msgstr "Classificação Esperada"
 
 #. Label of the expected_by (Date) field in DocType 'Job Requisition'
 #: hrms/hr/doctype/job_requisition/job_requisition.json
@@ -5181,7 +5181,7 @@ msgstr ""
 #: hrms/hr/workspace/recruitment/recruitment.json
 #: hrms/workspace_sidebar/recruitment.json
 msgid "Interview"
-msgstr ""
+msgstr "Entrevista"
 
 #. Name of a DocType
 #: hrms/hr/doctype/interview_detail/interview_detail.json
@@ -5200,7 +5200,7 @@ msgstr ""
 #: hrms/hr/doctype/interview_feedback/interview_feedback.py:61
 #: hrms/hr/workspace/recruitment/recruitment.json
 msgid "Interview Feedback"
-msgstr ""
+msgstr "Feedback da Entrevista"
 
 #: hrms/hr/doctype/interview/test_interview.py:312
 #: hrms/hr/doctype/interview/test_interview.py:321
@@ -5248,7 +5248,7 @@ msgstr ""
 #: hrms/hr/workspace/recruitment/recruitment.json
 #: hrms/workspace_sidebar/recruitment.json
 msgid "Interview Round"
-msgstr ""
+msgstr "Fase de Entrevista"
 
 #: hrms/hr/doctype/job_applicant/job_applicant.py:96
 msgid "Interview Round {0} is only applicable for the Designation {1}"
@@ -5301,7 +5301,7 @@ msgstr ""
 #: hrms/hr/doctype/interview_round/interview_round.json
 #: hrms/hr/doctype/interviewer/interviewer.json
 msgid "Interviewer"
-msgstr ""
+msgstr "Entrevistador"
 
 #. Label of the interviewers (Table MultiSelect) field in DocType 'Exit
 #. Interview'
@@ -5312,7 +5312,7 @@ msgstr ""
 #: hrms/hr/doctype/interview/interview.json
 #: hrms/hr/doctype/interview_round/interview_round.json
 msgid "Interviewers"
-msgstr ""
+msgstr "Entrevistadores"
 
 #. Label of a Card Break in the Recruitment Workspace
 #: hrms/hr/workspace/recruitment/recruitment.json
@@ -7093,7 +7093,7 @@ msgstr ""
 #. Label of the average_rating (Rating) field in DocType 'Interview'
 #: hrms/hr/doctype/interview/interview.json
 msgid "Obtained Average Rating"
-msgstr ""
+msgstr "Classificação Obtida"
 
 #: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.js:45
 #: hrms/public/js/salary_slip_deductions_report_filters.js:28
@@ -8293,7 +8293,7 @@ msgstr ""
 #: hrms/hr/doctype/appraisal/appraisal.json
 #: hrms/hr/doctype/interview/interview.json
 msgid "Ratings"
-msgstr ""
+msgstr "Avaliações"
 
 #. Label of the reallocate_leaves (Check) field in DocType 'Employee Transfer'
 #: hrms/hr/doctype/employee_transfer/employee_transfer.json
@@ -9126,7 +9126,7 @@ msgstr ""
 #. Label of the scheduled_on (Date) field in DocType 'Interview'
 #: hrms/hr/doctype/interview/interview.json
 msgid "Scheduled On"
-msgstr ""
+msgstr "Agendamento"
 
 #. Label of the score_earned (Float) field in DocType 'Appraisal Goal'
 #: hrms/hr/doctype/appraisal_goal/appraisal_goal.json
@@ -9719,7 +9719,7 @@ msgstr ""
 #: hrms/hr/doctype/interview_feedback/interview_feedback.json
 #: hrms/hr/doctype/skill_assessment/skill_assessment.json
 msgid "Skill Assessment"
-msgstr ""
+msgstr "Avaliação de Habilidades"
 
 #. Label of the skill_name (Data) field in DocType 'Skill'
 #: hrms/hr/doctype/skill/skill.json
@@ -11498,7 +11498,7 @@ msgstr ""
 
 #: hrms/www/jobs/index.html:122
 msgid "result"
-msgstr ""
+msgstr "resultado"
 
 #: hrms/www/jobs/index.html:122
 msgid "results"

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2026-03-08 09:41+0000\n"
-"PO-Revision-Date: 2026-03-09 10:36\n"
+"PO-Revision-Date: 2026-03-13 11:36\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: Swedish\n"
 "MIME-Version: 1.0\n"
@@ -7265,7 +7265,7 @@ msgstr "Valfri frånvaro är helgdagar som personal kan välja att utnyttja frå
 #: hrms/hr/page/organizational_chart/organizational_chart.js:4
 #: hrms/workspace_sidebar/people.json
 msgid "Organizational Chart"
-msgstr "Organisatoriskt Diagram"
+msgstr "Organisationsschema"
 
 #. Label of the other_taxes_and_charges (Table) field in DocType 'Income Tax
 #. Slab'
