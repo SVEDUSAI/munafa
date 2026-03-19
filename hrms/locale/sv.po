@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2026-03-15 09:44+0000\n"
-"PO-Revision-Date: 2026-03-18 12:45\n"
+"PO-Revision-Date: 2026-03-19 12:43\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: Swedish\n"
 "MIME-Version: 1.0\n"
@@ -3340,7 +3340,7 @@ msgstr "Personal Namn"
 
 #: hrms/api/__init__.py:84
 msgid "Employee not found"
-msgstr ""
+msgstr "Personal hittades inte"
 
 #. Description of the 'Employee Naming By' (Select) field in DocType 'HR
 #. Settings'
