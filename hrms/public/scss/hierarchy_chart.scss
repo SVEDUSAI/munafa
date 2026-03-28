@@ -2,7 +2,7 @@
 	background: white;
 	border-radius: 0.5rem;
 	padding: 0.75rem;
-	margin-left: 3rem;
+	margin-left: 5rem;
 	width: 18rem;
 	overflow: hidden;
 
@@ -192,6 +192,11 @@
 
 .hierarchy {
 	display: flex;
+
+	&::after {
+		content: "";
+		min-width: 80px;
+	}
 }
 
 .hierarchy li {
@@ -201,6 +206,7 @@
 .child-node {
 	margin: 0px 0px 16px 0px;
 }
+
 
 .hierarchy,
 .hierarchy-mobile {
