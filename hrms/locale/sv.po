@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2026-03-22 09:44+0000\n"
-"PO-Revision-Date: 2026-03-23 13:22\n"
+"PO-Revision-Date: 2026-03-27 13:32\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: Swedish\n"
 "MIME-Version: 1.0\n"
@@ -2540,7 +2540,7 @@ msgstr "Standard Utlägg Konto"
 
 #: hrms/overrides/company.py:133 hrms/setup.py:96
 msgid "Default Payroll Payable Account"
-msgstr "Standard Löneutbetalning Konto"
+msgstr "Standard Lön Skuld Konto"
 
 #. Label of the default_salary_structure (Link) field in DocType 'Employee
 #. Grade'
@@ -4676,7 +4676,7 @@ msgstr "Personal & Lön"
 
 #: hrms/setup.py:65
 msgid "HR & Payroll Settings"
-msgstr "Personal & Löneinställningar"
+msgstr "Personal & Lön Inställningar"
 
 #. Name of a DocType
 #. Label of a Link in the People Workspace
@@ -7976,7 +7976,7 @@ msgstr "Välj de lönespecifikationer som ska skickas via e-post"
 
 #: hrms/payroll/doctype/salary_structure/salary_structure.py:320
 msgid "Please set \"Default Payroll Payable Account\" in Company Defaults"
-msgstr "Ange \"Standard Löneutbetalning Konto\" i Bolag Inställningar"
+msgstr "Ange \"Standard Lön Skuld Konto\" i Bolag Inställningar"
 
 #: hrms/regional/india/utils.py:18
 msgid "Please set Basic and HRA component in Company {0}"
