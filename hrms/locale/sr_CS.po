@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2026-03-22 09:44+0000\n"
-"PO-Revision-Date: 2026-03-23 13:22\n"
+"PO-Revision-Date: 2026-03-25 13:20\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: Serbian (Latin)\n"
 "MIME-Version: 1.0\n"
@@ -1743,11 +1743,11 @@ msgstr "Masovna dodela strukture zarade"
 
 #: hrms/hr/doctype/attendance/attendance.py:398
 msgid "Bulk attendance marking is already in progress for employee {0}. You can monitor the job status {1}"
-msgstr ""
+msgstr "Masovno evidentiranje prisustva je već u toku za zaposleno lice {0}. Možete pratiti status zadatka {1}"
 
 #: hrms/hr/doctype/attendance/attendance.py:394
 msgid "Bulk attendance marking is queued with a background job. It may take a while. You can monitor the job status {0}"
-msgstr ""
+msgstr "Masovno evidentiranje prisustva je stavljeno u red čekanja putem pozadinskog zadatka. Ovo može potrajati. Možete pratiti status zadatka {0}"
 
 #. Description of the 'Calculate Final Score based on Formula' (Check) field in
 #. DocType 'Appraisal Cycle'
