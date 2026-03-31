@@ -241,6 +241,7 @@ def get_custom_fields():
 				"label": _("Expense Approver"),
 				"options": "User",
 				"insert_after": "approvers_section",
+				"ignore_user_permissions": 1,
 			},
 			{
 				"fieldname": "leave_approver",
@@ -248,6 +249,7 @@ def get_custom_fields():
 				"label": _("Leave Approver"),
 				"options": "User",
 				"insert_after": "expense_approver",
+				"ignore_user_permissions": 1,
 			},
 			{
 				"fieldname": "column_break_45",
@@ -260,6 +262,7 @@ def get_custom_fields():
 				"label": _("Shift Request Approver"),
 				"options": "User",
 				"insert_after": "column_break_45",
+				"ignore_user_permissions": 1,
 			},
 			{
 				"fieldname": "employee_advance_account",
