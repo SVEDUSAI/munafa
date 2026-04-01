@@ -13,12 +13,14 @@ RUN bench init --skip-redis-config-generation --frappe-branch version-15 frappe-
 # Copy our rebranded Munafa code into the hrms app folder (overriding the clone)
 COPY --chown=frappe:frappe . /home/frappe/frappe-bench/apps/hrms
 
-# Set up the production site config
+# Move the entrypoint script
 WORKDIR /home/frappe/frappe-bench
+COPY --chown=frappe:frappe entrypoint.sh /home/frappe/frappe-bench/entrypoint.sh
+RUN chmod +x /home/frappe/frappe-bench/entrypoint.sh
 
 # Expose ports for web and socketio
 EXPOSE 8000
 EXPOSE 9000
 
-# Start the bench
-CMD ["bench", "start"]
+# Start the entrypoint script
+CMD ["/bin/bash", "/home/frappe/frappe-bench/entrypoint.sh"]
