@@ -4335,7 +4335,7 @@ msgstr ""
 
 #. Label of a Desktop Icon
 #: frontend/src/components/BaseLayout.vue:9 hrms/desktop_icon/frappe_hr.json
-msgid "Frappe HR"
+msgid "Munafa"
 msgstr ""
 
 #. Label of the from_amount (Currency) field in DocType 'Taxable Salary Slab'
@@ -5168,7 +5168,7 @@ msgstr ""
 
 #: frontend/src/components/InstallPrompt.vue:5
 #: frontend/src/components/InstallPrompt.vue:28
-msgid "Install Frappe HR"
+msgid "Install Munafa"
 msgstr ""
 
 #: hrms/hr/doctype/leave_application/leave_application.py:497
@@ -6349,7 +6349,7 @@ msgid "Login Failed"
 msgstr ""
 
 #: frontend/src/views/Login.vue:8
-msgid "Login to Frappe HR"
+msgid "Login to Munafa"
 msgstr ""
 
 #: frontend/src/components/CheckInPanel.vue:132

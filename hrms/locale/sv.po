@@ -4344,7 +4344,7 @@ msgstr "Delkostnad"
 
 #. Label of a Desktop Icon
 #: frontend/src/components/BaseLayout.vue:9 hrms/desktop_icon/frappe_hr.json
-msgid "Frappe HR"
+msgid "Munafa"
 msgstr "Personal"
 
 #. Label of the from_amount (Currency) field in DocType 'Taxable Salary Slab'
@@ -5177,8 +5177,8 @@ msgstr "Installera"
 
 #: frontend/src/components/InstallPrompt.vue:5
 #: frontend/src/components/InstallPrompt.vue:28
-msgid "Install Frappe HR"
-msgstr "Installera Frappe HR"
+msgid "Install Munafa"
+msgstr "Installera Munafa"
 
 #: hrms/hr/doctype/leave_application/leave_application.py:497
 msgid "Insufficient Balance"
@@ -6358,7 +6358,7 @@ msgid "Login Failed"
 msgstr "Inloggning misslyckades"
 
 #: frontend/src/views/Login.vue:8
-msgid "Login to Frappe HR"
+msgid "Login to Munafa"
 msgstr "Logga in i Personal"
 
 #: frontend/src/components/CheckInPanel.vue:132
